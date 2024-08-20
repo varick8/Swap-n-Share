@@ -10,10 +10,13 @@ Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam
 # Problems #
 ![image](https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/12/06/4236963319.jpg)
 1. Masalah pemborosan sumber daya (perilaku konsumtif)
+
    Konsumsi barang atau peralatan baru yang tinggi (perilaku konsumtif) dapat menyebabkan pemborosan sumber daya dan peningkatan limbah.
 2. Pembuangan barang yang masih layak
+
    Seringnya terjadi pembuangan barang-barang yang masih layak pakai sehingga dapat menjadi peluang optimalisasi.
 3. Keterbatasan Akses
+
    Terbatasnya akses materi maupun informasi seseorang akan memiliki suatu barang atau peralatan.
 
 # Solutions #
