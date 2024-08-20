@@ -3,4 +3,4 @@ Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam
 
 Ketua Kelompok: Rani Nirmala Prakoso
 Anggota 1: Muhammad Luthfi Attaqi
-Anggota 2: Varick Zahir Sarjiman
+Anggota 2: Varick Zahir Sarjiman - 22/496418/TK/54384
