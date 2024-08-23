@@ -5,7 +5,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/varick8/Swap-n-Share/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/varick8/github-readme-stats" />
+       <img src="https://img.shields.io/badge/Link-Click%20Here-brightgreen" alt="contributors"/>
     </a>
 
 # Purpose 🌱 #
