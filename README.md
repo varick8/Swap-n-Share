@@ -1,7 +1,7 @@
-<p align="right">
-  <a href="https://ugc.production.linktr.ee/x2GRSSJCxES3qyfsXXwU_I3599vLd3hGS5caW">
-    <img src="https://img.shields.io/badge/Link-Click%20Here-brightgreen" alt="Custom Link"/>
-  </a>
+<p align="center">
+ <img width="100px" src="https://cdn.pixabay.com/photo/2015/08/27/10/14/icon-909830_960_720.png" align="center" alt="GitHub Readme Stats" />
+ <h2 align="center">Stay Tuned for The Subtle Reveal of Our New Logo</h2>
+ <p align="center">Get dynamically generated GitHub stats on very demure and very mindfull !</p>
 </p>
 
 # Purpose 🌱 #
