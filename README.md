@@ -1,6 +1,8 @@
-<div style="display: flex; justify-content: flex-end;">
-  <img src="https://ugc.production.linktr.ee/x2GRSSJCxES3qyfsXXwU_I3599vLd3hGS5caW" alt="Deskripsi Gambar" style="width: 200px;" />
-</div>
+<p align="right">
+  <a href="https://ugc.production.linktr.ee/x2GRSSJCxES3qyfsXXwU_I3599vLd3hGS5caW">
+    <img src="https://img.shields.io/badge/Link-Click%20Here-brightgreen" alt="Custom Link"/>
+  </a>
+</p>
 
 # Purpose 🌱 #
 Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan menciptakan suatu komunitas yang saling terkoneksi.
