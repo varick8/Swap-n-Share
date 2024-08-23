@@ -1,7 +1,7 @@
 <p align="center">
  <img width="100px" src="https://cdn.pixabay.com/photo/2015/08/27/10/14/icon-909830_960_720.png" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">Stay Tuned for The Subtle Reveal of Our New Logo</h2>
- <p align="center">Get dynamically generated GitHub stats on very demure and very mindfull !</p>
+ <p align="center">Get dynamically generated "Swap and Share" stats on very demure and very mindful!</p>
 </p>
 
 # Purpose 🌱 #
