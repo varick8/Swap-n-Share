@@ -14,7 +14,7 @@ Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam
 <p align="center">
  <img width="100px" src="https://drive.google.com/file/d/1ZQHpe64EzAt_cjDYmW8gxUqDZaWj9pZh/view?usp=sharing" align="center" alt="Members" />
  <h2 align="center">This is Our Teams</h2>
- <p align="center">The tech wizard with a heart of gold; he’s got the code and the compassion to make anything happen 🧙‍♂️💻</p>
+ <p align="center">We’re the tech wizards with hearts of gold; we’ve got the code and the compassion to make anything happen. 🧙‍♂️💻</p>
 </p>
 
 # Members 👋 #
