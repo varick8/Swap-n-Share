@@ -17,11 +17,11 @@ Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam
  <p align="center">We’re the tech wizards with hearts of gold; we’ve got the code and the compassion to make anything happen. 🧙‍♂️💻</p>
 </p>
 
-# Members 👋 #
-
-1. Ketua Kelompok   : Rani Nirmala Prakoso    - 22/493982/TK/54153
-2. Anggota 1        : Muhammad Luthfi Attaqi  - 22/496427/TK/54387
-3. Anggota 2        : Varick Zahir Sarjiman   - 22/496418/TK/54384
+<p align="center">
+ <p align="center">Ketua Kelompok   : Rani Nirmala Prakoso    - 22/493982/TK/54153</p>
+ <p align="center">Anggota 1        : Muhammad Luthfi Attaqi  - 22/496427/TK/54387</p>
+ <p align="center">Anggota 2        : Varick Zahir Sarjiman   - 22/496418/TK/54384</p>
+</p>
 
 # Problems 💬 #
 ![image](https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/12/06/4236963319.jpg)
