@@ -8,13 +8,10 @@
        <img src="https://img.shields.io/badge/contributors-3-green" alt="contributors"/>
     </a>
 
-# Purpose 🌱 #
-Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan menciptakan suatu komunitas yang saling terkoneksi.
-
 <p align="center">
  <img width="100px" src="images/members4.png" align="center" alt="Members" />
  <h2 align="center">This is Our Teams</h2>
- <p align="center">We’re the tech wizards with hearts of gold;🧙‍♂️💻</p>
+ <p align="center">We’re the tech wizards with hearts of gold;</p>
  <p align="center">we’ve got the code and the compassion to make anything happen. 🧙‍♂️💻</p>
 </p>
 
@@ -23,6 +20,9 @@ Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam
  <p align="center">Anggota 1        : Muhammad Luthfi Attaqi  - 22/496427/TK/54387</p>
  <p align="center">Anggota 2        : Varick Zahir Sarjiman   - 22/496418/TK/54384</p>
 </p>
+
+# Purpose 🌱 #
+Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan menciptakan suatu komunitas yang saling terkoneksi.
 
 # Problems 💬 #
 ![image](https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/12/06/4236963319.jpg)
