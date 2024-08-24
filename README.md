@@ -12,7 +12,7 @@
 Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan menciptakan suatu komunitas yang saling terkoneksi.
 
 <p align="center">
- <img width="100px" src="images/members2.png" align="center" alt="Members" />
+ <img width="100px" src="images/members3.png" align="center" alt="Members" />
  <h2 align="center">This is Our Teams</h2>
  <p align="center">We’re the tech wizards with hearts of gold; we’ve got the code and the compassion to make anything happen. 🧙‍♂️💻</p>
 </p>
