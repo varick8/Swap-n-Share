@@ -11,6 +11,12 @@
 # Purpose 🌱 #
 Aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan menciptakan suatu komunitas yang saling terkoneksi.
 
+<p align="center">
+ <img width="100px" src="https://drive.google.com/file/d/1ZQHpe64EzAt_cjDYmW8gxUqDZaWj9pZh/view?usp=sharing" align="center" alt="GitHub Readme Stats" />
+ <h2 align="center">This is Our Teams</h2>
+ <p align="center">The tech wizard with a heart of gold; he’s got the code and the compassion to make anything happen 🧙‍♂️💻</p>
+</p>
+
 # Members 👋 #
 
 1. Ketua Kelompok   : Rani Nirmala Prakoso    - 22/493982/TK/54153
