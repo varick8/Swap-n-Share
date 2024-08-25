@@ -46,3 +46,8 @@ Aplikasi desktop yang kami rancang merupakan aplikasi marketplace yang berfokus 
 
 # Features 💼 #
 Coming soon! So, Stay tuned !!!
+
+<hr>
+<p align="center">
+Developed with ❤️ in Indonesia (IDN)
+</p>
