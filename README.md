@@ -29,8 +29,8 @@
 Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025.
 
 <p align="center">
- <img width="500px" src="images/problems.png" align="center" alt="Members" />
- <h2 align="center">Legit Problems 💬</h2>
+ <img width="1000px" src="images/problems.png" align="center" alt="Members" />
+ <h1 align="center">Legit Problems 💬</h1>
 </p>
 
 1. Masalah pemborosan sumber daya (perilaku konsumtif)
