@@ -28,8 +28,11 @@
 # Bubbly Backdrop 🌱 #
 Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025.
 
-# Legit Problems 💬 #
-![image](https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/12/06/4236963319.jpg)
+<p align="center">
+ <img width="500px" src="images/problems.png" align="center" alt="Members" />
+ <h2 align="center">Legit Problems 💬</h2>
+</p>
+
 1. Masalah pemborosan sumber daya (perilaku konsumtif)
 
    Konsumsi barang atau peralatan baru yang tinggi (perilaku konsumtif) dapat menyebabkan pemborosan sumber daya dan peningkatan limbah.
