@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap-n-Share", "Swap-n-Share\Swap-n-Share.csproj", "{43299EDF-0724-4987-AD46-C7F924CF034E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43299EDF-0724-4987-AD46-C7F924CF034E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43299EDF-0724-4987-AD46-C7F924CF034E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43299EDF-0724-4987-AD46-C7F924CF034E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43299EDF-0724-4987-AD46-C7F924CF034E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D37FED3-6986-44FD-BD57-6AEC1E0DF61E}
+	EndGlobalSection
+EndGlobal
