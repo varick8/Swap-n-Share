@@ -6,8 +6,9 @@
 <p align="center">
     <a href="https://github.com/varick8/Swap-n-Share/graphs/contributors">
        <img src="https://img.shields.io/badge/contributors-3-green" alt="contributors"/>
-       <img src="https://img.shields.io/badge/Visual%20Studio-2022-blue?logo=visual-studio&logoColor=purple" alt="vs2022"/>
     </a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Visual%20Studio-2022-blue?logo=visual-studio&logoColor=purple" alt="vs2022"/>
 
 <p align="center">
  <img width="500px" src="images/members4.png" align="center" alt="Members" />
