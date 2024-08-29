@@ -54,11 +54,11 @@ Coming soon! So, Stay tuned !!!
 
 | Nama Kegiatan | Deskripsi Kegiatan | Tanggal|
 |----|----|----|
-| `konsep aplikasi`| Mengidentifikasi kebutuhan pasar, target pengguna, dan masalah yang akan diselesaikan oleh aplikasi serta menentukan fitur-fitur utama yang akan disediakan oleh aplikasi | 19 Agustus 2024|
-| `use case diagram`| Menggambarkan hubungan antara aktor dan use case dalam diagram untuk visualisasi | 26 Agustus 2024|
-| `activity diagram`| Menggambarkan urutan aktivitas yang terjadi, termasuk keputusan yang diambil, perulangan, dan aktivitas paralel| 26 Agustus 2024|
-| `class diagram`| Menentukan tipe data setiap atribut| 26 Agustus 2024|
-| `UI pada welcoming page`| Merancang tampilan dan tata letak halaman selamat datang agar ramah pengguna dan menarik| 29 Agustus 2024|
+| `konsep_aplikasi`| Mengidentifikasi kebutuhan pasar, target pengguna, dan masalah yang akan diselesaikan oleh aplikasi serta menentukan fitur-fitur utama yang akan disediakan oleh aplikasi | 19 Agustus 2024|
+| `use_case_diagram`| Menggambarkan hubungan antara aktor dan use case dalam diagram untuk visualisasi | 26 Agustus 2024|
+| `activity_diagram`| Menggambarkan urutan aktivitas yang terjadi, termasuk keputusan yang diambil, perulangan, dan aktivitas paralel| 26 Agustus 2024|
+| `class_diagram`| Menentukan tipe data setiap atribut| 26 Agustus 2024|
+| `UI_pada_welcoming_page`| Merancang tampilan dan tata letak halaman selamat datang agar ramah pengguna dan menarik| 29 Agustus 2024|
 
 <hr>
 <p align="center">
