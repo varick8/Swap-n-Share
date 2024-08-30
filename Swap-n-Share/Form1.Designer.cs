@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.PasswordTxt = new Guna.UI.WinForms.GunaLabel();
-            this.UsernameTxt = new Guna.UI.WinForms.GunaLabel();
+            this.PasswordTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.UsernameTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.ShowPassCB = new System.Windows.Forms.CheckBox();
@@ -261,8 +261,8 @@
 
         #endregion
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI.WinForms.GunaLabel PasswordTxt;
-        private Guna.UI.WinForms.GunaLabel UsernameTxt;
+        private Guna.UI2.WinForms.Guna2HtmlLabel PasswordTxt;
+        private Guna.UI2.WinForms.Guna2HtmlLabel UsernameTxt;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox ShowPassCB;
