@@ -51,7 +51,7 @@ Aplikasi desktop yang kami rancang merupakan aplikasi marketplace yang berfokus 
 Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagram. Class diagram ini berfungsi sebagai alur komunikasi antar komponen dimana dalam satu class diagram memuat objek (data yang memiliki masing-masing perilaku) sehingga akan memudahkan perihal alokasi memori. Perlu diketahui bahwa memori tidak akan dialokasikan ketika objek belum atau tidak berada dalam class.
 
 <p align="center">
- <img width="1000px" src="images/problems.png" align="center" alt="Members" />
+ <img width="1000px" src="images/classdiagram.png" align="center" alt="Members" />
  <h1 align="center">Legit Problems 💬</h1>
 </p>
 
