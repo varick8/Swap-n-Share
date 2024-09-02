@@ -47,6 +47,14 @@ Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Tek
 
 Aplikasi desktop yang kami rancang merupakan aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan. menciptakan suatu komunitas yang saling terkoneksi.
 
+# Class Diagram #
+Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagram. Class diagram ini berfungsi sebagai alur komunikasi antar komponen dimana dalam satu class diagram memuat objek (data yang memiliki masing-masing perilaku) sehingga akan memudahkan perihal alokasi memori. Perlu diketahui bahwa memori tidak akan dialokasikan ketika objek belum atau tidak berada dalam class.
+
+<p align="center">
+ <img width="1000px" src="images/problems.png" align="center" alt="Members" />
+ <h1 align="center">Legit Problems 💬</h1>
+</p>
+
 # Features 💼 #
 Coming soon! So, Stay tuned !!!
 
@@ -59,6 +67,7 @@ Coming soon! So, Stay tuned !!!
 | `activity_diagram`| Menggambarkan urutan aktivitas yang terjadi, termasuk keputusan yang diambil, perulangan, dan aktivitas paralel| 26 Agustus 2024|
 | `class_diagram`| Menentukan tipe data setiap atribut| 26 Agustus 2024|
 | `UI_pada_welcoming_page`| Merancang tampilan dan tata letak halaman selamat datang agar ramah pengguna dan menarik| 29 Agustus 2024|
+| `class`| Membuat class dalam visual studio| 2 September 2024|
 
 <hr>
 <p align="center">
