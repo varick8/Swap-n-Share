@@ -52,7 +52,6 @@ Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagra
 
 <p align="center">
  <img width="500px" src="images/classdiagram.png" align="center" alt="Members" />
- <h1 align="center">Legit Problems 💬</h1>
 </p>
 
 # Features 💼 #
