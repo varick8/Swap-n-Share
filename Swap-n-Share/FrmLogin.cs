@@ -1,5 +1,6 @@
 ﻿using Npgsql;
 using NpgsqlTypes;
+using Swap_n_Share.Class;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,24 +10,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Swap_n_Share
 {
     public partial class LoginForm : Form
     {
+        Datalayer dl;
         public LoginForm()
         {
+            dl = new Datalayer();
             InitializeComponent();
         }
 
-/*        Connectionsql sql = new Connectionsql();*/
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
-/*            UsernameTB.Text = string.Empty;
-            PasswordTB.Text = string.Empty;
-            UsernameTB.Focus();*/
+
         }
 
 
@@ -108,51 +107,24 @@ namespace Swap_n_Share
 
         private void LoginButton_Click_1(object sender, EventArgs e)
         {
-            /*try
+            string s_id;
+            // Using parameterized query to prevent SQL injection
+            string qry = "SELECT user_id FROM public.User WHERE username = @username AND password = @password";
+
+            // Updating the method call to use parameterized query
+            s_id = dl.GetSingleColumnValueByIndexParameterized(qry, UsernameTB.Text, PasswordTB.Text, 0);
+
+            if (s_id != null)
             {
-                if (string.IsNullOrWhiteSpace(UsernameTB.Text) || string.IsNullOrWhiteSpace(PasswordTB.Text))
-                {
-                    MessageBox.Show("Invalid Username and password, please input!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                using (NpgsqlConnection conn = new NpgsqlConnection("YourConnectionStringHere"))
-                {
-                    conn.Open();
-
-                    // Assuming you have a table named 'login' with columns 'username' and 'password'
-                    string query = "SELECT * FROM login WHERE username = @username AND password = @password";
-
-                    using (NpgsqlCommand cmd = new NpgsqlCommand(query, conn))
-                    {
-                        // Add parameters from the table
-                        cmd.Parameters.AddWithValue("@username", NpgsqlTypes.NpgsqlDbType.Varchar, UsernameTB.Text.Trim());
-                        cmd.Parameters.AddWithValue("@password", NpgsqlTypes.NpgsqlDbType.Varchar, PasswordTB.Text.Trim());
-
-                        using (NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(cmd))
-                        {
-                            DataTable dt = new DataTable();
-                            adapter.Fill(dt);
-
-                            if (dt.Rows.Count > 0)
-                            {
-                                this.Hide();
-                                FrmHome frm = new FrmHome();
-                                frm.Show();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Invalid Username and password, please try again!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
-                        }
-                    }
-                }
+                this.Hide();
+                FrmHome sd = new FrmHome();
+                sd.Show();
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
-
+                MessageBox.Show("UserName Or Password Doesn't Match. Please Try Again!", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void UsernameTB_TextChanged_1(object sender, EventArgs e)
