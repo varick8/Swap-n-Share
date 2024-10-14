@@ -70,7 +70,7 @@ namespace Swap_n_Share
 
         }
 
-        private void ShowPassCB_CheckedChanged_1(object sender, EventArgs e)
+        private void ShowPassCB_CheckedChange(object sender, EventArgs e)
         {
 
         }
@@ -90,7 +90,7 @@ namespace Swap_n_Share
 
         }
 
-        private void PasswordTB_TextChanged_1(object sender, EventArgs e)
+        private void PasswordTB_TextChange(object sender, EventArgs e)
         {
 
         }
@@ -105,17 +105,20 @@ namespace Swap_n_Share
 
         }
 
-        private void LoginButton_Click_1(object sender, EventArgs e)
+        private void LoginButton_Clicks(object sender, EventArgs e)
         {
             string s_id;
             // Using parameterized query to prevent SQL injection
-            string qry = "SELECT user_id FROM public.User WHERE username = @username AND password = @password";
+            string qry = "SELECT user_id FROM public.\"User\" WHERE username = @username AND password = @password";
 
             // Updating the method call to use parameterized query
             s_id = dl.GetSingleColumnValueByIndexParameterized(qry, UsernameTB.Text, PasswordTB.Text, 0);
 
-            if (s_id != null)
+            if (!string.IsNullOrEmpty(s_id))
             {
+                // Show a success message
+                MessageBox.Show("Login successful! Welcome to the system.", "Success",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 FrmHome sd = new FrmHome();
                 sd.Show();
@@ -127,9 +130,5 @@ namespace Swap_n_Share
             }
         }
 
-        private void UsernameTB_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

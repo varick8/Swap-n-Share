@@ -111,20 +111,20 @@ namespace Swap_n_Share.Class
                 {
                     // Set the parameter values
                     cmd.Parameters.AddWithValue("@username", username);
-                    cmd.Parameters.AddWithValue("@password", password);
+                    cmd.Parameters.AddWithValue("@password", password);  // No hashing here
 
                     // Execute the query and read the result
                     using (NpgsqlDataReader reader = cmd.ExecuteReader())
                     {
                         if (reader.Read())
                         {
-                            // Read the UUID as string
-                            val = reader.GetGuid(index).ToString();  // UUID is retrieved as a GUID
+                            // Read the value as UUID (Guid in C#)
+                            val = reader.GetGuid(index).ToString();  // Converting Guid to string
                         }
                     }
                 }
 
-                ret = val;  // Returning the retrieved UUID (user_id)
+                ret = "Operation Successful!";
                 getmessage = "Values successfully retrieved using GetSingleColumnValueByIndexParameterized() function.";
             }
             catch (Exception exp)
@@ -137,7 +137,7 @@ namespace Swap_n_Share.Class
                 disconnect();  // Close the connection
             }
 
-            return ret;
+            return val;
         }
 
     }

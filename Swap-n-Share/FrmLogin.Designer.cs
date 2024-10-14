@@ -104,7 +104,7 @@
             LoginButton.Size = new System.Drawing.Size(214, 45);
             LoginButton.TabIndex = 14;
             LoginButton.Text = "Login";
-            LoginButton.Click += LoginButton_Click_1;
+            LoginButton.Click += LoginButton_Clicks;
             // 
             // LoginTitleTxt2
             // 
@@ -154,7 +154,7 @@
             PasswordTB.TabIndex = 11;
             PasswordTB.TextOffset = new System.Drawing.Point(20, 0);
             PasswordTB.UseSystemPasswordChar = true;
-            PasswordTB.TextChanged += PasswordTB_TextChanged_1;
+            PasswordTB.TextChanged += PasswordTB_TextChange;
             // 
             // UsernameTB
             // 
@@ -183,7 +183,6 @@
             UsernameTB.Size = new System.Drawing.Size(464, 48);
             UsernameTB.TabIndex = 10;
             UsernameTB.TextOffset = new System.Drawing.Point(20, 0);
-            UsernameTB.TextChanged += UsernameTB_TextChanged_1;
             // 
             // ShowPassCB
             // 
@@ -199,7 +198,7 @@
             ShowPassCB.TabIndex = 9;
             ShowPassCB.Text = "Show Password";
             ShowPassCB.UseVisualStyleBackColor = true;
-            ShowPassCB.CheckedChanged += ShowPassCB_CheckedChanged_1;
+            ShowPassCB.CheckedChanged += ShowPassCB_CheckedChange;
             // 
             // PasswordTxt
             // 
