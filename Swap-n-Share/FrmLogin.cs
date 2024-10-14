@@ -130,5 +130,9 @@ namespace Swap_n_Share
             }
         }
 
+        private void LoginTitleTxt1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
