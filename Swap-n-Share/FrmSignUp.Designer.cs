@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             SignUpLinkLabel = new System.Windows.Forms.LinkLabel();
-            LoginButton = new Guna.UI2.WinForms.Guna2Button();
+            SignupButton = new Guna.UI2.WinForms.Guna2Button();
             LoginTitleTxt2 = new System.Windows.Forms.Label();
             LoginTitleTxt1 = new System.Windows.Forms.Label();
-            PasswordTB = new Guna.UI2.WinForms.Guna2TextBox();
-            UsernameTB = new Guna.UI2.WinForms.Guna2TextBox();
+            txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             ShowPassCB = new System.Windows.Forms.CheckBox();
             PasswordTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
             UsernameTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -76,26 +76,28 @@
             SignUpLinkLabel.TabStop = true;
             SignUpLinkLabel.Text = "Back to Login";
             SignUpLinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            SignUpLinkLabel.LinkClicked += SignUpLinkLabel_LinkClicked;
             // 
-            // LoginButton
+            // SignupButton
             // 
-            LoginButton.BorderColor = System.Drawing.Color.Transparent;
-            LoginButton.BorderRadius = 20;
-            LoginButton.CustomizableEdges = customizableEdges1;
-            LoginButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            LoginButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            LoginButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            LoginButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            LoginButton.FillColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            LoginButton.ForeColor = System.Drawing.Color.White;
-            LoginButton.HoverState.FillColor = System.Drawing.Color.FromArgb(0, 32, 115);
-            LoginButton.Location = new System.Drawing.Point(884, 535);
-            LoginButton.Name = "LoginButton";
-            LoginButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            LoginButton.Size = new System.Drawing.Size(214, 45);
-            LoginButton.TabIndex = 23;
-            LoginButton.Text = "SignUp";
+            SignupButton.BorderColor = System.Drawing.Color.Transparent;
+            SignupButton.BorderRadius = 20;
+            SignupButton.CustomizableEdges = customizableEdges9;
+            SignupButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            SignupButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            SignupButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            SignupButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            SignupButton.FillColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            SignupButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            SignupButton.ForeColor = System.Drawing.Color.White;
+            SignupButton.HoverState.FillColor = System.Drawing.Color.FromArgb(0, 32, 115);
+            SignupButton.Location = new System.Drawing.Point(884, 535);
+            SignupButton.Name = "SignupButton";
+            SignupButton.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            SignupButton.Size = new System.Drawing.Size(214, 45);
+            SignupButton.TabIndex = 23;
+            SignupButton.Text = "SignUp";
+            SignupButton.Click += SignupButton_Click;
             // 
             // LoginTitleTxt2
             // 
@@ -107,7 +109,6 @@
             LoginTitleTxt2.Size = new System.Drawing.Size(251, 55);
             LoginTitleTxt2.TabIndex = 22;
             LoginTitleTxt2.Text = "OnBoard!";
-            LoginTitleTxt2.Click += LoginTitleTxt2_Click;
             // 
             // LoginTitleTxt1
             // 
@@ -121,62 +122,61 @@
             LoginTitleTxt1.TabIndex = 21;
             LoginTitleTxt1.Text = "Welcome";
             // 
-            // PasswordTB
+            // txtPassword
             // 
-            PasswordTB.AcceptsReturn = true;
-            PasswordTB.BorderColor = System.Drawing.Color.Silver;
-            PasswordTB.BorderRadius = 20;
-            PasswordTB.BorderThickness = 2;
-            PasswordTB.Cursor = System.Windows.Forms.Cursors.IBeam;
-            PasswordTB.CustomizableEdges = customizableEdges3;
-            PasswordTB.DefaultText = "";
-            PasswordTB.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            PasswordTB.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            PasswordTB.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            PasswordTB.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            PasswordTB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            PasswordTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            PasswordTB.ForeColor = System.Drawing.Color.DimGray;
-            PasswordTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            PasswordTB.Location = new System.Drawing.Point(634, 415);
-            PasswordTB.Margin = new System.Windows.Forms.Padding(0);
-            PasswordTB.Name = "PasswordTB";
-            PasswordTB.PasswordChar = '●';
-            PasswordTB.PlaceholderText = "";
-            PasswordTB.SelectedText = "";
-            PasswordTB.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            PasswordTB.Size = new System.Drawing.Size(464, 48);
-            PasswordTB.TabIndex = 20;
-            PasswordTB.TextOffset = new System.Drawing.Point(20, 0);
-            PasswordTB.UseSystemPasswordChar = true;
+            txtPassword.AcceptsReturn = true;
+            txtPassword.BorderColor = System.Drawing.Color.Silver;
+            txtPassword.BorderRadius = 20;
+            txtPassword.BorderThickness = 2;
+            txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            txtPassword.CustomizableEdges = customizableEdges11;
+            txtPassword.DefaultText = "";
+            txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            txtPassword.ForeColor = System.Drawing.Color.DimGray;
+            txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtPassword.Location = new System.Drawing.Point(634, 415);
+            txtPassword.Margin = new System.Windows.Forms.Padding(0);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '●';
+            txtPassword.PlaceholderText = "";
+            txtPassword.SelectedText = "";
+            txtPassword.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtPassword.Size = new System.Drawing.Size(464, 48);
+            txtPassword.TabIndex = 20;
+            txtPassword.TextOffset = new System.Drawing.Point(20, 0);
             // 
-            // UsernameTB
+            // txtUsername
             // 
-            UsernameTB.AcceptsReturn = true;
-            UsernameTB.BorderColor = System.Drawing.Color.Silver;
-            UsernameTB.BorderRadius = 20;
-            UsernameTB.BorderThickness = 2;
-            UsernameTB.Cursor = System.Windows.Forms.Cursors.IBeam;
-            UsernameTB.CustomizableEdges = customizableEdges5;
-            UsernameTB.DefaultText = "";
-            UsernameTB.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            UsernameTB.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            UsernameTB.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            UsernameTB.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            UsernameTB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            UsernameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            UsernameTB.ForeColor = System.Drawing.Color.DimGray;
-            UsernameTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            UsernameTB.Location = new System.Drawing.Point(634, 314);
-            UsernameTB.Margin = new System.Windows.Forms.Padding(0);
-            UsernameTB.Name = "UsernameTB";
-            UsernameTB.PasswordChar = '\0';
-            UsernameTB.PlaceholderText = "";
-            UsernameTB.SelectedText = "";
-            UsernameTB.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            UsernameTB.Size = new System.Drawing.Size(464, 48);
-            UsernameTB.TabIndex = 19;
-            UsernameTB.TextOffset = new System.Drawing.Point(20, 0);
+            txtUsername.AcceptsReturn = true;
+            txtUsername.BorderColor = System.Drawing.Color.Silver;
+            txtUsername.BorderRadius = 20;
+            txtUsername.BorderThickness = 2;
+            txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            txtUsername.CustomizableEdges = customizableEdges13;
+            txtUsername.DefaultText = "";
+            txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            txtUsername.ForeColor = System.Drawing.Color.DimGray;
+            txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtUsername.Location = new System.Drawing.Point(634, 314);
+            txtUsername.Margin = new System.Windows.Forms.Padding(0);
+            txtUsername.Name = "txtUsername";
+            txtUsername.PasswordChar = '\0';
+            txtUsername.PlaceholderText = "";
+            txtUsername.SelectedText = "";
+            txtUsername.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            txtUsername.Size = new System.Drawing.Size(464, 48);
+            txtUsername.TabIndex = 19;
+            txtUsername.TextOffset = new System.Drawing.Point(20, 0);
             // 
             // ShowPassCB
             // 
@@ -192,6 +192,7 @@
             ShowPassCB.TabIndex = 18;
             ShowPassCB.Text = "Show Password";
             ShowPassCB.UseVisualStyleBackColor = true;
+            ShowPassCB.CheckedChanged += ShowPassCB_CheckedChanged;
             // 
             // PasswordTxt
             // 
@@ -215,33 +216,33 @@
             UsernameTxt.TabIndex = 16;
             UsernameTxt.Text = "Username";
             // 
-            // guna2TextBox1
+            // txtEmail
             // 
-            guna2TextBox1.AcceptsReturn = true;
-            guna2TextBox1.BorderColor = System.Drawing.Color.Silver;
-            guna2TextBox1.BorderRadius = 20;
-            guna2TextBox1.BorderThickness = 2;
-            guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            guna2TextBox1.CustomizableEdges = customizableEdges7;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2TextBox1.ForeColor = System.Drawing.Color.DimGray;
-            guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new System.Drawing.Point(634, 213);
-            guna2TextBox1.Margin = new System.Windows.Forms.Padding(0);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2TextBox1.Size = new System.Drawing.Size(464, 48);
-            guna2TextBox1.TabIndex = 26;
-            guna2TextBox1.TextOffset = new System.Drawing.Point(20, 0);
+            txtEmail.AcceptsReturn = true;
+            txtEmail.BorderColor = System.Drawing.Color.Silver;
+            txtEmail.BorderRadius = 20;
+            txtEmail.BorderThickness = 2;
+            txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            txtEmail.CustomizableEdges = customizableEdges15;
+            txtEmail.DefaultText = "";
+            txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            txtEmail.ForeColor = System.Drawing.Color.DimGray;
+            txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtEmail.Location = new System.Drawing.Point(634, 213);
+            txtEmail.Margin = new System.Windows.Forms.Padding(0);
+            txtEmail.Name = "txtEmail";
+            txtEmail.PasswordChar = '\0';
+            txtEmail.PlaceholderText = "";
+            txtEmail.SelectedText = "";
+            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            txtEmail.Size = new System.Drawing.Size(464, 48);
+            txtEmail.TabIndex = 26;
+            txtEmail.TextOffset = new System.Drawing.Point(20, 0);
             // 
             // guna2HtmlLabel1
             // 
@@ -258,22 +259,22 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.White;
             ClientSize = new System.Drawing.Size(1262, 673);
-            Controls.Add(guna2TextBox1);
+            Controls.Add(txtEmail);
             Controls.Add(guna2HtmlLabel1);
             Controls.Add(SignUpLinkLabel);
-            Controls.Add(LoginButton);
+            Controls.Add(SignupButton);
             Controls.Add(LoginTitleTxt2);
             Controls.Add(LoginTitleTxt1);
-            Controls.Add(PasswordTB);
-            Controls.Add(UsernameTB);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUsername);
             Controls.Add(ShowPassCB);
             Controls.Add(PasswordTxt);
             Controls.Add(UsernameTxt);
             Controls.Add(pictureBox1);
             Name = "FrmSignUp";
-            Text = "FrmSignUp";
-            Load += FrmSignUp_Load;
+            Text = "Swap & Share";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -283,15 +284,15 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel SignUpLinkLabel;
-        private Guna.UI2.WinForms.Guna2Button LoginButton;
+        private Guna.UI2.WinForms.Guna2Button SignupButton;
         private System.Windows.Forms.Label LoginTitleTxt2;
         private System.Windows.Forms.Label LoginTitleTxt1;
-        private Guna.UI2.WinForms.Guna2TextBox PasswordTB;
-        private Guna.UI2.WinForms.Guna2TextBox UsernameTB;
+        private Guna.UI2.WinForms.Guna2TextBox txtPassword;
+        private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private System.Windows.Forms.CheckBox ShowPassCB;
         private Guna.UI2.WinForms.Guna2HtmlLabel PasswordTxt;
         private Guna.UI2.WinForms.Guna2HtmlLabel UsernameTxt;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtEmail;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }

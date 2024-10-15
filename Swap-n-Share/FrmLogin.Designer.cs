@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
+            label1 = new System.Windows.Forms.Label();
             SignUpLinkLabel = new System.Windows.Forms.LinkLabel();
             LoginButton = new Guna.UI2.WinForms.Guna2Button();
             LoginTitleTxt2 = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@
             UsernameTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             panel1 = new System.Windows.Forms.Panel();
-            label1 = new System.Windows.Forms.Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
@@ -70,7 +70,17 @@
             panel2.Name = "panel2";
             panel2.Size = new System.Drawing.Size(729, 673);
             panel2.TabIndex = 1;
-            panel2.Paint += panel2_Paint;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label1.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label1.Location = new System.Drawing.Point(163, 99);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(135, 55);
+            label1.TabIndex = 16;
+            label1.Text = "cash";
             // 
             // SignUpLinkLabel
             // 
@@ -86,12 +96,13 @@
             SignUpLinkLabel.TabStop = true;
             SignUpLinkLabel.Text = "Sign Up";
             SignUpLinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            SignUpLinkLabel.LinkClicked += SignUpLinkLabel_LinkClicked;
             // 
             // LoginButton
             // 
             LoginButton.BorderColor = System.Drawing.Color.Transparent;
             LoginButton.BorderRadius = 20;
-            LoginButton.CustomizableEdges = customizableEdges25;
+            LoginButton.CustomizableEdges = customizableEdges1;
             LoginButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             LoginButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             LoginButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -102,7 +113,7 @@
             LoginButton.HoverState.FillColor = System.Drawing.Color.FromArgb(0, 32, 115);
             LoginButton.Location = new System.Drawing.Point(345, 515);
             LoginButton.Name = "LoginButton";
-            LoginButton.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            LoginButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
             LoginButton.Size = new System.Drawing.Size(214, 45);
             LoginButton.TabIndex = 14;
             LoginButton.Text = "Login";
@@ -127,7 +138,6 @@
             LoginTitleTxt1.Size = new System.Drawing.Size(422, 55);
             LoginTitleTxt1.TabIndex = 12;
             LoginTitleTxt1.Text = "No cash needed,";
-            LoginTitleTxt1.Click += LoginTitleTxt1_Click;
             // 
             // PasswordTB
             // 
@@ -136,7 +146,7 @@
             PasswordTB.BorderRadius = 20;
             PasswordTB.BorderThickness = 2;
             PasswordTB.Cursor = System.Windows.Forms.Cursors.IBeam;
-            PasswordTB.CustomizableEdges = customizableEdges27;
+            PasswordTB.CustomizableEdges = customizableEdges3;
             PasswordTB.DefaultText = "";
             PasswordTB.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             PasswordTB.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
@@ -152,12 +162,10 @@
             PasswordTB.PasswordChar = '●';
             PasswordTB.PlaceholderText = "";
             PasswordTB.SelectedText = "";
-            PasswordTB.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            PasswordTB.ShadowDecoration.CustomizableEdges = customizableEdges4;
             PasswordTB.Size = new System.Drawing.Size(464, 48);
             PasswordTB.TabIndex = 11;
             PasswordTB.TextOffset = new System.Drawing.Point(20, 0);
-            PasswordTB.UseSystemPasswordChar = true;
-            PasswordTB.TextChanged += PasswordTB_TextChange;
             // 
             // UsernameTB
             // 
@@ -166,7 +174,7 @@
             UsernameTB.BorderRadius = 20;
             UsernameTB.BorderThickness = 2;
             UsernameTB.Cursor = System.Windows.Forms.Cursors.IBeam;
-            UsernameTB.CustomizableEdges = customizableEdges29;
+            UsernameTB.CustomizableEdges = customizableEdges5;
             UsernameTB.DefaultText = "";
             UsernameTB.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             UsernameTB.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
@@ -182,7 +190,7 @@
             UsernameTB.PasswordChar = '\0';
             UsernameTB.PlaceholderText = "";
             UsernameTB.SelectedText = "";
-            UsernameTB.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            UsernameTB.ShadowDecoration.CustomizableEdges = customizableEdges6;
             UsernameTB.Size = new System.Drawing.Size(464, 48);
             UsernameTB.TabIndex = 10;
             UsernameTB.TextOffset = new System.Drawing.Point(20, 0);
@@ -201,7 +209,7 @@
             ShowPassCB.TabIndex = 9;
             ShowPassCB.Text = "Show Password";
             ShowPassCB.UseVisualStyleBackColor = true;
-            ShowPassCB.CheckedChanged += ShowPassCB_CheckedChange;
+            ShowPassCB.CheckedChanged += ShowPassCB_CheckedChanged;
             // 
             // PasswordTxt
             // 
@@ -213,7 +221,6 @@
             PasswordTxt.Size = new System.Drawing.Size(72, 19);
             PasswordTxt.TabIndex = 4;
             PasswordTxt.Text = "Password";
-            PasswordTxt.Click += PasswordTxt_Click;
             // 
             // UsernameTxt
             // 
@@ -225,7 +232,6 @@
             UsernameTxt.Size = new System.Drawing.Size(76, 19);
             UsernameTxt.TabIndex = 3;
             UsernameTxt.Text = "Username";
-            UsernameTxt.Click += UsernameTxt_Click;
             // 
             // pictureBox1
             // 
@@ -237,7 +243,6 @@
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // panel1
             // 
@@ -248,18 +253,6 @@
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(532, 673);
             panel1.TabIndex = 0;
-            panel1.Paint += panel1_Paint;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label1.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            label1.Location = new System.Drawing.Point(163, 99);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(135, 55);
-            label1.TabIndex = 16;
-            label1.Text = "cash";
             // 
             // LoginForm
             // 
@@ -270,7 +263,6 @@
             Controls.Add(panel1);
             Name = "LoginForm";
             Text = "Swap & Share";
-            Load += Form1_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
