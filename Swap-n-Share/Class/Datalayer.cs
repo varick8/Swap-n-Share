@@ -60,7 +60,7 @@ namespace Swap_n_Share.Class
         public string InsertUpdateDeleteCreate(string query)
         {
             string ret = "";
-            string allquerys = query.ToLower();
+
             try
             {
                 cmd_.CommandText = query;
@@ -68,31 +68,30 @@ namespace Swap_n_Share.Class
                 connect();
                 cmd_.ExecuteNonQuery();
 
-                if (allquerys.Contains("insert into"))
+                if (query.Contains("Insert Into"))
                 {
-                    ret = getmessage = "inserted successfully";
+                    ret = getmessage = (" inseteted successfully ");
                 }
-                else if (allquerys.Contains("delete from"))
+                else if (query.Contains("Delete From"))
                 {
-                    ret = getmessage = "delete successful";
+                    ret = getmessage = ("delete successfull");
                 }
-                else if (allquerys.Contains("update") && allquerys.Contains("set"))
+                else if (query.Contains("Update into") && query.Contains("set"))
                 {
-                    ret = getmessage = "update successful";
+                    ret = getmessage = ("update successfull");
                 }
-                else if (allquerys.Contains("create table"))
+                else if (query.Contains("Creat table"))
                 {
-                    ret = getmessage = "create table successful";
+                    ret = getmessage = ("create table successful");
                 }
+
             }
             catch (Exception exp)
             {
-                ret = getmessage = "failed to execute " + query + "\nreason: " + exp.Message;
+
+                ret = getmessage = "failed to execute" + query + "\n resoin :" + exp.Message;
             }
-            finally
-            {
-                disconnect();
-            }
+            finally { disconnect(); }
             return ret;
         }
 

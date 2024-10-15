@@ -23,88 +23,6 @@ namespace Swap_n_Share
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void UsernameTB_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PasswordTB_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LoginButton_Click(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void PasswordTxt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UsernameTxt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void ShowPassCB_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SignUpLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void ShowPassCB_CheckedChange(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gunaAdvenceButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gunaAdvenceButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gunaLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PasswordTB_TextChange(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void LoginButton_Clicks(object sender, EventArgs e)
         {
             string s_id;
@@ -130,9 +48,23 @@ namespace Swap_n_Share
             }
         }
 
-        private void LoginTitleTxt1_Click(object sender, EventArgs e)
+        private void SignUpLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Hide();
+            FrmSignUp sd = new FrmSignUp();
+            sd.Show();
+        }
 
+        private void ShowPassCB_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ShowPassCB.Checked)
+            {
+                PasswordTB.PasswordChar = '\0';  // Show the password
+            }
+            else
+            {
+                PasswordTB.PasswordChar = '●';  // Hide the password
+            }
         }
     }
 }
