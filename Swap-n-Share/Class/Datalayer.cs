@@ -10,21 +10,25 @@ namespace Swap_n_Share.Class
 {
     public class Datalayer
     {
-        NpgsqlCommand cmd_; // Changed to NpgsqlCommand
-        NpgsqlConnection conn_; // Changed to NpgsqlConnection
-        NpgsqlDataAdapter adptr_; // Changed to NpgsqlDataAdapter
-        NpgsqlDataReader reader_; // Changed to NpgsqlDataReader
-        DataTable dtable_;
-        DataSet dset_;
+        // Encapsulated private fields
+        private NpgsqlCommand cmd_; 
+        private NpgsqlConnection conn_; //deklarasi Koneksi
+        private NpgsqlDataAdapter adptr_; 
+        private NpgsqlDataReader reader_; 
+        private DataTable dtable_;
+        private DataSet dset_;
+
+        // Public getter, private setter for message encapsulation
         public string getmessage { get; set; }
 
         public Datalayer()
         {
+            // Inisialisasi string koneksi
             string cs = "User Id=postgres;Host=localhost;Database=SwapnShare;Port=5432;password=password;";
-            conn_ = new NpgsqlConnection(cs);
+            conn_ = new NpgsqlConnection(cs); 
             cmd_ = new NpgsqlCommand();
             dtable_ = new DataTable();
-            adptr_ = new NpgsqlDataAdapter();
+            adptr_ = new NpgsqlDataAdapter(); 
             dset_ = new DataSet();
         }
 
@@ -32,7 +36,7 @@ namespace Swap_n_Share.Class
         {
             try
             {
-                conn_.Open();
+                conn_.Open(); // Membuka koneksi ke database
                 getmessage = "successfully connected";
                 return true;
             }
@@ -47,7 +51,7 @@ namespace Swap_n_Share.Class
         {
             try
             {
-                conn_.Close(); // Changed from Clone to Close for Npgsql
+                conn_.Close(); // Menutup koneksi ke database
                 return true;
             }
             catch (Exception ex)
@@ -60,11 +64,10 @@ namespace Swap_n_Share.Class
         public string InsertUpdateDeleteCreate(string query)
         {
             string ret = "";
-
             try
             {
                 cmd_.CommandText = query;
-                cmd_.Connection = conn_;
+                cmd_.Connection = conn_; // Memastikan bahwa perintah yang dieksekusi akan dilakukan pada koneksi yang tepat
                 connect();
                 cmd_.ExecuteNonQuery();
 
@@ -84,7 +87,6 @@ namespace Swap_n_Share.Class
                 {
                     ret = getmessage = ("create table successful");
                 }
-
             }
             catch (Exception exp)
             {
@@ -95,32 +97,24 @@ namespace Swap_n_Share.Class
             return ret;
         }
 
-        public string GetSingleColumnValueByIndexParameterized(string query, string username, string password, int index)
+        public string GetSingleColumnValueByIndexParameterized(string query, out string columndata, int index)
         {
             string ret = null;
             string val = null;
 
             try
             {
+                cmd_.Connection = conn_;  // Memastikan bahwa perintah yang dieksekusi akan dilakukan pada koneksi yang tepat
+                cmd_.CommandText = query;
                 // Open connection
                 connect();
 
-                // Prepare the command with parameterized query
-                using (NpgsqlCommand cmd = new NpgsqlCommand(query, conn_))
+                reader_ = cmd_.ExecuteReader();
+                while (reader_.Read())
                 {
-                    // Set the parameter values
-                    cmd.Parameters.AddWithValue("@username", username);
-                    cmd.Parameters.AddWithValue("@password", password);  // No hashing here
 
-                    // Execute the query and read the result
-                    using (NpgsqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            // Read the value as UUID (Guid in C#)
-                            val = reader.GetGuid(index).ToString();  // Converting Guid to string
-                        }
-                    }
+                    val = reader_.GetGuid(index).ToString();
+
                 }
 
                 ret = "Operation Successful!";
@@ -136,7 +130,8 @@ namespace Swap_n_Share.Class
                 disconnect();  // Close the connection
             }
 
-            return val;
+            columndata = val;
+            return ret;
         }
 
     }

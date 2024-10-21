@@ -27,12 +27,12 @@ namespace Swap_n_Share
         {
             string s_id;
             // Using parameterized query to prevent SQL injection
-            string qry = "SELECT user_id FROM public.\"User\" WHERE username = @username AND password = @password";
+            string qry = "SELECT user_id FROM public.\"User\" WHERE username = '" + UsernameTB.Text + "' AND password = '" + PasswordTB.Text + "';";
 
             // Updating the method call to use parameterized query
-            s_id = dl.GetSingleColumnValueByIndexParameterized(qry, UsernameTB.Text, PasswordTB.Text, 0);
+            dl.GetSingleColumnValueByIndexParameterized(qry, out s_id, 0);
 
-            if (!string.IsNullOrEmpty(s_id))
+            if (s_id != null)
             {
                 // Show a success message
                 MessageBox.Show("Login successful! Welcome to the system.", "Success",

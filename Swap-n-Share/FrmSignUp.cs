@@ -68,7 +68,6 @@ namespace Swap_n_Share
                 LoginForm sd = new LoginForm();
                 sd.Show();
             }
-
         }
 
         private void ShowPassCB_CheckedChanged(object sender, EventArgs e)
