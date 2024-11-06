@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmHome : Form
+    public partial class FrmProfile : Form
     {
-        public FrmHome()
+        public FrmProfile()
         {
             InitializeComponent();
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
+        private void lblUsername_Click(object sender, EventArgs e)
         {
 
         }
