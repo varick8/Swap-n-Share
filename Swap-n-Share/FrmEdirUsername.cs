@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmHome : Form
+    public partial class FrmEdirUsername : Form
     {
-        public FrmHome()
+        public FrmEdirUsername()
         {
             InitializeComponent();
-        }
-
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
