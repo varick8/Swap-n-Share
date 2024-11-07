@@ -30,6 +30,8 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHomePage));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new System.Windows.Forms.Panel();
             button7 = new System.Windows.Forms.Button();
             button6 = new System.Windows.Forms.Button();
@@ -47,8 +49,19 @@
             pictureBox2 = new System.Windows.Forms.PictureBox();
             pictureBox3 = new System.Windows.Forms.PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
+            uCcommunity1 = new UserControls.UCcommunity();
+            label5 = new System.Windows.Forms.Label();
+            label6 = new System.Windows.Forms.Label();
+            uCcommunity2 = new UserControls.UCcommunity();
+            uCcommunity3 = new UserControls.UCcommunity();
+            uCcommunity4 = new UserControls.UCcommunity();
+            txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
+            button3 = new System.Windows.Forms.Button();
+            label7 = new System.Windows.Forms.Label();
+            label8 = new System.Windows.Forms.Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            PanelSlide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -152,6 +165,16 @@
             // 
             // PanelSlide
             // 
+            PanelSlide.Controls.Add(label8);
+            PanelSlide.Controls.Add(label7);
+            PanelSlide.Controls.Add(button3);
+            PanelSlide.Controls.Add(txtEmail);
+            PanelSlide.Controls.Add(uCcommunity4);
+            PanelSlide.Controls.Add(uCcommunity3);
+            PanelSlide.Controls.Add(uCcommunity2);
+            PanelSlide.Controls.Add(label6);
+            PanelSlide.Controls.Add(label5);
+            PanelSlide.Controls.Add(uCcommunity1);
             PanelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             PanelSlide.Location = new System.Drawing.Point(95, 69);
             PanelSlide.Name = "PanelSlide";
@@ -233,6 +256,129 @@
             timer1.Interval = 30;
             timer1.Tick += timer1_Tick;
             // 
+            // uCcommunity1
+            // 
+            uCcommunity1.Location = new System.Drawing.Point(0, 348);
+            uCcommunity1.Name = "uCcommunity1";
+            uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
+            uCcommunity1.Size = new System.Drawing.Size(397, 107);
+            uCcommunity1.TabIndex = 0;
+            uCcommunity1.txtName = "Music Tools";
+            uCcommunity1.txtStatus = "Free Join";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label5.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label5.Location = new System.Drawing.Point(5, 282);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(92, 28);
+            label5.TabIndex = 5;
+            label5.Text = "Recent";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label6.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label6.Location = new System.Drawing.Point(2, 311);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(154, 30);
+            label6.TabIndex = 6;
+            label6.Text = "Community";
+            // 
+            // uCcommunity2
+            // 
+            uCcommunity2.Location = new System.Drawing.Point(-2, 438);
+            uCcommunity2.Name = "uCcommunity2";
+            uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
+            uCcommunity2.Size = new System.Drawing.Size(397, 107);
+            uCcommunity2.TabIndex = 7;
+            uCcommunity2.txtName = "Electronics";
+            uCcommunity2.txtStatus = "Free Join";
+            // 
+            // uCcommunity3
+            // 
+            uCcommunity3.Location = new System.Drawing.Point(0, 537);
+            uCcommunity3.Name = "uCcommunity3";
+            uCcommunity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity3.ProfilePic");
+            uCcommunity3.Size = new System.Drawing.Size(397, 107);
+            uCcommunity3.TabIndex = 8;
+            uCcommunity3.txtName = "Repair Tools";
+            uCcommunity3.txtStatus = "Free Join";
+            // 
+            // uCcommunity4
+            // 
+            uCcommunity4.Location = new System.Drawing.Point(0, 631);
+            uCcommunity4.Name = "uCcommunity4";
+            uCcommunity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity4.ProfilePic");
+            uCcommunity4.Size = new System.Drawing.Size(397, 107);
+            uCcommunity4.TabIndex = 9;
+            uCcommunity4.txtName = "Fabrics";
+            uCcommunity4.txtStatus = "Free Join";
+            // 
+            // txtEmail
+            // 
+            txtEmail.AcceptsReturn = true;
+            txtEmail.BorderColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            txtEmail.BorderRadius = 20;
+            txtEmail.BorderThickness = 2;
+            txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            txtEmail.CustomizableEdges = customizableEdges3;
+            txtEmail.DefaultText = "";
+            txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            txtEmail.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtEmail.Location = new System.Drawing.Point(30, 204);
+            txtEmail.Margin = new System.Windows.Forms.Padding(0);
+            txtEmail.Name = "txtEmail";
+            txtEmail.PasswordChar = '\0';
+            txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            txtEmail.PlaceholderText = "";
+            txtEmail.SelectedText = "";
+            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            txtEmail.Size = new System.Drawing.Size(320, 44);
+            txtEmail.TabIndex = 27;
+            txtEmail.TextOffset = new System.Drawing.Point(20, 0);
+            // 
+            // button3
+            // 
+            button3.BackColor = System.Drawing.Color.Transparent;
+            button3.Image = (System.Drawing.Image)resources.GetObject("button3.Image");
+            button3.Location = new System.Drawing.Point(141, 39);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(95, 81);
+            button3.TabIndex = 5;
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label7.ForeColor = System.Drawing.Color.Black;
+            label7.Location = new System.Drawing.Point(79, 172);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(209, 21);
+            label7.TabIndex = 28;
+            label7.Text = "Looking for a community?";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label8.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label8.Location = new System.Drawing.Point(113, 129);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(147, 28);
+            label8.TabIndex = 29;
+            label8.Text = "Community";
+            // 
             // FrmHomePage
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
@@ -249,11 +395,13 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "FrmHomePage";
-            Text = "FrmHomePage";
+            Text = "Search Community";
             Load += FrmHomePage_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
+            PanelSlide.ResumeLayout(false);
+            PanelSlide.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -280,5 +428,15 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private UserControls.UCcommunity uCcommunity1;
+        private UserControls.UCcommunity uCcommunity4;
+        private UserControls.UCcommunity uCcommunity3;
+        private UserControls.UCcommunity uCcommunity2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button3;
+        private Guna.UI2.WinForms.Guna2TextBox txtEmail;
+        private System.Windows.Forms.Label label8;
     }
 }
