@@ -30,8 +30,8 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHomePage));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new System.Windows.Forms.Panel();
             button7 = new System.Windows.Forms.Button();
             button6 = new System.Windows.Forms.Button();
@@ -42,6 +42,16 @@
             button2 = new System.Windows.Forms.Button();
             button1 = new System.Windows.Forms.Button();
             PanelSlide = new System.Windows.Forms.Panel();
+            label8 = new System.Windows.Forms.Label();
+            label7 = new System.Windows.Forms.Label();
+            button3 = new System.Windows.Forms.Button();
+            txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
+            uCcommunity4 = new UserControls.UCcommunity();
+            uCcommunity3 = new UserControls.UCcommunity();
+            uCcommunity2 = new UserControls.UCcommunity();
+            label6 = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            uCcommunity1 = new UserControls.UCcommunity();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             label2 = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
@@ -49,16 +59,6 @@
             pictureBox2 = new System.Windows.Forms.PictureBox();
             pictureBox3 = new System.Windows.Forms.PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
-            uCcommunity1 = new UserControls.UCcommunity();
-            label5 = new System.Windows.Forms.Label();
-            label6 = new System.Windows.Forms.Label();
-            uCcommunity2 = new UserControls.UCcommunity();
-            uCcommunity3 = new UserControls.UCcommunity();
-            uCcommunity4 = new UserControls.UCcommunity();
-            txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
-            button3 = new System.Windows.Forms.Button();
-            label7 = new System.Windows.Forms.Label();
-            label8 = new System.Windows.Forms.Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             PanelSlide.SuspendLayout();
@@ -82,9 +82,11 @@
             // 
             button7.BackColor = System.Drawing.Color.Transparent;
             button7.Image = (System.Drawing.Image)resources.GetObject("button7.Image");
-            button7.Location = new System.Drawing.Point(1893, -3);
+            button7.Location = new System.Drawing.Point(1943, 12);
+            button7.MaximumSize = new System.Drawing.Size(32, 41);
+            button7.MinimumSize = new System.Drawing.Size(32, 41);
             button7.Name = "button7";
-            button7.Size = new System.Drawing.Size(82, 72);
+            button7.Size = new System.Drawing.Size(32, 41);
             button7.TabIndex = 4;
             button7.UseVisualStyleBackColor = false;
             // 
@@ -92,9 +94,11 @@
             // 
             button6.BackColor = System.Drawing.Color.Transparent;
             button6.Image = (System.Drawing.Image)resources.GetObject("button6.Image");
-            button6.Location = new System.Drawing.Point(1972, -3);
+            button6.Location = new System.Drawing.Point(1981, 12);
+            button6.MaximumSize = new System.Drawing.Size(40, 41);
+            button6.MinimumSize = new System.Drawing.Size(40, 41);
             button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(82, 72);
+            button6.Size = new System.Drawing.Size(40, 41);
             button6.TabIndex = 2;
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
@@ -105,6 +109,8 @@
             label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label1.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label1.Location = new System.Drawing.Point(16, 14);
+            label1.MaximumSize = new System.Drawing.Size(232, 39);
+            label1.MinimumSize = new System.Drawing.Size(232, 39);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(232, 39);
             label1.TabIndex = 3;
@@ -127,6 +133,8 @@
             button5.BackColor = System.Drawing.Color.Transparent;
             button5.Image = (System.Drawing.Image)resources.GetObject("button5.Image");
             button5.Location = new System.Drawing.Point(0, 852);
+            button5.MaximumSize = new System.Drawing.Size(95, 81);
+            button5.MinimumSize = new System.Drawing.Size(95, 81);
             button5.Name = "button5";
             button5.Size = new System.Drawing.Size(95, 81);
             button5.TabIndex = 4;
@@ -137,6 +145,8 @@
             button4.BackColor = System.Drawing.Color.Transparent;
             button4.Image = (System.Drawing.Image)resources.GetObject("button4.Image");
             button4.Location = new System.Drawing.Point(0, 76);
+            button4.MaximumSize = new System.Drawing.Size(95, 81);
+            button4.MinimumSize = new System.Drawing.Size(95, 81);
             button4.Name = "button4";
             button4.Size = new System.Drawing.Size(95, 81);
             button4.TabIndex = 3;
@@ -147,6 +157,8 @@
             button2.BackColor = System.Drawing.Color.Transparent;
             button2.Image = (System.Drawing.Image)resources.GetObject("button2.Image");
             button2.Location = new System.Drawing.Point(-1, 931);
+            button2.MaximumSize = new System.Drawing.Size(95, 81);
+            button2.MinimumSize = new System.Drawing.Size(95, 81);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(95, 81);
             button2.TabIndex = 1;
@@ -157,6 +169,8 @@
             button1.BackColor = System.Drawing.Color.Transparent;
             button1.Image = (System.Drawing.Image)resources.GetObject("button1.Image");
             button1.Location = new System.Drawing.Point(0, 0);
+            button1.MaximumSize = new System.Drawing.Size(95, 81);
+            button1.MinimumSize = new System.Drawing.Size(95, 81);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(95, 81);
             button1.TabIndex = 0;
@@ -181,12 +195,157 @@
             PanelSlide.Size = new System.Drawing.Size(400, 1012);
             PanelSlide.TabIndex = 2;
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label8.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label8.Location = new System.Drawing.Point(113, 129);
+            label8.MaximumSize = new System.Drawing.Size(147, 28);
+            label8.MinimumSize = new System.Drawing.Size(147, 28);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(147, 28);
+            label8.TabIndex = 29;
+            label8.Text = "Community";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label7.ForeColor = System.Drawing.Color.Black;
+            label7.Location = new System.Drawing.Point(79, 172);
+            label7.MaximumSize = new System.Drawing.Size(209, 21);
+            label7.MinimumSize = new System.Drawing.Size(209, 21);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(209, 21);
+            label7.TabIndex = 28;
+            label7.Text = "Looking for a community?";
+            // 
+            // button3
+            // 
+            button3.BackColor = System.Drawing.Color.Transparent;
+            button3.Image = (System.Drawing.Image)resources.GetObject("button3.Image");
+            button3.Location = new System.Drawing.Point(141, 39);
+            button3.MaximumSize = new System.Drawing.Size(95, 81);
+            button3.MinimumSize = new System.Drawing.Size(95, 81);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(95, 81);
+            button3.TabIndex = 5;
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // txtEmail
+            // 
+            txtEmail.AcceptsReturn = true;
+            txtEmail.BorderColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            txtEmail.BorderRadius = 20;
+            txtEmail.BorderThickness = 2;
+            txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            txtEmail.CustomizableEdges = customizableEdges1;
+            txtEmail.DefaultText = "";
+            txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            txtEmail.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtEmail.Location = new System.Drawing.Point(30, 204);
+            txtEmail.Margin = new System.Windows.Forms.Padding(0);
+            txtEmail.MaximumSize = new System.Drawing.Size(320, 44);
+            txtEmail.MinimumSize = new System.Drawing.Size(320, 44);
+            txtEmail.Name = "txtEmail";
+            txtEmail.PasswordChar = '\0';
+            txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            txtEmail.PlaceholderText = "";
+            txtEmail.SelectedText = "";
+            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            txtEmail.Size = new System.Drawing.Size(320, 44);
+            txtEmail.TabIndex = 27;
+            txtEmail.TextOffset = new System.Drawing.Point(20, 0);
+            // 
+            // uCcommunity4
+            // 
+            uCcommunity4.Location = new System.Drawing.Point(0, 631);
+            uCcommunity4.MaximumSize = new System.Drawing.Size(397, 107);
+            uCcommunity4.MinimumSize = new System.Drawing.Size(397, 107);
+            uCcommunity4.Name = "uCcommunity4";
+            uCcommunity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity4.ProfilePic");
+            uCcommunity4.Size = new System.Drawing.Size(397, 107);
+            uCcommunity4.TabIndex = 9;
+            uCcommunity4.txtName = "Fabrics";
+            uCcommunity4.txtStatus = "Free Join";
+            // 
+            // uCcommunity3
+            // 
+            uCcommunity3.Location = new System.Drawing.Point(0, 537);
+            uCcommunity3.MaximumSize = new System.Drawing.Size(397, 107);
+            uCcommunity3.MinimumSize = new System.Drawing.Size(397, 107);
+            uCcommunity3.Name = "uCcommunity3";
+            uCcommunity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity3.ProfilePic");
+            uCcommunity3.Size = new System.Drawing.Size(397, 107);
+            uCcommunity3.TabIndex = 8;
+            uCcommunity3.txtName = "Repair Tools";
+            uCcommunity3.txtStatus = "Free Join";
+            // 
+            // uCcommunity2
+            // 
+            uCcommunity2.Location = new System.Drawing.Point(-2, 438);
+            uCcommunity2.MaximumSize = new System.Drawing.Size(397, 107);
+            uCcommunity2.MinimumSize = new System.Drawing.Size(397, 107);
+            uCcommunity2.Name = "uCcommunity2";
+            uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
+            uCcommunity2.Size = new System.Drawing.Size(397, 107);
+            uCcommunity2.TabIndex = 7;
+            uCcommunity2.txtName = "Electronics";
+            uCcommunity2.txtStatus = "Free Join";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label6.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label6.Location = new System.Drawing.Point(2, 311);
+            label6.MaximumSize = new System.Drawing.Size(154, 30);
+            label6.MinimumSize = new System.Drawing.Size(154, 30);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(154, 30);
+            label6.TabIndex = 6;
+            label6.Text = "Community";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label5.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            label5.Location = new System.Drawing.Point(5, 282);
+            label5.MaximumSize = new System.Drawing.Size(92, 28);
+            label5.MinimumSize = new System.Drawing.Size(92, 28);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(92, 28);
+            label5.TabIndex = 5;
+            label5.Text = "Recent";
+            // 
+            // uCcommunity1
+            // 
+            uCcommunity1.Location = new System.Drawing.Point(0, 348);
+            uCcommunity1.MaximumSize = new System.Drawing.Size(397, 107);
+            uCcommunity1.MinimumSize = new System.Drawing.Size(397, 107);
+            uCcommunity1.Name = "uCcommunity1";
+            uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
+            uCcommunity1.Size = new System.Drawing.Size(397, 107);
+            uCcommunity1.TabIndex = 0;
+            uCcommunity1.txtName = "Music Tools";
+            uCcommunity1.txtStatus = "Free Join";
+            // 
             // pictureBox1
             // 
             pictureBox1.BackColor = System.Drawing.Color.Transparent;
             pictureBox1.Image = Properties.Resources.SnS_LogoB;
             pictureBox1.Location = new System.Drawing.Point(1162, 172);
             pictureBox1.Margin = new System.Windows.Forms.Padding(5);
+            pictureBox1.MaximumSize = new System.Drawing.Size(326, 346);
+            pictureBox1.MinimumSize = new System.Drawing.Size(326, 346);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new System.Drawing.Size(326, 346);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -199,6 +358,8 @@
             label2.Font = new System.Drawing.Font("Century Gothic", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label2.Location = new System.Drawing.Point(1107, 503);
+            label2.MaximumSize = new System.Drawing.Size(274, 63);
+            label2.MinimumSize = new System.Drawing.Size(274, 63);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(274, 63);
             label2.TabIndex = 4;
@@ -210,6 +371,8 @@
             label3.Font = new System.Drawing.Font("Century Gothic", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.FromArgb(255, 146, 13);
             label3.Location = new System.Drawing.Point(1371, 503);
+            label3.MaximumSize = new System.Drawing.Size(173, 63);
+            label3.MinimumSize = new System.Drawing.Size(173, 63);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(173, 63);
             label3.TabIndex = 5;
@@ -221,6 +384,8 @@
             label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label4.ForeColor = System.Drawing.Color.Black;
             label4.Location = new System.Drawing.Point(640, 590);
+            label4.MaximumSize = new System.Drawing.Size(1307, 78);
+            label4.MinimumSize = new System.Drawing.Size(1307, 78);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(1307, 78);
             label4.TabIndex = 5;
@@ -233,6 +398,8 @@
             pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new System.Drawing.Point(1240, 693);
             pictureBox2.Margin = new System.Windows.Forms.Padding(5);
+            pictureBox2.MaximumSize = new System.Drawing.Size(80, 80);
+            pictureBox2.MinimumSize = new System.Drawing.Size(80, 80);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new System.Drawing.Size(80, 80);
             pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -245,6 +412,8 @@
             pictureBox3.Image = (System.Drawing.Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new System.Drawing.Point(1320, 673);
             pictureBox3.Margin = new System.Windows.Forms.Padding(5);
+            pictureBox3.MaximumSize = new System.Drawing.Size(131, 115);
+            pictureBox3.MinimumSize = new System.Drawing.Size(131, 115);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new System.Drawing.Size(131, 115);
             pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -255,129 +424,6 @@
             // 
             timer1.Interval = 30;
             timer1.Tick += timer1_Tick;
-            // 
-            // uCcommunity1
-            // 
-            uCcommunity1.Location = new System.Drawing.Point(0, 348);
-            uCcommunity1.Name = "uCcommunity1";
-            uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
-            uCcommunity1.Size = new System.Drawing.Size(397, 107);
-            uCcommunity1.TabIndex = 0;
-            uCcommunity1.txtName = "Music Tools";
-            uCcommunity1.txtStatus = "Free Join";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label5.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            label5.Location = new System.Drawing.Point(5, 282);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(92, 28);
-            label5.TabIndex = 5;
-            label5.Text = "Recent";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label6.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            label6.Location = new System.Drawing.Point(2, 311);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(154, 30);
-            label6.TabIndex = 6;
-            label6.Text = "Community";
-            // 
-            // uCcommunity2
-            // 
-            uCcommunity2.Location = new System.Drawing.Point(-2, 438);
-            uCcommunity2.Name = "uCcommunity2";
-            uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
-            uCcommunity2.Size = new System.Drawing.Size(397, 107);
-            uCcommunity2.TabIndex = 7;
-            uCcommunity2.txtName = "Electronics";
-            uCcommunity2.txtStatus = "Free Join";
-            // 
-            // uCcommunity3
-            // 
-            uCcommunity3.Location = new System.Drawing.Point(0, 537);
-            uCcommunity3.Name = "uCcommunity3";
-            uCcommunity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity3.ProfilePic");
-            uCcommunity3.Size = new System.Drawing.Size(397, 107);
-            uCcommunity3.TabIndex = 8;
-            uCcommunity3.txtName = "Repair Tools";
-            uCcommunity3.txtStatus = "Free Join";
-            // 
-            // uCcommunity4
-            // 
-            uCcommunity4.Location = new System.Drawing.Point(0, 631);
-            uCcommunity4.Name = "uCcommunity4";
-            uCcommunity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity4.ProfilePic");
-            uCcommunity4.Size = new System.Drawing.Size(397, 107);
-            uCcommunity4.TabIndex = 9;
-            uCcommunity4.txtName = "Fabrics";
-            uCcommunity4.txtStatus = "Free Join";
-            // 
-            // txtEmail
-            // 
-            txtEmail.AcceptsReturn = true;
-            txtEmail.BorderColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            txtEmail.BorderRadius = 20;
-            txtEmail.BorderThickness = 2;
-            txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            txtEmail.CustomizableEdges = customizableEdges3;
-            txtEmail.DefaultText = "";
-            txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            txtEmail.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            txtEmail.Location = new System.Drawing.Point(30, 204);
-            txtEmail.Margin = new System.Windows.Forms.Padding(0);
-            txtEmail.Name = "txtEmail";
-            txtEmail.PasswordChar = '\0';
-            txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            txtEmail.PlaceholderText = "";
-            txtEmail.SelectedText = "";
-            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtEmail.Size = new System.Drawing.Size(320, 44);
-            txtEmail.TabIndex = 27;
-            txtEmail.TextOffset = new System.Drawing.Point(20, 0);
-            // 
-            // button3
-            // 
-            button3.BackColor = System.Drawing.Color.Transparent;
-            button3.Image = (System.Drawing.Image)resources.GetObject("button3.Image");
-            button3.Location = new System.Drawing.Point(141, 39);
-            button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(95, 81);
-            button3.TabIndex = 5;
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label7.ForeColor = System.Drawing.Color.Black;
-            label7.Location = new System.Drawing.Point(79, 172);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(209, 21);
-            label7.TabIndex = 28;
-            label7.Text = "Looking for a community?";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label8.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
-            label8.Location = new System.Drawing.Point(113, 129);
-            label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(147, 28);
-            label8.TabIndex = 29;
-            label8.Text = "Community";
             // 
             // FrmHomePage
             // 
