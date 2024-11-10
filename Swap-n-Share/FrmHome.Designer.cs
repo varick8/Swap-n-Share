@@ -199,11 +199,13 @@
             // 
             panelProfile.Controls.Add(btnProfile);
             panelProfile.CustomizableEdges = customizableEdges13;
+
             panelProfile.Location = new System.Drawing.Point(5, 117);
             panelProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             panelProfile.Name = "panelProfile";
             panelProfile.ShadowDecoration.CustomizableEdges = customizableEdges14;
             panelProfile.Size = new System.Drawing.Size(294, 102);
+
             panelProfile.TabIndex = 4;
             // 
             // btnProfile
@@ -216,11 +218,14 @@
             btnProfile.Dock = System.Windows.Forms.DockStyle.Fill;
             btnProfile.FillColor = System.Drawing.Color.WhiteSmoke;
             btnProfile.FocusedColor = System.Drawing.Color.DarkGray;
-            btnProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+
+            btnProfile.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+
             btnProfile.ForeColor = System.Drawing.Color.Black;
             btnProfile.Image = (System.Drawing.Image)resources.GetObject("btnProfile.Image");
             btnProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             btnProfile.ImageOffset = new System.Drawing.Point(30, 0);
+
             btnProfile.ImageSize = new System.Drawing.Size(40, 40);
             btnProfile.Location = new System.Drawing.Point(0, 0);
             btnProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
@@ -229,6 +234,7 @@
             btnProfile.PressedColor = System.Drawing.Color.DarkGray;
             btnProfile.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnProfile.Size = new System.Drawing.Size(294, 102);
+
             btnProfile.TabIndex = 4;
             btnProfile.Text = "Profile";
             btnProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -273,9 +279,11 @@
             // lblHomePage
             // 
             lblHomePage.AutoSize = true;
+
             lblHomePage.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             lblHomePage.Location = new System.Drawing.Point(1064, 528);
             lblHomePage.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+
             lblHomePage.Name = "lblHomePage";
             lblHomePage.Size = new System.Drawing.Size(261, 52);
             lblHomePage.TabIndex = 2;

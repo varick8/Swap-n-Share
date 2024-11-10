@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmApperance : Form
+    public partial class FrmAppearance : Form
     {
-        public FrmApperance()
+        public FrmAppearance()
         {
             InitializeComponent();
         }
