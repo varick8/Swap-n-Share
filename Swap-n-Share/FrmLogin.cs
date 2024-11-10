@@ -38,7 +38,7 @@ namespace Swap_n_Share
                 MessageBox.Show("Login successful! Welcome to the system.", "Success",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
-                FrmHomePage sd = new FrmHomePage();
+                FrmHome sd = new FrmHome();
                 sd.Show();
             }
             else
@@ -65,6 +65,11 @@ namespace Swap_n_Share
             {
                 PasswordTB.PasswordChar = '●';  // Hide the password
             }
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -267,6 +267,7 @@
             Controls.Add(panel1);
             Name = "LoginForm";
             Text = "Swap & Share";
+            Load += LoginForm_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
