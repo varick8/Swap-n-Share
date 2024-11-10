@@ -24,7 +24,7 @@ namespace Swap_n_Share.Class
         public Datalayer()
         {
             // Inisialisasi string koneksi
-            string cs = "User Id=postgres;Host=localhost;Database=SwapnShare;Port=5432;password=password;";
+            string cs = "User Id=postgres;Host=serverpgsql.postgres.database.azure.com;Database=SwapnShare;Port=5432;password=Password8!;";
             conn_ = new NpgsqlConnection(cs); 
             cmd_ = new NpgsqlCommand();
             dtable_ = new DataTable();

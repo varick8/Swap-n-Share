@@ -93,7 +93,7 @@
             panel2.Location = new System.Drawing.Point(0, 0);
             panel2.Margin = new System.Windows.Forms.Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(1920, 69);
+            panel2.Size = new System.Drawing.Size(1386, 69);
             panel2.TabIndex = 1;
             // 
             // guna2ControlBox3
@@ -105,7 +105,7 @@
             guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            guna2ControlBox3.Location = new System.Drawing.Point(1781, 14);
+            guna2ControlBox3.Location = new System.Drawing.Point(1247, 14);
             guna2ControlBox3.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox3.Name = "guna2ControlBox3";
             guna2ControlBox3.PressedColor = System.Drawing.Color.Transparent;
@@ -123,7 +123,7 @@
             guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            guna2ControlBox2.Location = new System.Drawing.Point(1821, 14);
+            guna2ControlBox2.Location = new System.Drawing.Point(1287, 14);
             guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox2.Name = "guna2ControlBox2";
             guna2ControlBox2.PressedColor = System.Drawing.Color.Transparent;
@@ -140,7 +140,7 @@
             guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox1.ForeColor = System.Drawing.Color.White;
             guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            guna2ControlBox1.Location = new System.Drawing.Point(1862, 14);
+            guna2ControlBox1.Location = new System.Drawing.Point(1328, 14);
             guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox1.Name = "guna2ControlBox1";
             guna2ControlBox1.PressedColor = System.Drawing.Color.Transparent;
@@ -176,7 +176,7 @@
             panel1.Location = new System.Drawing.Point(0, 69);
             panel1.Margin = new System.Windows.Forms.Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(76, 1011);
+            panel1.Size = new System.Drawing.Size(76, 719);
             panel1.TabIndex = 2;
             // 
             // guna2Button4
@@ -192,7 +192,7 @@
             guna2Button4.ForeColor = System.Drawing.Color.Transparent;
             guna2Button4.Image = (System.Drawing.Image)resources.GetObject("guna2Button4.Image");
             guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button4.Location = new System.Drawing.Point(0, 823);
+            guna2Button4.Location = new System.Drawing.Point(0, 531);
             guna2Button4.Margin = new System.Windows.Forms.Padding(2);
             guna2Button4.Name = "guna2Button4";
             guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges8;
@@ -212,7 +212,7 @@
             guna2Button3.ForeColor = System.Drawing.Color.Transparent;
             guna2Button3.Image = (System.Drawing.Image)resources.GetObject("guna2Button3.Image");
             guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button3.Location = new System.Drawing.Point(0, 917);
+            guna2Button3.Location = new System.Drawing.Point(0, 625);
             guna2Button3.Margin = new System.Windows.Forms.Padding(2);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges10;
@@ -298,7 +298,7 @@
             PanelSlide.Location = new System.Drawing.Point(76, 69);
             PanelSlide.Margin = new System.Windows.Forms.Padding(2);
             PanelSlide.Name = "PanelSlide";
-            PanelSlide.Size = new System.Drawing.Size(301, 1011);
+            PanelSlide.Size = new System.Drawing.Size(301, 719);
             PanelSlide.TabIndex = 3;
             // 
             // tableLayoutPanel1
@@ -519,7 +519,7 @@
             AutoSize = true;
             AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
-            ClientSize = new System.Drawing.Size(1920, 1080);
+            ClientSize = new System.Drawing.Size(1386, 788);
             Controls.Add(PanelSlide);
             Controls.Add(panel1);
             Controls.Add(panel2);
