@@ -53,12 +53,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new System.Windows.Forms.Panel();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -79,9 +79,9 @@
             flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             lblSetting = new System.Windows.Forms.Label();
             panelBottom = new System.Windows.Forms.Panel();
-            btnEditProfile = new Guna.UI2.WinForms.Guna2Button();
-            btnAccountSetting = new Guna.UI2.WinForms.Guna2Button();
             btnAppearance = new Guna.UI2.WinForms.Guna2Button();
+            btnAccountSetting = new Guna.UI2.WinForms.Guna2Button();
+            btnEditProfile = new Guna.UI2.WinForms.Guna2Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -207,11 +207,11 @@
             // lblIcon
             // 
             lblIcon.AutoSize = true;
-            lblIcon.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             lblIcon.ForeColor = System.Drawing.Color.DarkGray;
             lblIcon.Location = new System.Drawing.Point(74, 12);
             lblIcon.Name = "lblIcon";
-            lblIcon.Size = new System.Drawing.Size(124, 24);
+            lblIcon.Size = new System.Drawing.Size(113, 20);
             lblIcon.TabIndex = 2;
             lblIcon.Text = "Swap n Share";
             // 
@@ -268,7 +268,7 @@
             btnHome.Dock = System.Windows.Forms.DockStyle.Fill;
             btnHome.FillColor = System.Drawing.Color.WhiteSmoke;
             btnHome.FocusedColor = System.Drawing.Color.DarkGray;
-            btnHome.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnHome.ForeColor = System.Drawing.Color.Black;
             btnHome.Image = (System.Drawing.Image)resources.GetObject("btnHome.Image");
             btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -303,7 +303,7 @@
             btnProfile.Dock = System.Windows.Forms.DockStyle.Fill;
             btnProfile.FillColor = System.Drawing.Color.WhiteSmoke;
             btnProfile.FocusedColor = System.Drawing.Color.DarkGray;
-            btnProfile.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnProfile.ForeColor = System.Drawing.Color.Black;
             btnProfile.Image = (System.Drawing.Image)resources.GetObject("btnProfile.Image");
             btnProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -337,7 +337,7 @@
             btnSetting.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
             btnSetting.FillColor = System.Drawing.Color.WhiteSmoke;
             btnSetting.FocusedColor = System.Drawing.Color.DarkGray;
-            btnSetting.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnSetting.ForeColor = System.Drawing.Color.Black;
             btnSetting.Image = (System.Drawing.Image)resources.GetObject("btnSetting.Image");
             btnSetting.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -367,10 +367,10 @@
             // 
             lblSetting.AutoSize = true;
             lblSetting.BackColor = System.Drawing.Color.Transparent;
-            lblSetting.Font = new System.Drawing.Font("Montserrat", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            lblSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             lblSetting.Location = new System.Drawing.Point(266, 75);
             lblSetting.Name = "lblSetting";
-            lblSetting.Size = new System.Drawing.Size(197, 55);
+            lblSetting.Size = new System.Drawing.Size(172, 46);
             lblSetting.TabIndex = 15;
             lblSetting.Text = "Settings";
             lblSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -386,28 +386,28 @@
             panelBottom.Size = new System.Drawing.Size(854, 561);
             panelBottom.TabIndex = 16;
             // 
-            // btnEditProfile
+            // btnAppearance
             // 
-            btnEditProfile.BackColor = System.Drawing.Color.Transparent;
-            btnEditProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            btnEditProfile.CustomizableEdges = customizableEdges29;
-            btnEditProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            btnEditProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            btnEditProfile.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            btnEditProfile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            btnEditProfile.FillColor = System.Drawing.Color.Transparent;
-            btnEditProfile.Font = new System.Drawing.Font("Montserrat SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            btnEditProfile.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
-            btnEditProfile.Image = (System.Drawing.Image)resources.GetObject("btnEditProfile.Image");
-            btnEditProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            btnEditProfile.Location = new System.Drawing.Point(53, 50);
-            btnEditProfile.Name = "btnEditProfile";
-            btnEditProfile.PressedColor = System.Drawing.Color.Transparent;
-            btnEditProfile.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            btnEditProfile.Size = new System.Drawing.Size(762, 45);
-            btnEditProfile.TabIndex = 12;
-            btnEditProfile.Text = "Edit Profile";
-            btnEditProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            btnAppearance.BackColor = System.Drawing.Color.Transparent;
+            btnAppearance.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnAppearance.CustomizableEdges = customizableEdges25;
+            btnAppearance.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnAppearance.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnAppearance.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnAppearance.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnAppearance.FillColor = System.Drawing.Color.Transparent;
+            btnAppearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnAppearance.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
+            btnAppearance.Image = (System.Drawing.Image)resources.GetObject("btnAppearance.Image");
+            btnAppearance.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            btnAppearance.Location = new System.Drawing.Point(53, 235);
+            btnAppearance.Name = "btnAppearance";
+            btnAppearance.PressedColor = System.Drawing.Color.Transparent;
+            btnAppearance.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnAppearance.Size = new System.Drawing.Size(762, 45);
+            btnAppearance.TabIndex = 14;
+            btnAppearance.Text = "Appearance";
+            btnAppearance.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // btnAccountSetting
             // 
@@ -419,7 +419,7 @@
             btnAccountSetting.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
             btnAccountSetting.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
             btnAccountSetting.FillColor = System.Drawing.Color.Transparent;
-            btnAccountSetting.Font = new System.Drawing.Font("Montserrat SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnAccountSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnAccountSetting.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
             btnAccountSetting.Image = (System.Drawing.Image)resources.GetObject("btnAccountSetting.Image");
             btnAccountSetting.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -432,28 +432,28 @@
             btnAccountSetting.Text = "Account Settings";
             btnAccountSetting.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // btnAppearance
+            // btnEditProfile
             // 
-            btnAppearance.BackColor = System.Drawing.Color.Transparent;
-            btnAppearance.Cursor = System.Windows.Forms.Cursors.Hand;
-            btnAppearance.CustomizableEdges = customizableEdges25;
-            btnAppearance.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            btnAppearance.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            btnAppearance.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            btnAppearance.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            btnAppearance.FillColor = System.Drawing.Color.Transparent;
-            btnAppearance.Font = new System.Drawing.Font("Montserrat SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            btnAppearance.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
-            btnAppearance.Image = (System.Drawing.Image)resources.GetObject("btnAppearance.Image");
-            btnAppearance.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            btnAppearance.Location = new System.Drawing.Point(53, 235);
-            btnAppearance.Name = "btnAppearance";
-            btnAppearance.PressedColor = System.Drawing.Color.Transparent;
-            btnAppearance.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            btnAppearance.Size = new System.Drawing.Size(762, 45);
-            btnAppearance.TabIndex = 14;
-            btnAppearance.Text = "Appearance";
-            btnAppearance.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            btnEditProfile.BackColor = System.Drawing.Color.Transparent;
+            btnEditProfile.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnEditProfile.CustomizableEdges = customizableEdges29;
+            btnEditProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnEditProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnEditProfile.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnEditProfile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnEditProfile.FillColor = System.Drawing.Color.Transparent;
+            btnEditProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnEditProfile.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
+            btnEditProfile.Image = (System.Drawing.Image)resources.GetObject("btnEditProfile.Image");
+            btnEditProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            btnEditProfile.Location = new System.Drawing.Point(53, 50);
+            btnEditProfile.Name = "btnEditProfile";
+            btnEditProfile.PressedColor = System.Drawing.Color.Transparent;
+            btnEditProfile.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            btnEditProfile.Size = new System.Drawing.Size(762, 45);
+            btnEditProfile.TabIndex = 12;
+            btnEditProfile.Text = "Edit Profile";
+            btnEditProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // FrmSetting
             // 
@@ -469,6 +469,7 @@
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "FrmSetting";
             Text = "FrmSetting";
+            Load += FrmSetting_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

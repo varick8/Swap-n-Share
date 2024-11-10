@@ -16,5 +16,10 @@ namespace Swap_n_Share
         {
             InitializeComponent();
         }
+
+        private void FrmSetting_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
