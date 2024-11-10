@@ -81,5 +81,12 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            FrmProduct sd = new FrmProduct();
+            this.Hide();
+            sd.Show();
+        }
     }
 }
