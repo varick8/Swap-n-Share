@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmHome : Form
+    public partial class FrmCommunity : Form
     {
         int panelWidth;
         bool Hidden;
-        public FrmHome()
+        public FrmCommunity()
         {
             InitializeComponent();
             panelWidth = PanelSlide.Width;
