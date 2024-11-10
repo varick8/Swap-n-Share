@@ -69,5 +69,17 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            FrmHome sd = new FrmHome();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void FrmCommunity_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
