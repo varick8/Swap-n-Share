@@ -47,7 +47,7 @@
             // 
             labelName.AutoSize = true;
             labelName.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            labelName.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            labelName.ForeColor = System.Drawing.Color.White;
             labelName.Location = new System.Drawing.Point(91, 16);
             labelName.Name = "labelName";
             labelName.Size = new System.Drawing.Size(84, 28);
@@ -58,7 +58,7 @@
             // 
             labelStatus.AutoSize = true;
             labelStatus.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            labelStatus.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
+            labelStatus.ForeColor = System.Drawing.Color.White;
             labelStatus.Location = new System.Drawing.Point(91, 44);
             labelStatus.Name = "labelStatus";
             labelStatus.Size = new System.Drawing.Size(86, 30);
@@ -69,6 +69,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.Transparent;
             Controls.Add(labelStatus);
             Controls.Add(labelName);
             Controls.Add(pictureBox1);
