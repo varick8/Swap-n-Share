@@ -16,5 +16,10 @@ namespace Swap_n_Share
         {
             InitializeComponent();
         }
+
+        private void guna2ControlBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
