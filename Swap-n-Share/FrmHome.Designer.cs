@@ -54,6 +54,7 @@
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            label1 = new System.Windows.Forms.Label();
             panel1 = new System.Windows.Forms.Panel();
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -61,6 +62,10 @@
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             PanelSlide = new System.Windows.Forms.Panel();
+            uCcommunity6 = new UserControls.UCcommunity();
+            uCcommunity5 = new UserControls.UCcommunity();
+            uCcommunity4 = new UserControls.UCcommunity();
+            uCcommunity3 = new UserControls.UCcommunity();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             uCcommunity2 = new UserControls.UCcommunity();
             uCcommunity1 = new UserControls.UCcommunity();
@@ -70,7 +75,6 @@
             label5 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
             timer1 = new System.Windows.Forms.Timer(components);
-            label1 = new System.Windows.Forms.Label();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             PanelSlide.SuspendLayout();
@@ -138,6 +142,21 @@
             guna2ControlBox1.Size = new System.Drawing.Size(60, 58);
             guna2ControlBox1.TabIndex = 4;
             guna2ControlBox1.Click += guna2ControlBox1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = System.Drawing.Color.Transparent;
+            label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label1.ForeColor = System.Drawing.Color.White;
+            label1.Location = new System.Drawing.Point(41, 41);
+            label1.MaximumSize = new System.Drawing.Size(232, 39);
+            label1.MinimumSize = new System.Drawing.Size(232, 39);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(232, 39);
+            label1.TabIndex = 4;
+            label1.Text = "Swap n Share";
+            label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel1
             // 
@@ -251,6 +270,10 @@
             // PanelSlide
             // 
             PanelSlide.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            PanelSlide.Controls.Add(uCcommunity6);
+            PanelSlide.Controls.Add(uCcommunity5);
+            PanelSlide.Controls.Add(uCcommunity4);
+            PanelSlide.Controls.Add(uCcommunity3);
             PanelSlide.Controls.Add(guna2TextBox1);
             PanelSlide.Controls.Add(uCcommunity2);
             PanelSlide.Controls.Add(uCcommunity1);
@@ -264,6 +287,50 @@
             PanelSlide.Name = "PanelSlide";
             PanelSlide.Size = new System.Drawing.Size(476, 899);
             PanelSlide.TabIndex = 3;
+            // 
+            // uCcommunity6
+            // 
+            uCcommunity6.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity6.Location = new System.Drawing.Point(57, 755);
+            uCcommunity6.Name = "uCcommunity6";
+            uCcommunity6.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity6.ProfilePic");
+            uCcommunity6.Size = new System.Drawing.Size(360, 91);
+            uCcommunity6.TabIndex = 42;
+            uCcommunity6.txtName = "Photography";
+            uCcommunity6.txtStatus = "Free Join";
+            // 
+            // uCcommunity5
+            // 
+            uCcommunity5.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity5.Location = new System.Drawing.Point(56, 955);
+            uCcommunity5.Name = "uCcommunity5";
+            uCcommunity5.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity5.ProfilePic");
+            uCcommunity5.Size = new System.Drawing.Size(360, 91);
+            uCcommunity5.TabIndex = 41;
+            uCcommunity5.txtName = "Exercise Tools";
+            uCcommunity5.txtStatus = "Free Join";
+            // 
+            // uCcommunity4
+            // 
+            uCcommunity4.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity4.Location = new System.Drawing.Point(57, 862);
+            uCcommunity4.Name = "uCcommunity4";
+            uCcommunity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity4.ProfilePic");
+            uCcommunity4.Size = new System.Drawing.Size(360, 91);
+            uCcommunity4.TabIndex = 40;
+            uCcommunity4.txtName = "Custom or Clothes";
+            uCcommunity4.txtStatus = "Free Join";
+            // 
+            // uCcommunity3
+            // 
+            uCcommunity3.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity3.Location = new System.Drawing.Point(63, 658);
+            uCcommunity3.Name = "uCcommunity3";
+            uCcommunity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity3.ProfilePic");
+            uCcommunity3.Size = new System.Drawing.Size(360, 91);
+            uCcommunity3.TabIndex = 39;
+            uCcommunity3.txtName = "Service Tools";
+            uCcommunity3.txtStatus = "Free Join";
             // 
             // guna2TextBox1
             // 
@@ -393,22 +460,8 @@
             // 
             // timer1
             // 
+            timer1.Interval = 2;
             timer1.Tick += timer1_Tick;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label1.ForeColor = System.Drawing.Color.White;
-            label1.Location = new System.Drawing.Point(41, 41);
-            label1.MaximumSize = new System.Drawing.Size(232, 39);
-            label1.MinimumSize = new System.Drawing.Size(232, 39);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(232, 39);
-            label1.TabIndex = 4;
-            label1.Text = "Swap n Share";
-            label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FrmHome
             // 
@@ -460,5 +513,9 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
         private System.Windows.Forms.Label label1;
+        private UserControls.UCcommunity uCcommunity4;
+        private UserControls.UCcommunity uCcommunity3;
+        private UserControls.UCcommunity uCcommunity5;
+        private UserControls.UCcommunity uCcommunity6;
     }
 }
