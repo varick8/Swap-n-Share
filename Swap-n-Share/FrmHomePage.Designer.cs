@@ -30,8 +30,8 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHomePage));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new System.Windows.Forms.Panel();
             button7 = new System.Windows.Forms.Button();
             button6 = new System.Windows.Forms.Button();
@@ -74,6 +74,8 @@
             panel1.Controls.Add(label1);
             panel1.Dock = System.Windows.Forms.DockStyle.Top;
             panel1.Location = new System.Drawing.Point(0, 0);
+            panel1.MaximumSize = new System.Drawing.Size(2054, 69);
+            panel1.MinimumSize = new System.Drawing.Size(2054, 69);
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(2054, 69);
             panel1.TabIndex = 0;
@@ -124,6 +126,8 @@
             panel2.Controls.Add(button1);
             panel2.Dock = System.Windows.Forms.DockStyle.Left;
             panel2.Location = new System.Drawing.Point(0, 69);
+            panel2.MaximumSize = new System.Drawing.Size(95, 1012);
+            panel2.MinimumSize = new System.Drawing.Size(95, 1012);
             panel2.Name = "panel2";
             panel2.Size = new System.Drawing.Size(95, 1012);
             panel2.TabIndex = 1;
@@ -191,6 +195,8 @@
             PanelSlide.Controls.Add(uCcommunity1);
             PanelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             PanelSlide.Location = new System.Drawing.Point(95, 69);
+            PanelSlide.MaximumSize = new System.Drawing.Size(400, 1012);
+            PanelSlide.MinimumSize = new System.Drawing.Size(400, 1012);
             PanelSlide.Name = "PanelSlide";
             PanelSlide.Size = new System.Drawing.Size(400, 1012);
             PanelSlide.TabIndex = 2;
@@ -240,7 +246,7 @@
             txtEmail.BorderRadius = 20;
             txtEmail.BorderThickness = 2;
             txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            txtEmail.CustomizableEdges = customizableEdges1;
+            txtEmail.CustomizableEdges = customizableEdges5;
             txtEmail.DefaultText = "";
             txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
@@ -259,7 +265,7 @@
             txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             txtEmail.PlaceholderText = "";
             txtEmail.SelectedText = "";
-            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges6;
             txtEmail.Size = new System.Drawing.Size(320, 44);
             txtEmail.TabIndex = 27;
             txtEmail.TextOffset = new System.Drawing.Point(20, 0);
@@ -440,6 +446,8 @@
             Controls.Add(PanelSlide);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            MaximumSize = new System.Drawing.Size(2080, 1152);
+            MinimumSize = new System.Drawing.Size(2080, 1152);
             Name = "FrmHomePage";
             Text = "Search Community";
             Load += FrmHomePage_Load;
