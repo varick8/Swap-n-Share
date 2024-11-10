@@ -51,8 +51,6 @@
             cbMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             cbMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
             cbClose = new Guna.UI2.WinForms.Guna2ControlBox();
-            lblIcon = new System.Windows.Forms.Label();
-            pictureBox2 = new System.Windows.Forms.PictureBox();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             panelHome = new Guna.UI2.WinForms.Guna2Panel();
@@ -64,7 +62,6 @@
             lblHomePage = new System.Windows.Forms.Label();
             flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             panelHome.SuspendLayout();
@@ -74,17 +71,15 @@
             // 
             // panel1
             // 
-            panel1.BackColor = System.Drawing.Color.White;
+            panel1.BackColor = System.Drawing.Color.FromArgb(255, 146, 13);
             panel1.Controls.Add(cbMinimize);
             panel1.Controls.Add(cbMaximize);
             panel1.Controls.Add(cbClose);
-            panel1.Controls.Add(lblIcon);
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(pictureBox1);
             panel1.Dock = System.Windows.Forms.DockStyle.Top;
             panel1.Location = new System.Drawing.Point(0, 0);
+            panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(1280, 46);
+            panel1.Size = new System.Drawing.Size(2080, 14);
             panel1.TabIndex = 0;
             // 
             // cbMinimize
@@ -96,11 +91,12 @@
             cbMinimize.FillColor = System.Drawing.Color.Transparent;
             cbMinimize.IconColor = System.Drawing.Color.DarkGray;
             cbMinimize.ImeMode = System.Windows.Forms.ImeMode.Close;
-            cbMinimize.Location = new System.Drawing.Point(1127, 12);
+            cbMinimize.Location = new System.Drawing.Point(1831, 19);
+            cbMinimize.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             cbMinimize.Name = "cbMinimize";
             cbMinimize.PressedDepth = 50;
             cbMinimize.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            cbMinimize.Size = new System.Drawing.Size(43, 21);
+            cbMinimize.Size = new System.Drawing.Size(70, 34);
             cbMinimize.TabIndex = 5;
             // 
             // cbMaximize
@@ -112,11 +108,12 @@
             cbMaximize.FillColor = System.Drawing.Color.Transparent;
             cbMaximize.IconColor = System.Drawing.Color.DarkGray;
             cbMaximize.ImeMode = System.Windows.Forms.ImeMode.Close;
-            cbMaximize.Location = new System.Drawing.Point(1176, 12);
+            cbMaximize.Location = new System.Drawing.Point(1911, 19);
+            cbMaximize.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             cbMaximize.Name = "cbMaximize";
             cbMaximize.PressedDepth = 50;
             cbMaximize.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            cbMaximize.Size = new System.Drawing.Size(43, 21);
+            cbMaximize.Size = new System.Drawing.Size(70, 34);
             cbMaximize.TabIndex = 4;
             // 
             // cbClose
@@ -127,65 +124,48 @@
             cbClose.FillColor = System.Drawing.Color.Transparent;
             cbClose.IconColor = System.Drawing.Color.DarkGray;
             cbClose.ImeMode = System.Windows.Forms.ImeMode.Close;
-            cbClose.Location = new System.Drawing.Point(1225, 12);
+            cbClose.Location = new System.Drawing.Point(1991, 19);
+            cbClose.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             cbClose.Name = "cbClose";
             cbClose.PressedDepth = 50;
             cbClose.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            cbClose.Size = new System.Drawing.Size(43, 21);
+            cbClose.Size = new System.Drawing.Size(70, 34);
             cbClose.TabIndex = 3;
-            // 
-            // lblIcon
-            // 
-            lblIcon.AutoSize = true;
-            lblIcon.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            lblIcon.ForeColor = System.Drawing.Color.DarkGray;
-            lblIcon.Location = new System.Drawing.Point(74, 12);
-            lblIcon.Name = "lblIcon";
-            lblIcon.Size = new System.Drawing.Size(124, 24);
-            lblIcon.TabIndex = 2;
-            lblIcon.Text = "Swap n Share";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.SnS_LogoB;
-            pictureBox2.Location = new System.Drawing.Point(12, 0);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(43, 55);
-            pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.SnS_LogoB;
-            pictureBox1.Location = new System.Drawing.Point(12, 3);
+            pictureBox1.Location = new System.Drawing.Point(611, 318);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(43, 55);
+            pictureBox1.Size = new System.Drawing.Size(70, 88);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(17, 64, 187);
             flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             flowLayoutPanel1.Controls.Add(panelHome);
             flowLayoutPanel1.Controls.Add(panelProfile);
             flowLayoutPanel1.Controls.Add(panelSetting);
             flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            flowLayoutPanel1.Location = new System.Drawing.Point(0, 46);
+            flowLayoutPanel1.Location = new System.Drawing.Point(0, 14);
+            flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new System.Drawing.Size(213, 674);
+            flowLayoutPanel1.Size = new System.Drawing.Size(345, 1138);
             flowLayoutPanel1.TabIndex = 1;
             // 
             // panelHome
             // 
             panelHome.Controls.Add(btnHome);
             panelHome.CustomizableEdges = customizableEdges9;
-            panelHome.Location = new System.Drawing.Point(3, 3);
+            panelHome.Location = new System.Drawing.Point(5, 5);
+            panelHome.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             panelHome.Name = "panelHome";
             panelHome.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            panelHome.Size = new System.Drawing.Size(183, 64);
+            panelHome.Size = new System.Drawing.Size(297, 102);
             panelHome.TabIndex = 3;
             // 
             // btnHome
@@ -198,17 +178,18 @@
             btnHome.Dock = System.Windows.Forms.DockStyle.Fill;
             btnHome.FillColor = System.Drawing.Color.WhiteSmoke;
             btnHome.FocusedColor = System.Drawing.Color.DarkGray;
-            btnHome.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnHome.ForeColor = System.Drawing.Color.Black;
             btnHome.Image = (System.Drawing.Image)resources.GetObject("btnHome.Image");
             btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             btnHome.ImageOffset = new System.Drawing.Point(30, 0);
             btnHome.Location = new System.Drawing.Point(0, 0);
+            btnHome.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             btnHome.Name = "btnHome";
-            btnHome.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnHome.Padding = new System.Windows.Forms.Padding(57, 0, 0, 0);
             btnHome.PressedColor = System.Drawing.Color.DarkGray;
             btnHome.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnHome.Size = new System.Drawing.Size(183, 64);
+            btnHome.Size = new System.Drawing.Size(297, 102);
             btnHome.TabIndex = 0;
             btnHome.Text = "Home";
             btnHome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -218,10 +199,13 @@
             // 
             panelProfile.Controls.Add(btnProfile);
             panelProfile.CustomizableEdges = customizableEdges13;
-            panelProfile.Location = new System.Drawing.Point(3, 73);
+
+            panelProfile.Location = new System.Drawing.Point(5, 117);
+            panelProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             panelProfile.Name = "panelProfile";
             panelProfile.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            panelProfile.Size = new System.Drawing.Size(181, 64);
+            panelProfile.Size = new System.Drawing.Size(294, 102);
+
             panelProfile.TabIndex = 4;
             // 
             // btnProfile
@@ -234,17 +218,23 @@
             btnProfile.Dock = System.Windows.Forms.DockStyle.Fill;
             btnProfile.FillColor = System.Drawing.Color.WhiteSmoke;
             btnProfile.FocusedColor = System.Drawing.Color.DarkGray;
+
             btnProfile.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+
             btnProfile.ForeColor = System.Drawing.Color.Black;
             btnProfile.Image = (System.Drawing.Image)resources.GetObject("btnProfile.Image");
             btnProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             btnProfile.ImageOffset = new System.Drawing.Point(30, 0);
+
+            btnProfile.ImageSize = new System.Drawing.Size(40, 40);
             btnProfile.Location = new System.Drawing.Point(0, 0);
+            btnProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             btnProfile.Name = "btnProfile";
-            btnProfile.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnProfile.Padding = new System.Windows.Forms.Padding(57, 0, 0, 0);
             btnProfile.PressedColor = System.Drawing.Color.DarkGray;
             btnProfile.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnProfile.Size = new System.Drawing.Size(181, 64);
+            btnProfile.Size = new System.Drawing.Size(294, 102);
+
             btnProfile.TabIndex = 4;
             btnProfile.Text = "Profile";
             btnProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -253,10 +243,11 @@
             // 
             panelSetting.Controls.Add(btnSetting);
             panelSetting.CustomizableEdges = customizableEdges17;
-            panelSetting.Location = new System.Drawing.Point(3, 143);
+            panelSetting.Location = new System.Drawing.Point(5, 229);
+            panelSetting.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             panelSetting.Name = "panelSetting";
             panelSetting.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            panelSetting.Size = new System.Drawing.Size(206, 64);
+            panelSetting.Size = new System.Drawing.Size(335, 102);
             panelSetting.TabIndex = 4;
             // 
             // btnSetting
@@ -268,17 +259,18 @@
             btnSetting.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
             btnSetting.FillColor = System.Drawing.Color.WhiteSmoke;
             btnSetting.FocusedColor = System.Drawing.Color.DarkGray;
-            btnSetting.Font = new System.Drawing.Font("Montserrat Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnSetting.ForeColor = System.Drawing.Color.Black;
             btnSetting.Image = (System.Drawing.Image)resources.GetObject("btnSetting.Image");
             btnSetting.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             btnSetting.ImageOffset = new System.Drawing.Point(30, 0);
             btnSetting.Location = new System.Drawing.Point(0, 0);
+            btnSetting.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             btnSetting.Name = "btnSetting";
-            btnSetting.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnSetting.Padding = new System.Windows.Forms.Padding(57, 0, 0, 0);
             btnSetting.PressedColor = System.Drawing.Color.DarkGray;
             btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnSetting.Size = new System.Drawing.Size(206, 64);
+            btnSetting.Size = new System.Drawing.Size(335, 102);
             btnSetting.TabIndex = 1;
             btnSetting.Text = "Setting";
             btnSetting.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -287,10 +279,13 @@
             // lblHomePage
             // 
             lblHomePage.AutoSize = true;
-            lblHomePage.Font = new System.Drawing.Font("Montserrat SemiBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            lblHomePage.Location = new System.Drawing.Point(518, 350);
+
+            lblHomePage.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            lblHomePage.Location = new System.Drawing.Point(1064, 528);
+            lblHomePage.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+
             lblHomePage.Name = "lblHomePage";
-            lblHomePage.Size = new System.Drawing.Size(185, 39);
+            lblHomePage.Size = new System.Drawing.Size(261, 52);
             lblHomePage.TabIndex = 2;
             lblHomePage.Text = "Home Page";
             // 
@@ -299,31 +294,32 @@
             flowLayoutPanel2.BackColor = System.Drawing.Color.WhiteSmoke;
             flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Right;
-            flowLayoutPanel2.Location = new System.Drawing.Point(1067, 46);
+            flowLayoutPanel2.Location = new System.Drawing.Point(1735, 14);
+            flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new System.Drawing.Size(213, 674);
+            flowLayoutPanel2.Size = new System.Drawing.Size(345, 1138);
             flowLayoutPanel2.TabIndex = 9;
             // 
             // FrmHome
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             AutoSize = true;
             AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             BackColor = System.Drawing.Color.White;
-            ClientSize = new System.Drawing.Size(1280, 720);
+            ClientSize = new System.Drawing.Size(2080, 1152);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(lblHomePage);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel1);
+            Controls.Add(pictureBox1);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             Name = "FrmHome";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "FrmHome";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             panelHome.ResumeLayout(false);
@@ -337,12 +333,10 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblIcon;
         private Guna.UI2.WinForms.Guna2ControlBox cbClose;
         private Guna.UI2.WinForms.Guna2ControlBox cbMinimize;
         private Guna.UI2.WinForms.Guna2ControlBox cbMaximize;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2Panel panelHome;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2Button btnSetting;

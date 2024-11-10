@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -78,7 +79,7 @@
             label1.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label1.Location = new System.Drawing.Point(163, 99);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(135, 55);
+            label1.Size = new System.Drawing.Size(271, 109);
             label1.TabIndex = 16;
             label1.Text = "cash";
             // 
@@ -91,7 +92,7 @@
             SignUpLinkLabel.LinkColor = System.Drawing.Color.FromArgb(255, 146, 13);
             SignUpLinkLabel.Location = new System.Drawing.Point(490, 566);
             SignUpLinkLabel.Name = "SignUpLinkLabel";
-            SignUpLinkLabel.Size = new System.Drawing.Size(58, 15);
+            SignUpLinkLabel.Size = new System.Drawing.Size(106, 29);
             SignUpLinkLabel.TabIndex = 15;
             SignUpLinkLabel.TabStop = true;
             SignUpLinkLabel.Text = "Sign Up";
@@ -111,10 +112,13 @@
             LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             LoginButton.ForeColor = System.Drawing.Color.White;
             LoginButton.HoverState.FillColor = System.Drawing.Color.FromArgb(0, 32, 115);
-            LoginButton.Location = new System.Drawing.Point(345, 515);
+            LoginButton.Image = (System.Drawing.Image)resources.GetObject("LoginButton.Image");
+            LoginButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            LoginButton.ImageSize = new System.Drawing.Size(40, 40);
+            LoginButton.Location = new System.Drawing.Point(387, 515);
             LoginButton.Name = "LoginButton";
             LoginButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            LoginButton.Size = new System.Drawing.Size(214, 45);
+            LoginButton.Size = new System.Drawing.Size(209, 45);
             LoginButton.TabIndex = 14;
             LoginButton.Text = "Login";
             LoginButton.Click += LoginButton_Clicks;
@@ -125,7 +129,7 @@
             LoginTitleTxt2.Font = new System.Drawing.Font("Lucida Sans", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             LoginTitleTxt2.Location = new System.Drawing.Point(91, 154);
             LoginTitleTxt2.Name = "LoginTitleTxt2";
-            LoginTitleTxt2.Size = new System.Drawing.Size(351, 39);
+            LoginTitleTxt2.Size = new System.Drawing.Size(694, 79);
             LoginTitleTxt2.TabIndex = 13;
             LoginTitleTxt2.Text = "just fair exchange!";
             // 
@@ -135,7 +139,7 @@
             LoginTitleTxt1.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             LoginTitleTxt1.Location = new System.Drawing.Point(81, 99);
             LoginTitleTxt1.Name = "LoginTitleTxt1";
-            LoginTitleTxt1.Size = new System.Drawing.Size(422, 55);
+            LoginTitleTxt1.Size = new System.Drawing.Size(850, 109);
             LoginTitleTxt1.TabIndex = 12;
             LoginTitleTxt1.Text = "No cash needed,";
             // 
@@ -203,9 +207,9 @@
             ShowPassCB.Cursor = System.Windows.Forms.Cursors.Hand;
             ShowPassCB.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             ShowPassCB.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            ShowPassCB.Location = new System.Drawing.Point(444, 451);
+            ShowPassCB.Location = new System.Drawing.Point(349, 451);
             ShowPassCB.Name = "ShowPassCB";
-            ShowPassCB.Size = new System.Drawing.Size(115, 17);
+            ShowPassCB.Size = new System.Drawing.Size(210, 29);
             ShowPassCB.TabIndex = 9;
             ShowPassCB.Text = "Show Password";
             ShowPassCB.UseVisualStyleBackColor = true;
@@ -218,7 +222,7 @@
             PasswordTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             PasswordTxt.Location = new System.Drawing.Point(91, 362);
             PasswordTxt.Name = "PasswordTxt";
-            PasswordTxt.Size = new System.Drawing.Size(72, 19);
+            PasswordTxt.Size = new System.Drawing.Size(131, 33);
             PasswordTxt.TabIndex = 4;
             PasswordTxt.Text = "Password";
             // 
@@ -229,7 +233,7 @@
             UsernameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             UsernameTxt.Location = new System.Drawing.Point(91, 261);
             UsernameTxt.Name = "UsernameTxt";
-            UsernameTxt.Size = new System.Drawing.Size(76, 19);
+            UsernameTxt.Size = new System.Drawing.Size(136, 33);
             UsernameTxt.TabIndex = 3;
             UsernameTxt.Text = "Username";
             // 
