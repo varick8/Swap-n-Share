@@ -30,8 +30,8 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHomePage));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new System.Windows.Forms.Panel();
             button7 = new System.Windows.Forms.Button();
             button6 = new System.Windows.Forms.Button();
@@ -74,8 +74,6 @@
             panel1.Controls.Add(label1);
             panel1.Dock = System.Windows.Forms.DockStyle.Top;
             panel1.Location = new System.Drawing.Point(0, 0);
-            panel1.MaximumSize = new System.Drawing.Size(2054, 69);
-            panel1.MinimumSize = new System.Drawing.Size(2054, 69);
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(2054, 69);
             panel1.TabIndex = 0;
@@ -85,8 +83,6 @@
             button7.BackColor = System.Drawing.Color.Transparent;
             button7.Image = (System.Drawing.Image)resources.GetObject("button7.Image");
             button7.Location = new System.Drawing.Point(1943, 12);
-            button7.MaximumSize = new System.Drawing.Size(32, 41);
-            button7.MinimumSize = new System.Drawing.Size(32, 41);
             button7.Name = "button7";
             button7.Size = new System.Drawing.Size(32, 41);
             button7.TabIndex = 4;
@@ -97,8 +93,6 @@
             button6.BackColor = System.Drawing.Color.Transparent;
             button6.Image = (System.Drawing.Image)resources.GetObject("button6.Image");
             button6.Location = new System.Drawing.Point(1981, 12);
-            button6.MaximumSize = new System.Drawing.Size(40, 41);
-            button6.MinimumSize = new System.Drawing.Size(40, 41);
             button6.Name = "button6";
             button6.Size = new System.Drawing.Size(40, 41);
             button6.TabIndex = 2;
@@ -111,8 +105,6 @@
             label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label1.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label1.Location = new System.Drawing.Point(16, 14);
-            label1.MaximumSize = new System.Drawing.Size(232, 39);
-            label1.MinimumSize = new System.Drawing.Size(232, 39);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(232, 39);
             label1.TabIndex = 3;
@@ -126,8 +118,6 @@
             panel2.Controls.Add(button1);
             panel2.Dock = System.Windows.Forms.DockStyle.Left;
             panel2.Location = new System.Drawing.Point(0, 69);
-            panel2.MaximumSize = new System.Drawing.Size(95, 1012);
-            panel2.MinimumSize = new System.Drawing.Size(95, 1012);
             panel2.Name = "panel2";
             panel2.Size = new System.Drawing.Size(95, 1012);
             panel2.TabIndex = 1;
@@ -137,8 +127,6 @@
             button5.BackColor = System.Drawing.Color.Transparent;
             button5.Image = (System.Drawing.Image)resources.GetObject("button5.Image");
             button5.Location = new System.Drawing.Point(0, 852);
-            button5.MaximumSize = new System.Drawing.Size(95, 81);
-            button5.MinimumSize = new System.Drawing.Size(95, 81);
             button5.Name = "button5";
             button5.Size = new System.Drawing.Size(95, 81);
             button5.TabIndex = 4;
@@ -149,8 +137,6 @@
             button4.BackColor = System.Drawing.Color.Transparent;
             button4.Image = (System.Drawing.Image)resources.GetObject("button4.Image");
             button4.Location = new System.Drawing.Point(0, 76);
-            button4.MaximumSize = new System.Drawing.Size(95, 81);
-            button4.MinimumSize = new System.Drawing.Size(95, 81);
             button4.Name = "button4";
             button4.Size = new System.Drawing.Size(95, 81);
             button4.TabIndex = 3;
@@ -161,8 +147,6 @@
             button2.BackColor = System.Drawing.Color.Transparent;
             button2.Image = (System.Drawing.Image)resources.GetObject("button2.Image");
             button2.Location = new System.Drawing.Point(-1, 931);
-            button2.MaximumSize = new System.Drawing.Size(95, 81);
-            button2.MinimumSize = new System.Drawing.Size(95, 81);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(95, 81);
             button2.TabIndex = 1;
@@ -173,8 +157,6 @@
             button1.BackColor = System.Drawing.Color.Transparent;
             button1.Image = (System.Drawing.Image)resources.GetObject("button1.Image");
             button1.Location = new System.Drawing.Point(0, 0);
-            button1.MaximumSize = new System.Drawing.Size(95, 81);
-            button1.MinimumSize = new System.Drawing.Size(95, 81);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(95, 81);
             button1.TabIndex = 0;
@@ -195,8 +177,6 @@
             PanelSlide.Controls.Add(uCcommunity1);
             PanelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             PanelSlide.Location = new System.Drawing.Point(95, 69);
-            PanelSlide.MaximumSize = new System.Drawing.Size(400, 1012);
-            PanelSlide.MinimumSize = new System.Drawing.Size(400, 1012);
             PanelSlide.Name = "PanelSlide";
             PanelSlide.Size = new System.Drawing.Size(400, 1012);
             PanelSlide.TabIndex = 2;
@@ -246,7 +226,7 @@
             txtEmail.BorderRadius = 20;
             txtEmail.BorderThickness = 2;
             txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            txtEmail.CustomizableEdges = customizableEdges5;
+            txtEmail.CustomizableEdges = customizableEdges1;
             txtEmail.DefaultText = "";
             txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
@@ -265,7 +245,7 @@
             txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             txtEmail.PlaceholderText = "";
             txtEmail.SelectedText = "";
-            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txtEmail.Size = new System.Drawing.Size(320, 44);
             txtEmail.TabIndex = 27;
             txtEmail.TextOffset = new System.Drawing.Point(20, 0);
@@ -273,8 +253,6 @@
             // uCcommunity4
             // 
             uCcommunity4.Location = new System.Drawing.Point(0, 631);
-            uCcommunity4.MaximumSize = new System.Drawing.Size(397, 107);
-            uCcommunity4.MinimumSize = new System.Drawing.Size(397, 107);
             uCcommunity4.Name = "uCcommunity4";
             uCcommunity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity4.ProfilePic");
             uCcommunity4.Size = new System.Drawing.Size(397, 107);
@@ -285,8 +263,6 @@
             // uCcommunity3
             // 
             uCcommunity3.Location = new System.Drawing.Point(0, 537);
-            uCcommunity3.MaximumSize = new System.Drawing.Size(397, 107);
-            uCcommunity3.MinimumSize = new System.Drawing.Size(397, 107);
             uCcommunity3.Name = "uCcommunity3";
             uCcommunity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity3.ProfilePic");
             uCcommunity3.Size = new System.Drawing.Size(397, 107);
@@ -297,8 +273,6 @@
             // uCcommunity2
             // 
             uCcommunity2.Location = new System.Drawing.Point(-2, 438);
-            uCcommunity2.MaximumSize = new System.Drawing.Size(397, 107);
-            uCcommunity2.MinimumSize = new System.Drawing.Size(397, 107);
             uCcommunity2.Name = "uCcommunity2";
             uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
             uCcommunity2.Size = new System.Drawing.Size(397, 107);
@@ -312,8 +286,6 @@
             label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label6.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label6.Location = new System.Drawing.Point(2, 311);
-            label6.MaximumSize = new System.Drawing.Size(154, 30);
-            label6.MinimumSize = new System.Drawing.Size(154, 30);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(154, 30);
             label6.TabIndex = 6;
@@ -325,8 +297,6 @@
             label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label5.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label5.Location = new System.Drawing.Point(5, 282);
-            label5.MaximumSize = new System.Drawing.Size(92, 28);
-            label5.MinimumSize = new System.Drawing.Size(92, 28);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(92, 28);
             label5.TabIndex = 5;
@@ -335,8 +305,6 @@
             // uCcommunity1
             // 
             uCcommunity1.Location = new System.Drawing.Point(0, 348);
-            uCcommunity1.MaximumSize = new System.Drawing.Size(397, 107);
-            uCcommunity1.MinimumSize = new System.Drawing.Size(397, 107);
             uCcommunity1.Name = "uCcommunity1";
             uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
             uCcommunity1.Size = new System.Drawing.Size(397, 107);
@@ -350,8 +318,6 @@
             pictureBox1.Image = Properties.Resources.SnS_LogoB;
             pictureBox1.Location = new System.Drawing.Point(1162, 172);
             pictureBox1.Margin = new System.Windows.Forms.Padding(5);
-            pictureBox1.MaximumSize = new System.Drawing.Size(326, 346);
-            pictureBox1.MinimumSize = new System.Drawing.Size(326, 346);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new System.Drawing.Size(326, 346);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -364,8 +330,6 @@
             label2.Font = new System.Drawing.Font("Century Gothic", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.FromArgb(17, 64, 187);
             label2.Location = new System.Drawing.Point(1107, 503);
-            label2.MaximumSize = new System.Drawing.Size(274, 63);
-            label2.MinimumSize = new System.Drawing.Size(274, 63);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(274, 63);
             label2.TabIndex = 4;
@@ -377,8 +341,6 @@
             label3.Font = new System.Drawing.Font("Century Gothic", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.FromArgb(255, 146, 13);
             label3.Location = new System.Drawing.Point(1371, 503);
-            label3.MaximumSize = new System.Drawing.Size(173, 63);
-            label3.MinimumSize = new System.Drawing.Size(173, 63);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(173, 63);
             label3.TabIndex = 5;
@@ -390,8 +352,6 @@
             label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label4.ForeColor = System.Drawing.Color.Black;
             label4.Location = new System.Drawing.Point(640, 590);
-            label4.MaximumSize = new System.Drawing.Size(1307, 78);
-            label4.MinimumSize = new System.Drawing.Size(1307, 78);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(1307, 78);
             label4.TabIndex = 5;
@@ -404,8 +364,6 @@
             pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new System.Drawing.Point(1240, 693);
             pictureBox2.Margin = new System.Windows.Forms.Padding(5);
-            pictureBox2.MaximumSize = new System.Drawing.Size(80, 80);
-            pictureBox2.MinimumSize = new System.Drawing.Size(80, 80);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new System.Drawing.Size(80, 80);
             pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -418,8 +376,6 @@
             pictureBox3.Image = (System.Drawing.Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new System.Drawing.Point(1320, 673);
             pictureBox3.Margin = new System.Windows.Forms.Padding(5);
-            pictureBox3.MaximumSize = new System.Drawing.Size(131, 115);
-            pictureBox3.MinimumSize = new System.Drawing.Size(131, 115);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new System.Drawing.Size(131, 115);
             pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -446,10 +402,9 @@
             Controls.Add(PanelSlide);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            MaximumSize = new System.Drawing.Size(2080, 1152);
-            MinimumSize = new System.Drawing.Size(2080, 1152);
             Name = "FrmHomePage";
             Text = "Search Community";
+            WindowState = System.Windows.Forms.FormWindowState.Maximized;
             Load += FrmHomePage_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
