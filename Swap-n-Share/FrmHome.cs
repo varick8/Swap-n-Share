@@ -54,5 +54,20 @@ namespace Swap_n_Share
                 }
             }
         }
+
+        private void guna2ControlBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
