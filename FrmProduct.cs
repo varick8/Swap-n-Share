@@ -12,11 +12,11 @@ namespace Swap_n_Share
 {
     public partial class FrmProduct : Form
     {
-
+        
         public FrmProduct()
         {
             InitializeComponent();
-
+            
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace Swap_n_Share
             sd.Show();
         }
 
-
+        
 
         private void guna2ControlBox3_Click(object sender, EventArgs e)
         {
@@ -50,12 +50,7 @@ namespace Swap_n_Share
 
         private void HomeBtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void guna2Button7_Click(object sender, EventArgs e)
-        {
-
+   
         }
     }
 }

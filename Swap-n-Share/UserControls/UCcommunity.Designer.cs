@@ -67,8 +67,8 @@
             // 
             // UCcommunity
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             BackColor = System.Drawing.Color.Transparent;
             Controls.Add(labelStatus);
             Controls.Add(labelName);
