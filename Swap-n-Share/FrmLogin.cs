@@ -71,5 +71,10 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
