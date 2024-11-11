@@ -59,5 +59,19 @@ namespace Swap_n_Share
             this.Hide();
             sd.Show();
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            FrmSetting sd = new FrmSetting();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            FrmProfile sd = new FrmProfile();
+            this.Hide();
+            sd.Show();
+        }
     }
 }

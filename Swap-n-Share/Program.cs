@@ -16,7 +16,7 @@ namespace Swap_n_Share
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new FrmLandingPage());
         }
     }
 }

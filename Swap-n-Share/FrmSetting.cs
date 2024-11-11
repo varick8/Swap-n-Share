@@ -21,5 +21,35 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void btnLogOut_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+
+            MessageBox.Show("You have been logged out.", "Logout Successful",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void lblSetting_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            FrmProduct sd = new FrmProduct();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            FrmHome sd = new FrmHome();
+            this.Hide();
+            sd.Show();
+        }
     }
 }
