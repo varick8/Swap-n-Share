@@ -309,6 +309,7 @@
             // 
             uCcommunity10.BackColor = System.Drawing.Color.Transparent;
             uCcommunity10.Location = new System.Drawing.Point(8, 597);
+            uCcommunity10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             uCcommunity10.Name = "uCcommunity10";
             uCcommunity10.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity10.ProfilePic");
             uCcommunity10.Size = new System.Drawing.Size(224, 110);
@@ -320,6 +321,7 @@
             // 
             uCcommunity9.BackColor = System.Drawing.Color.Transparent;
             uCcommunity9.Location = new System.Drawing.Point(8, 531);
+            uCcommunity9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             uCcommunity9.Name = "uCcommunity9";
             uCcommunity9.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity9.ProfilePic");
             uCcommunity9.Size = new System.Drawing.Size(224, 110);
@@ -331,6 +333,7 @@
             // 
             uCcommunity8.BackColor = System.Drawing.Color.Transparent;
             uCcommunity8.Location = new System.Drawing.Point(8, 465);
+            uCcommunity8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             uCcommunity8.Name = "uCcommunity8";
             uCcommunity8.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity8.ProfilePic");
             uCcommunity8.Size = new System.Drawing.Size(224, 110);
@@ -342,6 +345,7 @@
             // 
             uCcommunity2.BackColor = System.Drawing.Color.Transparent;
             uCcommunity2.Location = new System.Drawing.Point(8, 400);
+            uCcommunity2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             uCcommunity2.Name = "uCcommunity2";
             uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
             uCcommunity2.Size = new System.Drawing.Size(224, 110);
@@ -353,6 +357,7 @@
             // 
             uCcommunity1.BackColor = System.Drawing.Color.Transparent;
             uCcommunity1.Location = new System.Drawing.Point(8, 333);
+            uCcommunity1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             uCcommunity1.Name = "uCcommunity1";
             uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
             uCcommunity1.Size = new System.Drawing.Size(224, 110);
@@ -364,6 +369,7 @@
             // 
             uCcommunity7.BackColor = System.Drawing.Color.Transparent;
             uCcommunity7.Location = new System.Drawing.Point(8, 266);
+            uCcommunity7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             uCcommunity7.Name = "uCcommunity7";
             uCcommunity7.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity7.ProfilePic");
             uCcommunity7.Size = new System.Drawing.Size(224, 110);
@@ -486,7 +492,7 @@
             label5.MaximumSize = new System.Drawing.Size(60, 18);
             label5.MinimumSize = new System.Drawing.Size(57, 18);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(59, 18);
+            label5.Size = new System.Drawing.Size(57, 18);
             label5.TabIndex = 31;
             label5.Text = "Recent";
             // 
