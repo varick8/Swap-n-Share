@@ -1,6 +1,6 @@
 ﻿namespace Swap_n_Share
 {
-    partial class FrmActivity
+    partial class FrmHistory
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmActivity));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHistory));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -65,7 +65,8 @@
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             label2 = new System.Windows.Forms.Label();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            uCactivity1 = new UserControls.UCactivity();
+            uCactivity1 = new UserControls.UChistory();
+            uCactivity2 = new UserControls.UChistory();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
@@ -319,7 +320,7 @@
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Button6.Size = new System.Drawing.Size(156, 43);
             guna2Button6.TabIndex = 8;
-            guna2Button6.Text = "History";
+            guna2Button6.Text = "Activity";
             guna2Button6.Click += guna2Button6_Click;
             // 
             // label2
@@ -335,12 +336,13 @@
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(143, 24);
             label2.TabIndex = 7;
-            label2.Text = "Activity";
+            label2.Text = "History";
             label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Controls.Add(uCactivity1);
+            flowLayoutPanel1.Controls.Add(uCactivity2);
             flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             flowLayoutPanel1.Location = new System.Drawing.Point(76, 130);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -351,17 +353,29 @@
             // 
             uCactivity1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
             uCactivity1.Location = new System.Drawing.Point(3, 3);
-            uCactivity1.MaximumSize = new System.Drawing.Size(1131, 270);
+            uCactivity1.MaximumSize = new System.Drawing.Size(1131, 135);
             uCactivity1.Name = "uCactivity1";
             uCactivity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivity1.ProfilePic");
-            uCactivity1.Size = new System.Drawing.Size(1131, 270);
+            uCactivity1.Size = new System.Drawing.Size(1131, 135);
             uCactivity1.TabIndex = 0;
-            uCactivity1.txtKomen = "Ini masih bagus?";
-            uCactivity1.txtName = "Pemotong Rumput";
-            uCactivity1.txtTanggal = "29/11/2024";
-            uCactivity1.txtUser = "Rani Nirmala";
+            uCactivity1.txtName = "Baju Jasmine";
+            uCactivity1.txtOwner = "Rani Nirmala";
+            uCactivity1.txtTanggal = "12/12/2024";
             // 
-            // FrmActivity
+            // uCactivity2
+            // 
+            uCactivity2.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            uCactivity2.Location = new System.Drawing.Point(3, 144);
+            uCactivity2.MaximumSize = new System.Drawing.Size(1131, 135);
+            uCactivity2.Name = "uCactivity2";
+            uCactivity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivity2.ProfilePic");
+            uCactivity2.Size = new System.Drawing.Size(1131, 135);
+            uCactivity2.TabIndex = 1;
+            uCactivity2.txtName = "Vacum Cleaner";
+            uCactivity2.txtOwner = "Varick Zahir";
+            uCactivity2.txtTanggal = "10/12/2024";
+            // 
+            // FrmHistory
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             AutoScroll = true;
@@ -376,7 +390,7 @@
             ForeColor = System.Drawing.Color.White;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             MaximumSize = new System.Drawing.Size(1920, 1080);
-            Name = "FrmActivity";
+            Name = "FrmHistory";
             StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             Text = "FrmHome";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -411,6 +425,7 @@
         private UserControls.UCproduct uCproduct3;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private UserControls.UCactivity uCactivity1;
+        private UserControls.UChistory uCactivity1;
+        private UserControls.UChistory uCactivity2;
     }
 }
