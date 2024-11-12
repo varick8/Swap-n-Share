@@ -38,5 +38,10 @@ namespace Swap_n_Share.UserControls
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
