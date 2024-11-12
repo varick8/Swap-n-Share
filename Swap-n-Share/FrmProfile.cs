@@ -21,5 +21,10 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void btnEditProfile_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
