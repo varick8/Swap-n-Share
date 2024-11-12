@@ -539,9 +539,6 @@
         private UserControls.UCproduct uCproduct4;
         private UserControls.UCproduct uCproduct5;
 
-        private UserControls.UCproduct uCproduct6;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
