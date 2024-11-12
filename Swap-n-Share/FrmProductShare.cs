@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmProduct : Form
+    public partial class FrmProductShare : Form
     {
 
-        public FrmProduct()
+        public FrmProductShare()
         {
             InitializeComponent();
 
@@ -60,7 +60,7 @@ namespace Swap_n_Share
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            FrmProductShare sd = new FrmProductShare();
+            FrmProduct sd = new FrmProduct();
             this.Hide();
             sd.Show();
         }

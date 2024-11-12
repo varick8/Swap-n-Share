@@ -36,9 +36,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new System.Drawing.Point(15, 16);
+            pictureBox1.Location = new System.Drawing.Point(44, 16);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(70, 70);
+            pictureBox1.Size = new System.Drawing.Size(41, 49);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -74,7 +74,7 @@
             Controls.Add(labelName);
             Controls.Add(pictureBox1);
             Name = "UCcommunity";
-            Size = new System.Drawing.Size(400, 100);
+            Size = new System.Drawing.Size(300, 100);
             Load += UCcommunity_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
