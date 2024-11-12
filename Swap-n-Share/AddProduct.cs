@@ -19,7 +19,7 @@ namespace Swap_n_Share
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

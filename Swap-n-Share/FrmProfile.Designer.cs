@@ -59,24 +59,24 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox3 = new System.Windows.Forms.PictureBox();
             panelTop = new System.Windows.Forms.Panel();
             guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
@@ -100,50 +100,50 @@
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            panel5 = new System.Windows.Forms.Panel();
-            guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            label9 = new System.Windows.Forms.Label();
-            label10 = new System.Windows.Forms.Label();
-            label11 = new System.Windows.Forms.Label();
-            pictureBox4 = new System.Windows.Forms.PictureBox();
-            lblUsername = new System.Windows.Forms.Label();
-            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            panel3 = new System.Windows.Forms.Panel();
-            label3 = new System.Windows.Forms.Label();
-            label4 = new System.Windows.Forms.Label();
-            label5 = new System.Windows.Forms.Label();
-            pictureBox1 = new System.Windows.Forms.PictureBox();
-            guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            panel4 = new System.Windows.Forms.Panel();
-            guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            label6 = new System.Windows.Forms.Label();
-            guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
-            label7 = new System.Windows.Forms.Label();
-            label8 = new System.Windows.Forms.Label();
-            pictureBox2 = new System.Windows.Forms.PictureBox();
-            guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
             panel6 = new System.Windows.Forms.Panel();
+            guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             label12 = new System.Windows.Forms.Label();
             guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
             label13 = new System.Windows.Forms.Label();
             label14 = new System.Windows.Forms.Label();
             pictureBox5 = new System.Windows.Forms.PictureBox();
-            guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
+            panel4 = new System.Windows.Forms.Panel();
+            guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            label6 = new System.Windows.Forms.Label();
+            guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
+            label7 = new System.Windows.Forms.Label();
+            label8 = new System.Windows.Forms.Label();
+            pictureBox2 = new System.Windows.Forms.PictureBox();
+            panel3 = new System.Windows.Forms.Panel();
+            guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+            label3 = new System.Windows.Forms.Label();
+            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            label4 = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            panel5 = new System.Windows.Forms.Panel();
+            label9 = new System.Windows.Forms.Label();
+            guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
+            label10 = new System.Windows.Forms.Label();
+            label11 = new System.Windows.Forms.Label();
+            pictureBox4 = new System.Windows.Forms.PictureBox();
+            lblUsername = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panelTop.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
-            panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // pictureBox3
@@ -196,6 +196,7 @@
             guna2Button8.Text = "Add Items";
             guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             guna2Button8.TextOffset = new System.Drawing.Point(20, 0);
+            guna2Button8.Click += guna2Button8_Click;
             // 
             // btnMessageProfile
             // 
@@ -226,7 +227,7 @@
             label1.ForeColor = System.Drawing.Color.DimGray;
             label1.Location = new System.Drawing.Point(173, 357);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(166, 20);
+            label1.Size = new System.Drawing.Size(260, 32);
             label1.TabIndex = 17;
             label1.Text = "Wong Tulus nan Ikhlas";
             // 
@@ -544,326 +545,6 @@
             flowLayoutPanel1.Size = new System.Drawing.Size(1325, 573);
             flowLayoutPanel1.TabIndex = 23;
             // 
-            // panel5
-            // 
-            panel5.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            panel5.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            panel5.Controls.Add(label9);
-            panel5.Controls.Add(guna2Button10);
-            panel5.Controls.Add(label10);
-            panel5.Controls.Add(label11);
-            panel5.Controls.Add(pictureBox4);
-            panel5.Location = new System.Drawing.Point(3, 576);
-            panel5.Name = "panel5";
-            panel5.Size = new System.Drawing.Size(1296, 185);
-            panel5.TabIndex = 21;
-            // 
-            // guna2Button10
-            // 
-            guna2Button10.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2Button10.BackColor = System.Drawing.Color.Transparent;
-            guna2Button10.BorderRadius = 10;
-            guna2Button10.CustomizableEdges = customizableEdges47;
-            guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button10.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button10.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button10.ForeColor = System.Drawing.Color.White;
-            guna2Button10.Location = new System.Drawing.Point(969, 106);
-            guna2Button10.Name = "guna2Button10";
-            guna2Button10.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            guna2Button10.Size = new System.Drawing.Size(244, 45);
-            guna2Button10.TabIndex = 12;
-            guna2Button10.Text = "Swap";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = System.Drawing.Color.Transparent;
-            label9.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label9.ForeColor = System.Drawing.Color.DimGray;
-            label9.Location = new System.Drawing.Point(337, 130);
-            label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(226, 20);
-            label9.TabIndex = 16;
-            label9.Text = "Cari mobil sepadan untuk swap";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = System.Drawing.Color.Transparent;
-            label10.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
-            label10.ForeColor = System.Drawing.Color.White;
-            label10.Location = new System.Drawing.Point(337, 64);
-            label10.Name = "label10";
-            label10.Size = new System.Drawing.Size(147, 25);
-            label10.TabIndex = 15;
-            label10.Text = "Ready for Swap";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.BackColor = System.Drawing.Color.Transparent;
-            label11.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label11.ForeColor = System.Drawing.Color.White;
-            label11.Location = new System.Drawing.Point(328, 9);
-            label11.Name = "label11";
-            label11.Size = new System.Drawing.Size(291, 54);
-            label11.TabIndex = 15;
-            label11.Text = "Toyota Crown";
-            label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = (System.Drawing.Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new System.Drawing.Point(88, 9);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new System.Drawing.Size(208, 142);
-            pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 0;
-            pictureBox4.TabStop = false;
-            // 
-            // lblUsername
-            // 
-            lblUsername.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            lblUsername.AutoSize = true;
-            lblUsername.BackColor = System.Drawing.Color.Transparent;
-            lblUsername.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            lblUsername.ForeColor = System.Drawing.Color.White;
-            lblUsername.Location = new System.Drawing.Point(169, 294);
-            lblUsername.Name = "lblUsername";
-            lblUsername.Size = new System.Drawing.Size(247, 54);
-            lblUsername.TabIndex = 7;
-            lblUsername.Text = "@username";
-            lblUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // guna2Button7
-            // 
-            guna2Button7.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2Button7.BackColor = System.Drawing.Color.Transparent;
-            guna2Button7.BorderRadius = 10;
-            guna2Button7.CustomizableEdges = customizableEdges45;
-            guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button7.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button7.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button7.ForeColor = System.Drawing.Color.White;
-            guna2Button7.Location = new System.Drawing.Point(2065, 106);
-            guna2Button7.Name = "guna2Button7";
-            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            guna2Button7.Size = new System.Drawing.Size(244, 45);
-            guna2Button7.TabIndex = 12;
-            guna2Button7.Text = "Swap";
-            // 
-            // panel3
-            // 
-            panel3.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            panel3.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            panel3.Controls.Add(guna2Button9);
-            panel3.Controls.Add(label3);
-            panel3.Controls.Add(guna2Button7);
-            panel3.Controls.Add(label4);
-            panel3.Controls.Add(label5);
-            panel3.Controls.Add(pictureBox1);
-            panel3.Location = new System.Drawing.Point(3, 385);
-            panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(1296, 185);
-            panel3.TabIndex = 22;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = System.Drawing.Color.Transparent;
-            label3.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label3.ForeColor = System.Drawing.Color.DimGray;
-            label3.Location = new System.Drawing.Point(337, 130);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(226, 20);
-            label3.TabIndex = 16;
-            label3.Text = "Cari mobil sepadan untuk swap";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = System.Drawing.Color.Transparent;
-            label4.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
-            label4.ForeColor = System.Drawing.Color.White;
-            label4.Location = new System.Drawing.Point(337, 64);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(147, 25);
-            label4.TabIndex = 15;
-            label4.Text = "Ready for Swap";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = System.Drawing.Color.Transparent;
-            label5.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label5.ForeColor = System.Drawing.Color.White;
-            label5.Location = new System.Drawing.Point(328, 9);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(291, 54);
-            label5.TabIndex = 15;
-            label5.Text = "Toyota Crown";
-            label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new System.Drawing.Point(88, 9);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(208, 142);
-            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // guna2Button9
-            // 
-            guna2Button9.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2Button9.BackColor = System.Drawing.Color.Transparent;
-            guna2Button9.BorderRadius = 10;
-            guna2Button9.CustomizableEdges = customizableEdges43;
-            guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button9.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button9.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button9.ForeColor = System.Drawing.Color.White;
-            guna2Button9.Location = new System.Drawing.Point(969, 106);
-            guna2Button9.Name = "guna2Button9";
-            guna2Button9.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            guna2Button9.Size = new System.Drawing.Size(244, 45);
-            guna2Button9.TabIndex = 17;
-            guna2Button9.Text = "Swap";
-            // 
-            // panel4
-            // 
-            panel4.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            panel4.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            panel4.Controls.Add(guna2Button13);
-            panel4.Controls.Add(guna2Button11);
-            panel4.Controls.Add(label6);
-            panel4.Controls.Add(guna2Button12);
-            panel4.Controls.Add(label7);
-            panel4.Controls.Add(label8);
-            panel4.Controls.Add(pictureBox2);
-            panel4.Location = new System.Drawing.Point(3, 194);
-            panel4.Name = "panel4";
-            panel4.Size = new System.Drawing.Size(1296, 185);
-            panel4.TabIndex = 23;
-            // 
-            // guna2Button11
-            // 
-            guna2Button11.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2Button11.BackColor = System.Drawing.Color.Transparent;
-            guna2Button11.BorderRadius = 10;
-            guna2Button11.CustomizableEdges = customizableEdges39;
-            guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button11.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button11.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button11.ForeColor = System.Drawing.Color.White;
-            guna2Button11.Location = new System.Drawing.Point(2065, 106);
-            guna2Button11.Name = "guna2Button11";
-            guna2Button11.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            guna2Button11.Size = new System.Drawing.Size(244, 45);
-            guna2Button11.TabIndex = 17;
-            guna2Button11.Text = "Swap";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = System.Drawing.Color.Transparent;
-            label6.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label6.ForeColor = System.Drawing.Color.DimGray;
-            label6.Location = new System.Drawing.Point(337, 130);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(226, 20);
-            label6.TabIndex = 16;
-            label6.Text = "Cari mobil sepadan untuk swap";
-            // 
-            // guna2Button12
-            // 
-            guna2Button12.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2Button12.BackColor = System.Drawing.Color.Transparent;
-            guna2Button12.BorderRadius = 10;
-            guna2Button12.CustomizableEdges = customizableEdges41;
-            guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button12.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button12.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button12.ForeColor = System.Drawing.Color.White;
-            guna2Button12.Location = new System.Drawing.Point(3161, 106);
-            guna2Button12.Name = "guna2Button12";
-            guna2Button12.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            guna2Button12.Size = new System.Drawing.Size(244, 45);
-            guna2Button12.TabIndex = 12;
-            guna2Button12.Text = "Swap";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.BackColor = System.Drawing.Color.Transparent;
-            label7.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
-            label7.ForeColor = System.Drawing.Color.White;
-            label7.Location = new System.Drawing.Point(337, 64);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(147, 25);
-            label7.TabIndex = 15;
-            label7.Text = "Ready for Swap";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = System.Drawing.Color.Transparent;
-            label8.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label8.ForeColor = System.Drawing.Color.White;
-            label8.Location = new System.Drawing.Point(328, 9);
-            label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(291, 54);
-            label8.TabIndex = 15;
-            label8.Text = "Toyota Crown";
-            label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new System.Drawing.Point(88, 9);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(208, 142);
-            pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // guna2Button13
-            // 
-            guna2Button13.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            guna2Button13.BackColor = System.Drawing.Color.Transparent;
-            guna2Button13.BorderRadius = 10;
-            guna2Button13.CustomizableEdges = customizableEdges37;
-            guna2Button13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button13.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button13.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button13.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button13.ForeColor = System.Drawing.Color.White;
-            guna2Button13.Location = new System.Drawing.Point(969, 106);
-            guna2Button13.Name = "guna2Button13";
-            guna2Button13.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            guna2Button13.Size = new System.Drawing.Size(244, 45);
-            guna2Button13.TabIndex = 18;
-            guna2Button13.Text = "Swap";
-            // 
             // panel6
             // 
             panel6.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
@@ -879,6 +560,26 @@
             panel6.Name = "panel6";
             panel6.Size = new System.Drawing.Size(1296, 185);
             panel6.TabIndex = 23;
+            // 
+            // guna2Button16
+            // 
+            guna2Button16.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            guna2Button16.BackColor = System.Drawing.Color.Transparent;
+            guna2Button16.BorderRadius = 10;
+            guna2Button16.CustomizableEdges = customizableEdges31;
+            guna2Button16.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button16.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button16.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button16.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button16.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button16.ForeColor = System.Drawing.Color.White;
+            guna2Button16.Location = new System.Drawing.Point(969, 106);
+            guna2Button16.Name = "guna2Button16";
+            guna2Button16.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2Button16.Size = new System.Drawing.Size(244, 45);
+            guna2Button16.TabIndex = 19;
+            guna2Button16.Text = "Swap";
             // 
             // guna2Button14
             // 
@@ -908,7 +609,7 @@
             label12.ForeColor = System.Drawing.Color.DimGray;
             label12.Location = new System.Drawing.Point(337, 130);
             label12.Name = "label12";
-            label12.Size = new System.Drawing.Size(226, 20);
+            label12.Size = new System.Drawing.Size(353, 32);
             label12.TabIndex = 16;
             label12.Text = "Cari mobil sepadan untuk swap";
             // 
@@ -940,7 +641,7 @@
             label13.ForeColor = System.Drawing.Color.White;
             label13.Location = new System.Drawing.Point(337, 64);
             label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(147, 25);
+            label13.Size = new System.Drawing.Size(235, 40);
             label13.TabIndex = 15;
             label13.Text = "Ready for Swap";
             // 
@@ -952,7 +653,7 @@
             label14.ForeColor = System.Drawing.Color.White;
             label14.Location = new System.Drawing.Point(328, 9);
             label14.Name = "label14";
-            label14.Size = new System.Drawing.Size(291, 54);
+            label14.Size = new System.Drawing.Size(467, 86);
             label14.TabIndex = 15;
             label14.Text = "Toyota Crown";
             label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -967,25 +668,325 @@
             pictureBox5.TabIndex = 0;
             pictureBox5.TabStop = false;
             // 
-            // guna2Button16
+            // panel4
             // 
-            guna2Button16.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            guna2Button16.BackColor = System.Drawing.Color.Transparent;
-            guna2Button16.BorderRadius = 10;
-            guna2Button16.CustomizableEdges = customizableEdges31;
-            guna2Button16.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button16.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button16.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button16.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button16.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button16.ForeColor = System.Drawing.Color.White;
-            guna2Button16.Location = new System.Drawing.Point(969, 106);
-            guna2Button16.Name = "guna2Button16";
-            guna2Button16.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            guna2Button16.Size = new System.Drawing.Size(244, 45);
-            guna2Button16.TabIndex = 19;
-            guna2Button16.Text = "Swap";
+            panel4.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            panel4.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            panel4.Controls.Add(guna2Button13);
+            panel4.Controls.Add(guna2Button11);
+            panel4.Controls.Add(label6);
+            panel4.Controls.Add(guna2Button12);
+            panel4.Controls.Add(label7);
+            panel4.Controls.Add(label8);
+            panel4.Controls.Add(pictureBox2);
+            panel4.Location = new System.Drawing.Point(3, 194);
+            panel4.Name = "panel4";
+            panel4.Size = new System.Drawing.Size(1296, 185);
+            panel4.TabIndex = 23;
+            // 
+            // guna2Button13
+            // 
+            guna2Button13.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            guna2Button13.BackColor = System.Drawing.Color.Transparent;
+            guna2Button13.BorderRadius = 10;
+            guna2Button13.CustomizableEdges = customizableEdges37;
+            guna2Button13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button13.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button13.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button13.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button13.ForeColor = System.Drawing.Color.White;
+            guna2Button13.Location = new System.Drawing.Point(969, 106);
+            guna2Button13.Name = "guna2Button13";
+            guna2Button13.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            guna2Button13.Size = new System.Drawing.Size(244, 45);
+            guna2Button13.TabIndex = 18;
+            guna2Button13.Text = "Swap";
+            // 
+            // guna2Button11
+            // 
+            guna2Button11.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            guna2Button11.BackColor = System.Drawing.Color.Transparent;
+            guna2Button11.BorderRadius = 10;
+            guna2Button11.CustomizableEdges = customizableEdges39;
+            guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button11.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button11.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button11.ForeColor = System.Drawing.Color.White;
+            guna2Button11.Location = new System.Drawing.Point(2065, 106);
+            guna2Button11.Name = "guna2Button11";
+            guna2Button11.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            guna2Button11.Size = new System.Drawing.Size(244, 45);
+            guna2Button11.TabIndex = 17;
+            guna2Button11.Text = "Swap";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = System.Drawing.Color.Transparent;
+            label6.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label6.ForeColor = System.Drawing.Color.DimGray;
+            label6.Location = new System.Drawing.Point(337, 130);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(353, 32);
+            label6.TabIndex = 16;
+            label6.Text = "Cari mobil sepadan untuk swap";
+            // 
+            // guna2Button12
+            // 
+            guna2Button12.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            guna2Button12.BackColor = System.Drawing.Color.Transparent;
+            guna2Button12.BorderRadius = 10;
+            guna2Button12.CustomizableEdges = customizableEdges41;
+            guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button12.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button12.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button12.ForeColor = System.Drawing.Color.White;
+            guna2Button12.Location = new System.Drawing.Point(3161, 106);
+            guna2Button12.Name = "guna2Button12";
+            guna2Button12.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            guna2Button12.Size = new System.Drawing.Size(244, 45);
+            guna2Button12.TabIndex = 12;
+            guna2Button12.Text = "Swap";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = System.Drawing.Color.Transparent;
+            label7.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
+            label7.ForeColor = System.Drawing.Color.White;
+            label7.Location = new System.Drawing.Point(337, 64);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(235, 40);
+            label7.TabIndex = 15;
+            label7.Text = "Ready for Swap";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = System.Drawing.Color.Transparent;
+            label8.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label8.ForeColor = System.Drawing.Color.White;
+            label8.Location = new System.Drawing.Point(328, 9);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(467, 86);
+            label8.TabIndex = 15;
+            label8.Text = "Toyota Crown";
+            label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new System.Drawing.Point(88, 9);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(208, 142);
+            pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // panel3
+            // 
+            panel3.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            panel3.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            panel3.Controls.Add(guna2Button9);
+            panel3.Controls.Add(label3);
+            panel3.Controls.Add(guna2Button7);
+            panel3.Controls.Add(label4);
+            panel3.Controls.Add(label5);
+            panel3.Controls.Add(pictureBox1);
+            panel3.Location = new System.Drawing.Point(3, 385);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(1296, 185);
+            panel3.TabIndex = 22;
+            // 
+            // guna2Button9
+            // 
+            guna2Button9.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            guna2Button9.BackColor = System.Drawing.Color.Transparent;
+            guna2Button9.BorderRadius = 10;
+            guna2Button9.CustomizableEdges = customizableEdges43;
+            guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button9.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button9.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button9.ForeColor = System.Drawing.Color.White;
+            guna2Button9.Location = new System.Drawing.Point(969, 106);
+            guna2Button9.Name = "guna2Button9";
+            guna2Button9.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            guna2Button9.Size = new System.Drawing.Size(244, 45);
+            guna2Button9.TabIndex = 17;
+            guna2Button9.Text = "Swap";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = System.Drawing.Color.Transparent;
+            label3.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label3.ForeColor = System.Drawing.Color.DimGray;
+            label3.Location = new System.Drawing.Point(337, 130);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(353, 32);
+            label3.TabIndex = 16;
+            label3.Text = "Cari mobil sepadan untuk swap";
+            // 
+            // guna2Button7
+            // 
+            guna2Button7.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            guna2Button7.BackColor = System.Drawing.Color.Transparent;
+            guna2Button7.BorderRadius = 10;
+            guna2Button7.CustomizableEdges = customizableEdges45;
+            guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button7.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button7.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button7.ForeColor = System.Drawing.Color.White;
+            guna2Button7.Location = new System.Drawing.Point(2065, 106);
+            guna2Button7.Name = "guna2Button7";
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            guna2Button7.Size = new System.Drawing.Size(244, 45);
+            guna2Button7.TabIndex = 12;
+            guna2Button7.Text = "Swap";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = System.Drawing.Color.Transparent;
+            label4.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
+            label4.ForeColor = System.Drawing.Color.White;
+            label4.Location = new System.Drawing.Point(337, 64);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(235, 40);
+            label4.TabIndex = 15;
+            label4.Text = "Ready for Swap";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = System.Drawing.Color.Transparent;
+            label5.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label5.ForeColor = System.Drawing.Color.White;
+            label5.Location = new System.Drawing.Point(328, 9);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(467, 86);
+            label5.TabIndex = 15;
+            label5.Text = "Toyota Crown";
+            label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new System.Drawing.Point(88, 9);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(208, 142);
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // panel5
+            // 
+            panel5.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            panel5.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            panel5.Controls.Add(label9);
+            panel5.Controls.Add(guna2Button10);
+            panel5.Controls.Add(label10);
+            panel5.Controls.Add(label11);
+            panel5.Controls.Add(pictureBox4);
+            panel5.Location = new System.Drawing.Point(3, 576);
+            panel5.Name = "panel5";
+            panel5.Size = new System.Drawing.Size(1296, 185);
+            panel5.TabIndex = 21;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = System.Drawing.Color.Transparent;
+            label9.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label9.ForeColor = System.Drawing.Color.DimGray;
+            label9.Location = new System.Drawing.Point(337, 130);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(353, 32);
+            label9.TabIndex = 16;
+            label9.Text = "Cari mobil sepadan untuk swap";
+            // 
+            // guna2Button10
+            // 
+            guna2Button10.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            guna2Button10.BackColor = System.Drawing.Color.Transparent;
+            guna2Button10.BorderRadius = 10;
+            guna2Button10.CustomizableEdges = customizableEdges47;
+            guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button10.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button10.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button10.ForeColor = System.Drawing.Color.White;
+            guna2Button10.Location = new System.Drawing.Point(969, 106);
+            guna2Button10.Name = "guna2Button10";
+            guna2Button10.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            guna2Button10.Size = new System.Drawing.Size(244, 45);
+            guna2Button10.TabIndex = 12;
+            guna2Button10.Text = "Swap";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.BackColor = System.Drawing.Color.Transparent;
+            label10.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
+            label10.ForeColor = System.Drawing.Color.White;
+            label10.Location = new System.Drawing.Point(337, 64);
+            label10.Name = "label10";
+            label10.Size = new System.Drawing.Size(235, 40);
+            label10.TabIndex = 15;
+            label10.Text = "Ready for Swap";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = System.Drawing.Color.Transparent;
+            label11.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label11.ForeColor = System.Drawing.Color.White;
+            label11.Location = new System.Drawing.Point(328, 9);
+            label11.Name = "label11";
+            label11.Size = new System.Drawing.Size(467, 86);
+            label11.TabIndex = 15;
+            label11.Text = "Toyota Crown";
+            label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (System.Drawing.Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new System.Drawing.Point(88, 9);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new System.Drawing.Size(208, 142);
+            pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 0;
+            pictureBox4.TabStop = false;
+            // 
+            // lblUsername
+            // 
+            lblUsername.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            lblUsername.AutoSize = true;
+            lblUsername.BackColor = System.Drawing.Color.Transparent;
+            lblUsername.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            lblUsername.ForeColor = System.Drawing.Color.White;
+            lblUsername.Location = new System.Drawing.Point(169, 294);
+            lblUsername.Name = "lblUsername";
+            lblUsername.Size = new System.Drawing.Size(397, 86);
+            lblUsername.TabIndex = 7;
+            lblUsername.Text = "@username";
+            lblUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FrmProfile
             // 
@@ -1014,18 +1015,18 @@
             panel1.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
