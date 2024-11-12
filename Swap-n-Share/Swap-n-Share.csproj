@@ -40,6 +40,9 @@
     <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="1.4.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="FrmActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmProduct.cs">
       <SubType>Form</SubType>
     </Compile>
