@@ -1,6 +1,6 @@
 ﻿namespace Swap_n_Share
 {
-    partial class FrmProductShare
+    partial class FrmActivity
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProductShare));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmActivity));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -49,8 +49,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -65,17 +63,11 @@
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new System.Windows.Forms.Panel();
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             label2 = new System.Windows.Forms.Label();
-            uCproductshare1 = new UserControls.UCproductshare();
-            uCproductshare2 = new UserControls.UCproductshare();
-            uCproductshare3 = new UserControls.UCproductshare();
-            uCproductshare4 = new UserControls.UCproductshare();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
-            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -301,12 +293,11 @@
             // panel3
             // 
             panel3.Controls.Add(guna2Button6);
-            panel3.Controls.Add(guna2TextBox1);
             panel3.Controls.Add(label2);
             panel3.Dock = System.Windows.Forms.DockStyle.Top;
             panel3.Location = new System.Drawing.Point(76, 69);
             panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(1310, 60);
+            panel3.Size = new System.Drawing.Size(1310, 46);
             panel3.TabIndex = 3;
             // 
             // guna2Button6
@@ -326,36 +317,8 @@
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Button6.Size = new System.Drawing.Size(156, 43);
             guna2Button6.TabIndex = 8;
-            guna2Button6.Text = "Swap Products";
+            guna2Button6.Text = "History";
             guna2Button6.Click += guna2Button6_Click;
-            // 
-            // guna2TextBox1
-            // 
-            guna2TextBox1.BorderColor = System.Drawing.Color.White;
-            guna2TextBox1.BorderRadius = 5;
-            guna2TextBox1.CustomizableEdges = customizableEdges21;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
-            guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2TextBox1.ForeColor = System.Drawing.Color.White;
-            guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.IconRight = (System.Drawing.Image)resources.GetObject("guna2TextBox1.IconRight");
-            guna2TextBox1.IconRightSize = new System.Drawing.Size(15, 15);
-            guna2TextBox1.Location = new System.Drawing.Point(808, 8);
-            guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.White;
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2TextBox1.Size = new System.Drawing.Size(161, 38);
-            guna2TextBox1.TabIndex = 7;
             // 
             // label2
             // 
@@ -370,74 +333,17 @@
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(143, 24);
             label2.TabIndex = 7;
-            label2.Text = "Share Product";
+            label2.Text = "Activity";
             label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // uCproductshare1
-            // 
-            uCproductshare1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproductshare1.Location = new System.Drawing.Point(573, 3);
-            uCproductshare1.MaximumSize = new System.Drawing.Size(564, 292);
-            uCproductshare1.Name = "uCproductshare1";
-            uCproductshare1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare1.ProfilePic");
-            uCproductshare1.Size = new System.Drawing.Size(564, 292);
-            uCproductshare1.TabIndex = 4;
-            uCproductshare1.txtDesc = "Tahun 2023";
-            uCproductshare1.txtName = "Baju Jasmine";
-            uCproductshare1.txtStatus = "Tahun 2023";
-            // 
-            // uCproductshare2
-            // 
-            uCproductshare2.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproductshare2.Location = new System.Drawing.Point(3, 301);
-            uCproductshare2.MaximumSize = new System.Drawing.Size(564, 292);
-            uCproductshare2.Name = "uCproductshare2";
-            uCproductshare2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare2.ProfilePic");
-            uCproductshare2.Size = new System.Drawing.Size(564, 292);
-            uCproductshare2.TabIndex = 5;
-            uCproductshare2.txtDesc = "Tahun 2023";
-            uCproductshare2.txtName = "Baju Jasmine";
-            uCproductshare2.txtStatus = "Tahun 2023";
-            // 
-            // uCproductshare3
-            // 
-            uCproductshare3.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproductshare3.Location = new System.Drawing.Point(3, 3);
-            uCproductshare3.MaximumSize = new System.Drawing.Size(564, 292);
-            uCproductshare3.Name = "uCproductshare3";
-            uCproductshare3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare3.ProfilePic");
-            uCproductshare3.Size = new System.Drawing.Size(564, 292);
-            uCproductshare3.TabIndex = 6;
-            uCproductshare3.txtDesc = "Tahun 2023";
-            uCproductshare3.txtName = "Baju Jasmine";
-            uCproductshare3.txtStatus = "Tahun 2023";
-            // 
-            // uCproductshare4
-            // 
-            uCproductshare4.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproductshare4.Location = new System.Drawing.Point(573, 301);
-            uCproductshare4.MaximumSize = new System.Drawing.Size(564, 292);
-            uCproductshare4.Name = "uCproductshare4";
-            uCproductshare4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare4.ProfilePic");
-            uCproductshare4.Size = new System.Drawing.Size(564, 292);
-            uCproductshare4.TabIndex = 7;
-            uCproductshare4.txtDesc = "Tahun 2023";
-            uCproductshare4.txtName = "Baju Jasmine";
-            uCproductshare4.txtStatus = "Tahun 2023";
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Controls.Add(uCproductshare3);
-            flowLayoutPanel1.Controls.Add(uCproductshare1);
-            flowLayoutPanel1.Controls.Add(uCproductshare2);
-            flowLayoutPanel1.Controls.Add(uCproductshare4);
-            flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            flowLayoutPanel1.Location = new System.Drawing.Point(76, 129);
+            flowLayoutPanel1.Location = new System.Drawing.Point(81, 121);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new System.Drawing.Size(1310, 659);
-            flowLayoutPanel1.TabIndex = 8;
+            flowLayoutPanel1.Size = new System.Drawing.Size(1305, 655);
+            flowLayoutPanel1.TabIndex = 4;
             // 
-            // FrmProductShare
+            // FrmActivity
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             AutoScroll = true;
@@ -452,7 +358,7 @@
             ForeColor = System.Drawing.Color.White;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             MaximumSize = new System.Drawing.Size(1920, 1080);
-            Name = "FrmProductShare";
+            Name = "FrmActivity";
             StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             Text = "FrmHome";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -461,7 +367,6 @@
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -485,12 +390,7 @@
         private System.Windows.Forms.Label label2;
         private UserControls.UCproduct uCproduct2;
         private UserControls.UCproduct uCproduct3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private UserControls.UCproductshare uCproductshare1;
-        private UserControls.UCproductshare uCproductshare2;
-        private UserControls.UCproductshare uCproductshare3;
-        private UserControls.UCproductshare uCproductshare4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
