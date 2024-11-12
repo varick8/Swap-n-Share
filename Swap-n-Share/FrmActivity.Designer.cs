@@ -64,6 +64,7 @@
             panel3 = new System.Windows.Forms.Panel();
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             label2 = new System.Windows.Forms.Label();
+            flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
@@ -335,6 +336,13 @@
             label2.Text = "Activity";
             label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Location = new System.Drawing.Point(81, 121);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new System.Drawing.Size(1305, 655);
+            flowLayoutPanel1.TabIndex = 4;
+            // 
             // FrmActivity
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -343,6 +351,7 @@
             AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             ClientSize = new System.Drawing.Size(1386, 788);
+            Controls.Add(flowLayoutPanel1);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
@@ -382,5 +391,6 @@
         private UserControls.UCproduct uCproduct2;
         private UserControls.UCproduct uCproduct3;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

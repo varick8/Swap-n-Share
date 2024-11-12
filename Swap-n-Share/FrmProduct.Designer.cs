@@ -71,9 +71,11 @@
             uCproduct4 = new UserControls.UCproduct();
             uCproduct5 = new UserControls.UCproduct();
             uCproduct6 = new UserControls.UCproduct();
+            flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
+            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -304,7 +306,7 @@
             panel3.Dock = System.Windows.Forms.DockStyle.Top;
             panel3.Location = new System.Drawing.Point(76, 69);
             panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(1310, 46);
+            panel3.Size = new System.Drawing.Size(1310, 75);
             panel3.TabIndex = 3;
             // 
             // guna2Button6
@@ -319,10 +321,10 @@
             guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             guna2Button6.ForeColor = System.Drawing.Color.White;
             guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
-            guna2Button6.Location = new System.Drawing.Point(978, 22);
+            guna2Button6.Location = new System.Drawing.Point(978, 5);
             guna2Button6.Name = "guna2Button6";
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Button6.Size = new System.Drawing.Size(156, 26);
+            guna2Button6.Size = new System.Drawing.Size(156, 43);
             guna2Button6.TabIndex = 8;
             guna2Button6.Text = "Share Products";
             guna2Button6.Click += guna2Button6_Click;
@@ -343,8 +345,8 @@
             guna2TextBox1.ForeColor = System.Drawing.Color.White;
             guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox1.IconRight = (System.Drawing.Image)resources.GetObject("guna2TextBox1.IconRight");
-            guna2TextBox1.IconRightSize = new System.Drawing.Size(10, 10);
-            guna2TextBox1.Location = new System.Drawing.Point(808, 22);
+            guna2TextBox1.IconRightSize = new System.Drawing.Size(15, 15);
+            guna2TextBox1.Location = new System.Drawing.Point(808, 6);
             guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
@@ -352,7 +354,7 @@
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2TextBox1.Size = new System.Drawing.Size(161, 24);
+            guna2TextBox1.Size = new System.Drawing.Size(161, 40);
             guna2TextBox1.TabIndex = 7;
             // 
             // label2
@@ -374,7 +376,7 @@
             // uCproduct1
             // 
             uCproduct1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproduct1.Location = new System.Drawing.Point(76, 149);
+            uCproduct1.Location = new System.Drawing.Point(3, 301);
             uCproduct1.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct1.Name = "uCproduct1";
             uCproduct1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct1.ProfilePic");
@@ -387,7 +389,7 @@
             // uCproduct4
             // 
             uCproduct4.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproduct4.Location = new System.Drawing.Point(646, 149);
+            uCproduct4.Location = new System.Drawing.Point(573, 301);
             uCproduct4.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct4.Name = "uCproduct4";
             uCproduct4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct4.ProfilePic");
@@ -400,7 +402,7 @@
             // uCproduct5
             // 
             uCproduct5.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproduct5.Location = new System.Drawing.Point(76, 447);
+            uCproduct5.Location = new System.Drawing.Point(3, 3);
             uCproduct5.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct5.Name = "uCproduct5";
             uCproduct5.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct5.ProfilePic");
@@ -413,7 +415,7 @@
             // uCproduct6
             // 
             uCproduct6.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCproduct6.Location = new System.Drawing.Point(646, 447);
+            uCproduct6.Location = new System.Drawing.Point(573, 3);
             uCproduct6.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct6.Name = "uCproduct6";
             uCproduct6.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct6.ProfilePic");
@@ -423,6 +425,18 @@
             uCproduct6.txtName = "Vacum Cleaner";
             uCproduct6.txtStatus = "Tahun 2024";
             // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Controls.Add(uCproduct5);
+            flowLayoutPanel1.Controls.Add(uCproduct6);
+            flowLayoutPanel1.Controls.Add(uCproduct1);
+            flowLayoutPanel1.Controls.Add(uCproduct4);
+            flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            flowLayoutPanel1.Location = new System.Drawing.Point(76, 144);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new System.Drawing.Size(1310, 644);
+            flowLayoutPanel1.TabIndex = 8;
+            // 
             // FrmProduct
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -431,10 +445,7 @@
             AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             ClientSize = new System.Drawing.Size(1386, 788);
-            Controls.Add(uCproduct6);
-            Controls.Add(uCproduct5);
-            Controls.Add(uCproduct4);
-            Controls.Add(uCproduct1);
+            Controls.Add(flowLayoutPanel1);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
@@ -450,6 +461,7 @@
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -479,5 +491,6 @@
         private UserControls.UCproduct uCproduct6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
