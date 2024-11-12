@@ -48,11 +48,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -65,6 +62,12 @@
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             PanelSlide = new System.Windows.Forms.Panel();
+            uCcommunity10 = new UserControls.UCcommunity();
+            uCcommunity9 = new UserControls.UCcommunity();
+            uCcommunity8 = new UserControls.UCcommunity();
+            uCcommunity2 = new UserControls.UCcommunity();
+            uCcommunity1 = new UserControls.UCcommunity();
+            uCcommunity7 = new UserControls.UCcommunity();
             tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             label8 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
@@ -160,7 +163,7 @@
             // 
             // guna2Button5
             // 
-            guna2Button5.CustomizableEdges = customizableEdges7;
+            guna2Button5.CustomizableEdges = customizableEdges5;
             guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -174,13 +177,13 @@
             guna2Button5.Location = new System.Drawing.Point(0, 282);
             guna2Button5.Margin = new System.Windows.Forms.Padding(2);
             guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button5.Size = new System.Drawing.Size(76, 94);
             guna2Button5.TabIndex = 7;
             // 
             // guna2Button4
             // 
-            guna2Button4.CustomizableEdges = customizableEdges9;
+            guna2Button4.CustomizableEdges = customizableEdges7;
             guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -194,13 +197,13 @@
             guna2Button4.Location = new System.Drawing.Point(0, 531);
             guna2Button4.Margin = new System.Windows.Forms.Padding(2);
             guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button4.Size = new System.Drawing.Size(76, 94);
             guna2Button4.TabIndex = 5;
             // 
             // guna2Button3
             // 
-            guna2Button3.CustomizableEdges = customizableEdges11;
+            guna2Button3.CustomizableEdges = customizableEdges9;
             guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -214,13 +217,13 @@
             guna2Button3.Location = new System.Drawing.Point(0, 625);
             guna2Button3.Margin = new System.Windows.Forms.Padding(2);
             guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button3.Size = new System.Drawing.Size(76, 94);
             guna2Button3.TabIndex = 4;
             // 
             // guna2Button2
             // 
-            guna2Button2.CustomizableEdges = customizableEdges13;
+            guna2Button2.CustomizableEdges = customizableEdges11;
             guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -234,14 +237,14 @@
             guna2Button2.Location = new System.Drawing.Point(0, 188);
             guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button2.Size = new System.Drawing.Size(76, 94);
             guna2Button2.TabIndex = 2;
             guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2Button1
             // 
-            guna2Button1.CustomizableEdges = customizableEdges15;
+            guna2Button1.CustomizableEdges = customizableEdges13;
             guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -255,14 +258,14 @@
             guna2Button1.Location = new System.Drawing.Point(0, 94);
             guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Button1.Size = new System.Drawing.Size(76, 94);
             guna2Button1.TabIndex = 1;
             guna2Button1.Click += guna2Button1_Click;
             // 
             // HomeBtn
             // 
-            HomeBtn.CustomizableEdges = customizableEdges17;
+            HomeBtn.CustomizableEdges = customizableEdges15;
             HomeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             HomeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             HomeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -276,7 +279,7 @@
             HomeBtn.Location = new System.Drawing.Point(0, 0);
             HomeBtn.Margin = new System.Windows.Forms.Padding(2);
             HomeBtn.Name = "HomeBtn";
-            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
             HomeBtn.Size = new System.Drawing.Size(76, 94);
             HomeBtn.TabIndex = 0;
             HomeBtn.Click += HomeBtn_Click;
@@ -284,6 +287,12 @@
             // PanelSlide
             // 
             PanelSlide.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            PanelSlide.Controls.Add(uCcommunity10);
+            PanelSlide.Controls.Add(uCcommunity9);
+            PanelSlide.Controls.Add(uCcommunity8);
+            PanelSlide.Controls.Add(uCcommunity2);
+            PanelSlide.Controls.Add(uCcommunity1);
+            PanelSlide.Controls.Add(uCcommunity7);
             PanelSlide.Controls.Add(tableLayoutPanel1);
             PanelSlide.Controls.Add(guna2TextBox1);
             PanelSlide.Controls.Add(guna2PictureBox1);
@@ -295,6 +304,72 @@
             PanelSlide.Name = "PanelSlide";
             PanelSlide.Size = new System.Drawing.Size(301, 719);
             PanelSlide.TabIndex = 3;
+            // 
+            // uCcommunity10
+            // 
+            uCcommunity10.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity10.Location = new System.Drawing.Point(8, 597);
+            uCcommunity10.Name = "uCcommunity10";
+            uCcommunity10.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity10.ProfilePic");
+            uCcommunity10.Size = new System.Drawing.Size(224, 110);
+            uCcommunity10.TabIndex = 44;
+            uCcommunity10.txtName = "Photography";
+            uCcommunity10.txtStatus = "Free Join";
+            // 
+            // uCcommunity9
+            // 
+            uCcommunity9.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity9.Location = new System.Drawing.Point(8, 531);
+            uCcommunity9.Name = "uCcommunity9";
+            uCcommunity9.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity9.ProfilePic");
+            uCcommunity9.Size = new System.Drawing.Size(224, 110);
+            uCcommunity9.TabIndex = 43;
+            uCcommunity9.txtName = "Exercise Tools";
+            uCcommunity9.txtStatus = "Free Join";
+            // 
+            // uCcommunity8
+            // 
+            uCcommunity8.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity8.Location = new System.Drawing.Point(8, 465);
+            uCcommunity8.Name = "uCcommunity8";
+            uCcommunity8.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity8.ProfilePic");
+            uCcommunity8.Size = new System.Drawing.Size(224, 110);
+            uCcommunity8.TabIndex = 42;
+            uCcommunity8.txtName = "Custom";
+            uCcommunity8.txtStatus = "Free Join";
+            // 
+            // uCcommunity2
+            // 
+            uCcommunity2.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity2.Location = new System.Drawing.Point(8, 400);
+            uCcommunity2.Name = "uCcommunity2";
+            uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
+            uCcommunity2.Size = new System.Drawing.Size(224, 110);
+            uCcommunity2.TabIndex = 41;
+            uCcommunity2.txtName = "Service Tools";
+            uCcommunity2.txtStatus = "Free Join";
+            // 
+            // uCcommunity1
+            // 
+            uCcommunity1.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity1.Location = new System.Drawing.Point(8, 333);
+            uCcommunity1.Name = "uCcommunity1";
+            uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
+            uCcommunity1.Size = new System.Drawing.Size(224, 110);
+            uCcommunity1.TabIndex = 40;
+            uCcommunity1.txtName = "Electronics";
+            uCcommunity1.txtStatus = "Free Join";
+            // 
+            // uCcommunity7
+            // 
+            uCcommunity7.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity7.Location = new System.Drawing.Point(8, 266);
+            uCcommunity7.Name = "uCcommunity7";
+            uCcommunity7.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity7.ProfilePic");
+            uCcommunity7.Size = new System.Drawing.Size(224, 110);
+            uCcommunity7.TabIndex = 39;
+            uCcommunity7.txtName = "Music Tools";
+            uCcommunity7.txtStatus = "Free Join";
             // 
             // tableLayoutPanel1
             // 
@@ -356,7 +431,7 @@
             guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
             guna2TextBox1.BorderRadius = 10;
             guna2TextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            guna2TextBox1.CustomizableEdges = customizableEdges19;
+            guna2TextBox1.CustomizableEdges = customizableEdges17;
             guna2TextBox1.DefaultText = "";
             guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
@@ -379,14 +454,14 @@
             guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Transparent;
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2TextBox1.Size = new System.Drawing.Size(222, 44);
             guna2TextBox1.TabIndex = 38;
             // 
             // guna2PictureBox1
             // 
             guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            guna2PictureBox1.CustomizableEdges = customizableEdges21;
+            guna2PictureBox1.CustomizableEdges = customizableEdges19;
             guna2PictureBox1.ErrorImage = (System.Drawing.Image)resources.GetObject("guna2PictureBox1.ErrorImage");
             guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             guna2PictureBox1.Image = (System.Drawing.Image)resources.GetObject("guna2PictureBox1.Image");
@@ -394,7 +469,7 @@
             guna2PictureBox1.Location = new System.Drawing.Point(134, 37);
             guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2PictureBox1.Size = new System.Drawing.Size(31, 31);
             guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             guna2PictureBox1.TabIndex = 4;
@@ -411,7 +486,7 @@
             label5.MaximumSize = new System.Drawing.Size(60, 18);
             label5.MinimumSize = new System.Drawing.Size(57, 18);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(57, 18);
+            label5.Size = new System.Drawing.Size(59, 18);
             label5.TabIndex = 31;
             label5.Text = "Recent";
             // 
@@ -494,5 +569,9 @@
         private UserControls.UCcommunity uCcommunity6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private UserControls.UCcommunity uCcommunity7;
+        private UserControls.UCcommunity uCcommunity10;
+        private UserControls.UCcommunity uCcommunity9;
+        private UserControls.UCcommunity uCcommunity8;
     }
 }
