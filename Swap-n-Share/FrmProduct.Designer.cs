@@ -68,9 +68,11 @@
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             label2 = new System.Windows.Forms.Label();
             uCproduct1 = new UserControls.UCproduct();
+            uCproduct6 = new UserControls.UCproduct();
             uCproduct4 = new UserControls.UCproduct();
             uCproduct5 = new UserControls.UCproduct();
             uCproduct6 = new UserControls.UCproduct();
+
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
@@ -100,7 +102,7 @@
             guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            guna2ControlBox3.Location = new System.Drawing.Point(1247, 14);
+            guna2ControlBox3.Location = new System.Drawing.Point(1257, 14);
             guna2ControlBox3.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox3.Name = "guna2ControlBox3";
             guna2ControlBox3.PressedColor = System.Drawing.Color.Transparent;
@@ -118,7 +120,7 @@
             guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            guna2ControlBox2.Location = new System.Drawing.Point(1287, 14);
+            guna2ControlBox2.Location = new System.Drawing.Point(1297, 14);
             guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox2.Name = "guna2ControlBox2";
             guna2ControlBox2.PressedColor = System.Drawing.Color.Transparent;
@@ -135,7 +137,7 @@
             guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox1.ForeColor = System.Drawing.Color.White;
             guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            guna2ControlBox1.Location = new System.Drawing.Point(1328, 14);
+            guna2ControlBox1.Location = new System.Drawing.Point(1338, 14);
             guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox1.Name = "guna2ControlBox1";
             guna2ControlBox1.PressedColor = System.Drawing.Color.Transparent;
@@ -148,7 +150,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label1.ForeColor = System.Drawing.Color.White;
             label1.Location = new System.Drawing.Point(25, 26);
             label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -307,10 +309,12 @@
             panel3.Location = new System.Drawing.Point(76, 69);
             panel3.Name = "panel3";
             panel3.Size = new System.Drawing.Size(1310, 75);
+
             panel3.TabIndex = 3;
             // 
             // guna2Button6
             // 
+            guna2Button6.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
             guna2Button6.BorderRadius = 5;
             guna2Button6.CustomizableEdges = customizableEdges19;
             guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -322,6 +326,7 @@
             guna2Button6.ForeColor = System.Drawing.Color.White;
             guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
             guna2Button6.Location = new System.Drawing.Point(978, 5);
+
             guna2Button6.Name = "guna2Button6";
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Button6.Size = new System.Drawing.Size(156, 43);
@@ -331,6 +336,7 @@
             // 
             // guna2TextBox1
             // 
+            guna2TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
             guna2TextBox1.BorderColor = System.Drawing.Color.White;
             guna2TextBox1.BorderRadius = 5;
             guna2TextBox1.CustomizableEdges = customizableEdges21;
@@ -345,25 +351,29 @@
             guna2TextBox1.ForeColor = System.Drawing.Color.White;
             guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox1.IconRight = (System.Drawing.Image)resources.GetObject("guna2TextBox1.IconRight");
+
             guna2TextBox1.IconRightSize = new System.Drawing.Size(15, 15);
             guna2TextBox1.Location = new System.Drawing.Point(808, 6);
             guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.White;
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+
             guna2TextBox1.Size = new System.Drawing.Size(161, 40);
+
             guna2TextBox1.TabIndex = 7;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = System.Drawing.Color.Transparent;
-            label2.Font = new System.Drawing.Font("Century Gothic", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.White;
-            label2.Location = new System.Drawing.Point(4, 22);
+            label2.Location = new System.Drawing.Point(69, 25);
             label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label2.MaximumSize = new System.Drawing.Size(143, 24);
             label2.MinimumSize = new System.Drawing.Size(143, 24);
@@ -375,45 +385,70 @@
             // 
             // uCproduct1
             // 
+            uCproduct1.AutoSize = true;
             uCproduct1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+
             uCproduct1.Location = new System.Drawing.Point(3, 301);
+
             uCproduct1.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct1.Name = "uCproduct1";
             uCproduct1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct1.ProfilePic");
-            uCproduct1.Size = new System.Drawing.Size(564, 292);
-            uCproduct1.TabIndex = 4;
+            uCproduct1.Size = new System.Drawing.Size(545, 274);
+            uCproduct1.TabIndex = 8;
             uCproduct1.txtDesc = "Hijau tosca";
             uCproduct1.txtName = "Baju Jasmine";
             uCproduct1.txtStatus = "Tahun 2022";
             // 
+            // uCproduct6
+            // 
+            uCproduct6.AutoSize = true;
+            uCproduct6.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            uCproduct6.Dock = System.Windows.Forms.DockStyle.Right;
+            uCproduct6.Location = new System.Drawing.Point(554, 283);
+            uCproduct6.MaximumSize = new System.Drawing.Size(564, 292);
+            uCproduct6.Name = "uCproduct6";
+            uCproduct6.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct6.ProfilePic");
+            uCproduct6.Size = new System.Drawing.Size(545, 274);
+            uCproduct6.TabIndex = 11;
+            uCproduct6.txtDesc = "Jarang Dipakai";
+            uCproduct6.txtName = "Vacum Cleaner";
+            uCproduct6.txtStatus = "Tahun 2024";
+            // 
             // uCproduct4
             // 
+            uCproduct4.AutoSize = true;
             uCproduct4.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+
             uCproduct4.Location = new System.Drawing.Point(573, 301);
+
             uCproduct4.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct4.Name = "uCproduct4";
             uCproduct4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct4.ProfilePic");
-            uCproduct4.Size = new System.Drawing.Size(564, 292);
-            uCproduct4.TabIndex = 5;
+            uCproduct4.Size = new System.Drawing.Size(545, 274);
+            uCproduct4.TabIndex = 9;
             uCproduct4.txtDesc = "Warna Merah";
             uCproduct4.txtName = "Gitar Listrik";
             uCproduct4.txtStatus = "Tahun 2023";
             // 
             // uCproduct5
             // 
+            uCproduct5.AutoSize = true;
             uCproduct5.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+
             uCproduct5.Location = new System.Drawing.Point(3, 3);
+
             uCproduct5.MaximumSize = new System.Drawing.Size(564, 292);
             uCproduct5.Name = "uCproduct5";
             uCproduct5.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct5.ProfilePic");
-            uCproduct5.Size = new System.Drawing.Size(564, 292);
-            uCproduct5.TabIndex = 6;
+            uCproduct5.Size = new System.Drawing.Size(545, 274);
+            uCproduct5.TabIndex = 10;
             uCproduct5.txtDesc = "Potong Rumput";
             uCproduct5.txtName = "Pemotong";
             uCproduct5.txtStatus = "Tahun 2023";
             // 
-            // uCproduct6
+            // flowLayoutPanel1
             // 
+
             uCproduct6.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
             uCproduct6.Location = new System.Drawing.Point(573, 3);
             uCproduct6.MaximumSize = new System.Drawing.Size(564, 292);
@@ -424,6 +459,7 @@
             uCproduct6.txtDesc = "Jarang Dipakai";
             uCproduct6.txtName = "Vacum Cleaner";
             uCproduct6.txtStatus = "Tahun 2024";
+
             // 
             // flowLayoutPanel1
             // 
@@ -441,8 +477,6 @@
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             AutoScroll = true;
-            AutoSize = true;
-            AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             ClientSize = new System.Drawing.Size(1386, 788);
             Controls.Add(flowLayoutPanel1);
@@ -453,7 +487,6 @@
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             MaximumSize = new System.Drawing.Size(1920, 1080);
             Name = "FrmProduct";
-            StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             Text = "FrmHome";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
             panel2.ResumeLayout(false);
@@ -462,6 +495,7 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             flowLayoutPanel1.ResumeLayout(false);
+
             ResumeLayout(false);
         }
 
@@ -485,12 +519,30 @@
         private System.Windows.Forms.Label label2;
         private UserControls.UCproduct uCproduct2;
         private UserControls.UCproduct uCproduct3;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private System.Windows.Forms.Panel PanelSlide;
+        private UserControls.UCcommunity uCcommunity10;
+        private UserControls.UCcommunity uCcommunity9;
+        private UserControls.UCcommunity uCcommunity8;
+        private UserControls.UCcommunity uCcommunity2;
+        private UserControls.UCcommunity uCcommunity1;
+        private UserControls.UCcommunity uCcommunity7;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
         private UserControls.UCproduct uCproduct1;
+        private UserControls.UCproduct uCproduct6;
         private UserControls.UCproduct uCproduct4;
         private UserControls.UCproduct uCproduct5;
+
         private UserControls.UCproduct uCproduct6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
+
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
