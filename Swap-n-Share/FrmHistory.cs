@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmHome : Form
+    public partial class FrmHistory : Form
     {
 
-        public FrmHome()
+        public FrmHistory()
         {
             InitializeComponent();
 
@@ -53,30 +53,14 @@ namespace Swap_n_Share
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Button7_Click(object sender, EventArgs e)
         {
-            FrmProduct sd = new FrmProduct();
-            this.Hide();
-            sd.Show();
+
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void guna2Button6_Click(object sender, EventArgs e)
         {
-            FrmSetting sd = new FrmSetting();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            FrmProfile sd = new FrmProfile();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
-        {
-            FrmActivity sd = new FrmActivity();
+            FrmProductShare sd = new FrmProductShare();
             this.Hide();
             sd.Show();
         }
