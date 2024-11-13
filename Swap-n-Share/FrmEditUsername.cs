@@ -10,44 +10,11 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmEditProfile : Form
+    public partial class FrmEditUsername : Form
     {
-        public FrmEditProfile()
+        public FrmEditUsername()
         {
             InitializeComponent();
-        }
-
-        private void guna2ControlBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
-        {
-            FrmSetting sd = new FrmSetting();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void btnAppearance_Click(object sender, EventArgs e)
-        {
-            FrmEditBio sd = new FrmEditBio();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void btnEditProfile_Click(object sender, EventArgs e)
-        {
-            FrmEditUsername sd = new FrmEditUsername();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void btnAccountSetting_Click(object sender, EventArgs e)
-        {
-            FrmEditProfilePicture sd = new FrmEditProfilePicture();
-            this.Hide();
-            sd.Show();
         }
 
         private void HomeBtn_Click(object sender, EventArgs e)
@@ -88,6 +55,13 @@ namespace Swap_n_Share
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             FrmSetting sd = new FrmSetting();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            FrmEditProfile sd = new FrmEditProfile();
             this.Hide();
             sd.Show();
         }

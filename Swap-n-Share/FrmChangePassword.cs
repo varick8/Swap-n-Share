@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmEdirUsername : Form
+    public partial class FrmChangePassword : Form
     {
-        public FrmEdirUsername()
+        public FrmChangePassword()
         {
             InitializeComponent();
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
