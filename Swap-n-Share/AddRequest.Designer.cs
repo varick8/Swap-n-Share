@@ -92,6 +92,7 @@
             guna2TextBox3.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
             guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            guna2TextBox3.ForeColor = System.Drawing.Color.White;
             guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox3.Location = new System.Drawing.Point(429, 184);
             guna2TextBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
@@ -259,6 +260,7 @@
             Controls.Add(labelTitle);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "AddRequest";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "AddProduct";
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);

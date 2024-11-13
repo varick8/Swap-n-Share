@@ -316,6 +316,7 @@
             Controls.Add(guna2TextBox4);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "AddRequestSwap";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "AddProduct";
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             panel2.ResumeLayout(false);
