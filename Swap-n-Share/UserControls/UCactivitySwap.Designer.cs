@@ -151,9 +151,9 @@
             label.ForeColor = System.Drawing.Color.White;
             label.Location = new System.Drawing.Point(265, 187);
             label.Name = "label";
-            label.Size = new System.Drawing.Size(178, 45);
+            label.Size = new System.Drawing.Size(177, 45);
             label.TabIndex = 2;
-            label.Text = "Komentar:";
+            label.Text = "Comment:";
             // 
             // labelTanggal
             // 
@@ -222,9 +222,9 @@
             label4.ForeColor = System.Drawing.Color.White;
             label4.Location = new System.Drawing.Point(189, 157);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(317, 45);
+            label4.Size = new System.Drawing.Size(261, 45);
             label4.TabIndex = 7;
-            label4.Text = "Nomor Handphone";
+            label4.Text = "phone Number:";
             // 
             // labelNomor
             // 
