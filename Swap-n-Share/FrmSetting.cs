@@ -40,7 +40,7 @@ namespace Swap_n_Share
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            FrmProduct sd = new FrmProduct();
+            FrmCommunity sd = new FrmCommunity();
             this.Hide();
             sd.Show();
         }
@@ -48,6 +48,20 @@ namespace Swap_n_Share
         private void HomeBtn_Click(object sender, EventArgs e)
         {
             FrmHome sd = new FrmHome();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            FrmProduct sd = new FrmProduct();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            FrmProfile sd = new FrmProfile();
             this.Hide();
             sd.Show();
         }

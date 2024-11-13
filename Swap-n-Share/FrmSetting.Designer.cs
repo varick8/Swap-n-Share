@@ -88,7 +88,7 @@
             lblSetting.Location = new System.Drawing.Point(134, 137);
             lblSetting.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
             lblSetting.Name = "lblSetting";
-            lblSetting.Size = new System.Drawing.Size(195, 60);
+            lblSetting.Size = new System.Drawing.Size(306, 92);
             lblSetting.TabIndex = 15;
             lblSetting.Text = "Settings";
             lblSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -337,6 +337,7 @@
             guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Button4.Size = new System.Drawing.Size(76, 94);
             guna2Button4.TabIndex = 5;
+            guna2Button4.Click += guna2Button4_Click;
             // 
             // guna2Button3
             // 
@@ -398,6 +399,7 @@
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges24;
             guna2Button1.Size = new System.Drawing.Size(76, 94);
             guna2Button1.TabIndex = 1;
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // HomeBtn
             // 

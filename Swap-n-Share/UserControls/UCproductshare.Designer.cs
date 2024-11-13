@@ -36,7 +36,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCproductshare));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             labelName = new System.Windows.Forms.Label();
-            labelStatus = new System.Windows.Forms.Label();
+            labelLoc = new System.Windows.Forms.Label();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             picbox = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -56,16 +56,16 @@
             labelName.TabIndex = 1;
             labelName.Text = "Baju Jasmine";
             // 
-            // labelStatus
+            // labelLoc
             // 
-            labelStatus.AutoSize = true;
-            labelStatus.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            labelStatus.ForeColor = System.Drawing.Color.White;
-            labelStatus.Location = new System.Drawing.Point(305, 81);
-            labelStatus.Name = "labelStatus";
-            labelStatus.Size = new System.Drawing.Size(144, 30);
-            labelStatus.TabIndex = 2;
-            labelStatus.Text = "Tahun 2023";
+            labelLoc.AutoSize = true;
+            labelLoc.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            labelLoc.ForeColor = System.Drawing.Color.White;
+            labelLoc.Location = new System.Drawing.Point(305, 81);
+            labelLoc.Name = "labelLoc";
+            labelLoc.Size = new System.Drawing.Size(117, 30);
+            labelLoc.TabIndex = 2;
+            labelLoc.Text = "Location";
             // 
             // guna2Button1
             // 
@@ -127,7 +127,7 @@
             BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
             Controls.Add(labelDeskripsi);
             Controls.Add(guna2Button1);
-            Controls.Add(labelStatus);
+            Controls.Add(labelLoc);
             Controls.Add(labelName);
             Controls.Add(guna2Panel1);
             MaximumSize = new System.Drawing.Size(564, 292);
@@ -142,7 +142,7 @@
 
         #endregion
         private System.Windows.Forms.Label labelName;
-        private System.Windows.Forms.Label labelStatus;
+        private System.Windows.Forms.Label labelLoc;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2PictureBox picbox;

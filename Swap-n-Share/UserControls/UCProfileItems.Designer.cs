@@ -36,11 +36,9 @@
             pictureBox1 = new System.Windows.Forms.PictureBox();
             label1 = new System.Windows.Forms.Label();
             panel2 = new System.Windows.Forms.Panel();
-            panel1 = new System.Windows.Forms.Panel();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
-            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label12
@@ -51,7 +49,7 @@
             label12.ForeColor = System.Drawing.Color.DimGray;
             label12.Location = new System.Drawing.Point(232, 122);
             label12.Name = "label12";
-            label12.Size = new System.Drawing.Size(226, 20);
+            label12.Size = new System.Drawing.Size(353, 32);
             label12.TabIndex = 16;
             label12.Text = "Cari mobil sepadan untuk swap";
             // 
@@ -63,7 +61,7 @@
             label13.ForeColor = System.Drawing.Color.White;
             label13.Location = new System.Drawing.Point(232, 54);
             label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(147, 25);
+            label13.Size = new System.Drawing.Size(235, 40);
             label13.TabIndex = 15;
             label13.Text = "Ready for Swap";
             // 
@@ -85,7 +83,7 @@
             label1.ForeColor = System.Drawing.Color.White;
             label1.Location = new System.Drawing.Point(223, 0);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(291, 54);
+            label1.Size = new System.Drawing.Size(467, 86);
             label1.TabIndex = 21;
             label1.Text = "Toyota Crown";
             label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -97,19 +95,10 @@
             panel2.Controls.Add(label1);
             panel2.Controls.Add(label13);
             panel2.Controls.Add(label12);
-            panel2.Location = new System.Drawing.Point(88, 9);
+            panel2.Location = new System.Drawing.Point(3, 20);
             panel2.Name = "panel2";
             panel2.Size = new System.Drawing.Size(520, 143);
             panel2.TabIndex = 26;
-            // 
-            // panel1
-            // 
-            panel1.BackColor = System.Drawing.Color.Transparent;
-            panel1.Controls.Add(guna2Button2);
-            panel1.Location = new System.Drawing.Point(969, 106);
-            panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(244, 45);
-            panel1.TabIndex = 27;
             // 
             // guna2Button2
             // 
@@ -124,7 +113,7 @@
             guna2Button2.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
             guna2Button2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             guna2Button2.ForeColor = System.Drawing.Color.White;
-            guna2Button2.Location = new System.Drawing.Point(0, 0);
+            guna2Button2.Location = new System.Drawing.Point(876, 103);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Button2.Size = new System.Drawing.Size(244, 45);
@@ -135,14 +124,13 @@
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            Controls.Add(panel1);
+            Controls.Add(guna2Button2);
             Controls.Add(panel2);
             Name = "UCProfileItems";
             Size = new System.Drawing.Size(1296, 185);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -152,7 +140,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }

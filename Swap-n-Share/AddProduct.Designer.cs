@@ -121,7 +121,7 @@
             guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
             guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
             guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
@@ -145,7 +145,7 @@
             guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
             guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
             guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
@@ -166,9 +166,9 @@
             label2.ForeColor = System.Drawing.Color.White;
             label2.Location = new System.Drawing.Point(32, 238);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(125, 37);
+            label2.Size = new System.Drawing.Size(118, 37);
             label2.TabIndex = 5;
-            label2.Text = "Category";
+            label2.Text = "Location";
             // 
             // guna2TextBox3
             // 
@@ -180,7 +180,7 @@
             guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
             guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
             guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FillColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            guna2TextBox3.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
@@ -299,7 +299,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             ClientSize = new System.Drawing.Size(892, 691);
             ControlBox = false;
             Controls.Add(guna2Button3);

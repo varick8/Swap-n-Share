@@ -195,6 +195,7 @@
             guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button5.Size = new System.Drawing.Size(76, 94);
             guna2Button5.TabIndex = 6;
+            guna2Button5.Click += guna2Button5_Click;
             // 
             // guna2Button4
             // 
@@ -215,6 +216,7 @@
             guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button4.Size = new System.Drawing.Size(76, 94);
             guna2Button4.TabIndex = 5;
+            guna2Button4.Click += guna2Button4_Click;
             // 
             // guna2Button3
             // 
@@ -235,6 +237,7 @@
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button3.Size = new System.Drawing.Size(76, 94);
             guna2Button3.TabIndex = 4;
+            guna2Button3.Click += guna2Button3_Click;
             // 
             // guna2Button2
             // 
@@ -384,7 +387,7 @@
             uCproductshare1.TabIndex = 4;
             uCproductshare1.txtDesc = "Tahun 2023";
             uCproductshare1.txtName = "Baju Jasmine";
-            uCproductshare1.txtStatus = "Tahun 2023";
+            uCproductshare1.txtStatus = "Yogyakarta";
             // 
             // uCproductshare2
             // 
@@ -397,7 +400,7 @@
             uCproductshare2.TabIndex = 5;
             uCproductshare2.txtDesc = "Tahun 2023";
             uCproductshare2.txtName = "Baju Jasmine";
-            uCproductshare2.txtStatus = "Tahun 2023";
+            uCproductshare2.txtStatus = "Yogyakarta";
             // 
             // uCproductshare3
             // 
@@ -410,7 +413,7 @@
             uCproductshare3.TabIndex = 6;
             uCproductshare3.txtDesc = "Tahun 2023";
             uCproductshare3.txtName = "Baju Jasmine";
-            uCproductshare3.txtStatus = "Tahun 2023";
+            uCproductshare3.txtStatus = "Yogyakarta";
             // 
             // uCproductshare4
             // 
@@ -423,7 +426,7 @@
             uCproductshare4.TabIndex = 7;
             uCproductshare4.txtDesc = "Tahun 2023";
             uCproductshare4.txtName = "Baju Jasmine";
-            uCproductshare4.txtStatus = "Tahun 2023";
+            uCproductshare4.txtStatus = "Yogyakarta";
             // 
             // flowLayoutPanel1
             // 
