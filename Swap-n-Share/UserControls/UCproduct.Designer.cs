@@ -84,6 +84,7 @@
             guna2Button1.Size = new System.Drawing.Size(195, 54);
             guna2Button1.TabIndex = 3;
             guna2Button1.Text = "Swap";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // guna2Panel1
             // 
