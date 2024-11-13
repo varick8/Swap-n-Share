@@ -72,7 +72,7 @@
             // 
             guna2PictureBox1.CustomizableEdges = customizableEdges1;
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new System.Drawing.Point(1147, 107);
+            guna2PictureBox1.Location = new System.Drawing.Point(577, 167);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2PictureBox1.Size = new System.Drawing.Size(290, 253);
@@ -102,7 +102,7 @@
             guna2Button1.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2Button1.ForeColor = System.Drawing.Color.White;
-            guna2Button1.Location = new System.Drawing.Point(1147, 395);
+            guna2Button1.Location = new System.Drawing.Point(577, 448);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Button1.Size = new System.Drawing.Size(290, 64);
@@ -197,7 +197,7 @@
             guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox3.ForeColor = System.Drawing.Color.White;
             guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new System.Drawing.Point(563, 177);
+            guna2TextBox3.Location = new System.Drawing.Point(47, 419);
             guna2TextBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             guna2TextBox3.Name = "guna2TextBox3";
             guna2TextBox3.PasswordChar = '\0';
@@ -212,7 +212,7 @@
             label3.AutoSize = true;
             label3.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(563, 125);
+            label3.Location = new System.Drawing.Point(47, 367);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(340, 37);
             label3.TabIndex = 7;
@@ -223,7 +223,7 @@
             label4.AutoSize = true;
             label4.Font = new System.Drawing.Font("Malgun Gothic", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label4.ForeColor = System.Drawing.Color.White;
-            label4.Location = new System.Drawing.Point(47, 390);
+            label4.Location = new System.Drawing.Point(50, 612);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(79, 37);
             label4.TabIndex = 9;
@@ -239,7 +239,7 @@
             guna2RadioButton1.CheckedState.InnerOffset = -4;
             guna2RadioButton1.Font = new System.Drawing.Font("Malgun Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             guna2RadioButton1.ForeColor = System.Drawing.Color.White;
-            guna2RadioButton1.Location = new System.Drawing.Point(47, 430);
+            guna2RadioButton1.Location = new System.Drawing.Point(50, 652);
             guna2RadioButton1.Name = "guna2RadioButton1";
             guna2RadioButton1.Size = new System.Drawing.Size(217, 41);
             guna2RadioButton1.TabIndex = 10;
@@ -259,7 +259,7 @@
             guna2RadioButton2.CheckedState.InnerOffset = -4;
             guna2RadioButton2.Font = new System.Drawing.Font("Malgun Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             guna2RadioButton2.ForeColor = System.Drawing.Color.White;
-            guna2RadioButton2.Location = new System.Drawing.Point(284, 430);
+            guna2RadioButton2.Location = new System.Drawing.Point(287, 652);
             guna2RadioButton2.Name = "guna2RadioButton2";
             guna2RadioButton2.Size = new System.Drawing.Size(221, 41);
             guna2RadioButton2.TabIndex = 11;
@@ -281,7 +281,7 @@
             guna2Button2.FillColor = System.Drawing.Color.Lime;
             guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2Button2.ForeColor = System.Drawing.Color.Black;
-            guna2Button2.Location = new System.Drawing.Point(1147, 540);
+            guna2Button2.Location = new System.Drawing.Point(577, 607);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button2.Size = new System.Drawing.Size(290, 64);
@@ -300,7 +300,7 @@
             guna2Button3.FillColor = System.Drawing.Color.Red;
             guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2Button3.ForeColor = System.Drawing.Color.White;
-            guna2Button3.Location = new System.Drawing.Point(1147, 467);
+            guna2Button3.Location = new System.Drawing.Point(577, 527);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Button3.Size = new System.Drawing.Size(290, 64);
@@ -313,7 +313,7 @@
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label5.ForeColor = System.Drawing.Color.White;
-            label5.Location = new System.Drawing.Point(563, 242);
+            label5.Location = new System.Drawing.Point(47, 484);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(125, 37);
             label5.TabIndex = 14;
@@ -334,7 +334,7 @@
             guna2ComboBox1.ForeColor = System.Drawing.Color.White;
             guna2ComboBox1.ItemHeight = 30;
             guna2ComboBox1.Items.AddRange(new object[] { "Music Tools", "Service Tools", "Exercise Tool", "Electronics", "Custom", "Photography" });
-            guna2ComboBox1.Location = new System.Drawing.Point(563, 294);
+            guna2ComboBox1.Location = new System.Drawing.Point(47, 536);
             guna2ComboBox1.Name = "guna2ComboBox1";
             guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2ComboBox1.Size = new System.Drawing.Size(449, 36);
@@ -367,15 +367,15 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(guna2PictureBox1);
             panel2.Controls.Add(guna2Button2);
             panel2.Controls.Add(guna2TextBox3);
-            panel2.Controls.Add(guna2Button1);
+            panel2.Controls.Add(guna2PictureBox1);
             panel2.Controls.Add(guna2ComboBox1);
-            panel2.Controls.Add(guna2Button3);
             panel2.Controls.Add(label3);
+            panel2.Controls.Add(guna2Button1);
             panel2.Controls.Add(guna2RadioButton2);
             panel2.Controls.Add(label5);
+            panel2.Controls.Add(guna2Button3);
             panel2.Controls.Add(guna2RadioButton1);
             panel2.Controls.Add(guna2TextBox2);
             panel2.Controls.Add(label4);
@@ -385,22 +385,20 @@
             panel2.Controls.Add(guna2TextBox1);
             panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             panel2.Location = new System.Drawing.Point(0, 0);
-            panel2.MaximumSize = new System.Drawing.Size(1500, 693);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(1500, 693);
+            panel2.Size = new System.Drawing.Size(939, 772);
             panel2.TabIndex = 18;
             // 
             // AddProduct
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            ClientSize = new System.Drawing.Size(1500, 693);
+            ClientSize = new System.Drawing.Size(939, 772);
             ControlBox = false;
             Controls.Add(panel2);
             Controls.Add(guna2TextBox4);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            MaximumSize = new System.Drawing.Size(1500, 693);
             Name = "AddProduct";
             Text = "AddProduct";
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
