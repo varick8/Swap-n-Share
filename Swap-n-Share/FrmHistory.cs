@@ -60,7 +60,14 @@ namespace Swap_n_Share
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            FrmProductShare sd = new FrmProductShare();
+            FrmActivity sd = new FrmActivity();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void guna2Button7_Click_1(object sender, EventArgs e)
+        {
+            FrmHistorySwap sd = new FrmHistorySwap();
             this.Hide();
             sd.Show();
         }

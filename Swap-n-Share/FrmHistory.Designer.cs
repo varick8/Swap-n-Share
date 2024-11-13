@@ -49,6 +49,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -62,6 +64,7 @@
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new System.Windows.Forms.Panel();
+            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             label2 = new System.Windows.Forms.Label();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -295,6 +298,7 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(guna2Button7);
             panel3.Controls.Add(guna2Button6);
             panel3.Controls.Add(label2);
             panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -303,10 +307,30 @@
             panel3.Size = new System.Drawing.Size(1310, 61);
             panel3.TabIndex = 3;
             // 
+            // guna2Button7
+            // 
+            guna2Button7.BorderRadius = 5;
+            guna2Button7.CustomizableEdges = customizableEdges19;
+            guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button7.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button7.ForeColor = System.Drawing.Color.White;
+            guna2Button7.Image = (System.Drawing.Image)resources.GetObject("guna2Button7.Image");
+            guna2Button7.Location = new System.Drawing.Point(731, 5);
+            guna2Button7.Name = "guna2Button7";
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button7.Size = new System.Drawing.Size(241, 43);
+            guna2Button7.TabIndex = 9;
+            guna2Button7.Text = "History Swap";
+            guna2Button7.Click += guna2Button7_Click_1;
+            // 
             // guna2Button6
             // 
             guna2Button6.BorderRadius = 5;
-            guna2Button6.CustomizableEdges = customizableEdges19;
+            guna2Button6.CustomizableEdges = customizableEdges21;
             guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -317,7 +341,7 @@
             guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
             guna2Button6.Location = new System.Drawing.Point(978, 5);
             guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Button6.Size = new System.Drawing.Size(156, 43);
             guna2Button6.TabIndex = 8;
             guna2Button6.Text = "Activity";
@@ -336,7 +360,7 @@
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(143, 24);
             label2.TabIndex = 7;
-            label2.Text = "History";
+            label2.Text = "History Share";
             label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // flowLayoutPanel1
@@ -360,7 +384,7 @@
             uCactivity1.TabIndex = 0;
             uCactivity1.txtName = "Baju Jasmine";
             uCactivity1.txtOwner = "Rani Nirmala";
-            uCactivity1.txtTanggal = "12/12/2024";
+            uCactivity1.txtTanggal = "12/12/2024-15/12/2024";
             // 
             // uCactivity2
             // 
@@ -373,7 +397,7 @@
             uCactivity2.TabIndex = 1;
             uCactivity2.txtName = "Vacum Cleaner";
             uCactivity2.txtOwner = "Varick Zahir";
-            uCactivity2.txtTanggal = "10/12/2024";
+            uCactivity2.txtTanggal = "10/12/2024-11/12/2024";
             // 
             // FrmHistory
             // 
@@ -427,5 +451,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private UserControls.UChistory uCactivity1;
         private UserControls.UChistory uCactivity2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
     }
 }

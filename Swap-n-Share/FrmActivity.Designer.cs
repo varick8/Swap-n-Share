@@ -49,6 +49,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -62,10 +64,14 @@
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new System.Windows.Forms.Panel();
+            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             label2 = new System.Windows.Forms.Label();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            uCactivity2 = new UserControls.UCactivity();
             uCactivity1 = new UserControls.UCactivity();
+            uCactivity3 = new UserControls.UCactivity();
+            uCactivity4 = new UserControls.UCactivity();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
@@ -297,6 +303,7 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(guna2Button7);
             panel3.Controls.Add(guna2Button6);
             panel3.Controls.Add(label2);
             panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -305,10 +312,30 @@
             panel3.Size = new System.Drawing.Size(1310, 61);
             panel3.TabIndex = 3;
             // 
+            // guna2Button7
+            // 
+            guna2Button7.BorderRadius = 5;
+            guna2Button7.CustomizableEdges = customizableEdges19;
+            guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button7.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button7.ForeColor = System.Drawing.Color.White;
+            guna2Button7.Image = (System.Drawing.Image)resources.GetObject("guna2Button7.Image");
+            guna2Button7.Location = new System.Drawing.Point(742, 5);
+            guna2Button7.Name = "guna2Button7";
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button7.Size = new System.Drawing.Size(230, 43);
+            guna2Button7.TabIndex = 9;
+            guna2Button7.Text = "Activity Swap";
+            guna2Button7.Click += guna2Button7_Click_1;
+            // 
             // guna2Button6
             // 
             guna2Button6.BorderRadius = 5;
-            guna2Button6.CustomizableEdges = customizableEdges19;
+            guna2Button6.CustomizableEdges = customizableEdges21;
             guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -319,7 +346,7 @@
             guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
             guna2Button6.Location = new System.Drawing.Point(978, 5);
             guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Button6.Size = new System.Drawing.Size(156, 43);
             guna2Button6.TabIndex = 8;
             guna2Button6.Text = "History";
@@ -338,31 +365,81 @@
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(143, 24);
             label2.TabIndex = 7;
-            label2.Text = "Activity";
+            label2.Text = "Activity Share";
             label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            label2.Click += label2_Click;
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.Controls.Add(uCactivity2);
             flowLayoutPanel1.Controls.Add(uCactivity1);
+            flowLayoutPanel1.Controls.Add(uCactivity3);
+            flowLayoutPanel1.Controls.Add(uCactivity4);
             flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             flowLayoutPanel1.Location = new System.Drawing.Point(76, 130);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new System.Drawing.Size(1310, 658);
             flowLayoutPanel1.TabIndex = 4;
             // 
+            // uCactivity2
+            // 
+            uCactivity2.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            uCactivity2.Location = new System.Drawing.Point(3, 3);
+            uCactivity2.MaximumSize = new System.Drawing.Size(560, 270);
+            uCactivity2.Name = "uCactivity2";
+            uCactivity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivity2.ProfilePic");
+            uCactivity2.Size = new System.Drawing.Size(560, 270);
+            uCactivity2.TabIndex = 1;
+            uCactivity2.txtHandphone = "08765544332";
+            uCactivity2.txtKomen = "Cari size M";
+            uCactivity2.txtName = "Baju Jasmine";
+            uCactivity2.txtTanggal = "12/12/2024-13/12/2024";
+            uCactivity2.txtUser = "Varick Zahir";
+            // 
             // uCactivity1
             // 
             uCactivity1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCactivity1.Location = new System.Drawing.Point(3, 3);
-            uCactivity1.MaximumSize = new System.Drawing.Size(1131, 270);
+            uCactivity1.Location = new System.Drawing.Point(569, 3);
+            uCactivity1.MaximumSize = new System.Drawing.Size(560, 270);
             uCactivity1.Name = "uCactivity1";
             uCactivity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivity1.ProfilePic");
-            uCactivity1.Size = new System.Drawing.Size(1131, 270);
-            uCactivity1.TabIndex = 0;
-            uCactivity1.txtKomen = "Ini masih bagus?";
-            uCactivity1.txtName = "Pemotong Rumput";
-            uCactivity1.txtTanggal = "29/11/2024";
-            uCactivity1.txtUser = "Rani Nirmala";
+            uCactivity1.Size = new System.Drawing.Size(560, 270);
+            uCactivity1.TabIndex = 2;
+            uCactivity1.txtHandphone = "08765544332";
+            uCactivity1.txtKomen = "Cari size M";
+            uCactivity1.txtName = "Baju Jasmine";
+            uCactivity1.txtTanggal = "12/12/2024-13/12/2024";
+            uCactivity1.txtUser = "Varick Zahir";
+            // 
+            // uCactivity3
+            // 
+            uCactivity3.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            uCactivity3.Location = new System.Drawing.Point(3, 279);
+            uCactivity3.MaximumSize = new System.Drawing.Size(560, 270);
+            uCactivity3.Name = "uCactivity3";
+            uCactivity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivity3.ProfilePic");
+            uCactivity3.Size = new System.Drawing.Size(560, 270);
+            uCactivity3.TabIndex = 3;
+            uCactivity3.txtHandphone = "08765544332";
+            uCactivity3.txtKomen = "Cari size M";
+            uCactivity3.txtName = "Baju Jasmine";
+            uCactivity3.txtTanggal = "12/12/2024-13/12/2024";
+            uCactivity3.txtUser = "Varick Zahir";
+            // 
+            // uCactivity4
+            // 
+            uCactivity4.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            uCactivity4.Location = new System.Drawing.Point(569, 279);
+            uCactivity4.MaximumSize = new System.Drawing.Size(560, 270);
+            uCactivity4.Name = "uCactivity4";
+            uCactivity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivity4.ProfilePic");
+            uCactivity4.Size = new System.Drawing.Size(560, 270);
+            uCactivity4.TabIndex = 4;
+            uCactivity4.txtHandphone = "08765544332";
+            uCactivity4.txtKomen = "Cari size M";
+            uCactivity4.txtName = "Baju Jasmine";
+            uCactivity4.txtTanggal = "12/12/2024-13/12/2024";
+            uCactivity4.txtUser = "Varick Zahir";
             // 
             // FrmActivity
             // 
@@ -414,6 +491,10 @@
         private UserControls.UCproduct uCproduct3;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private UserControls.UCactivity uCactivity2;
         private UserControls.UCactivity uCactivity1;
+        private UserControls.UCactivity uCactivity3;
+        private UserControls.UCactivity uCactivity4;
     }
 }

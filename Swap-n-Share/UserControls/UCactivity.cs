@@ -43,6 +43,11 @@ namespace Swap_n_Share.UserControls
             get { return labelUser.Text; }
             set { labelUser.Text = value; }  // Fixed line
         }
+        public string txtHandphone
+        {
+            get { return labelNomor.Text; }
+            set { labelNomor.Text = value; }
+        }
 
         private void labelKomen_Click(object sender, EventArgs e)
         {

@@ -40,6 +40,12 @@
     <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="1.4.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="FrmActivitySwap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHistorySwap.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -51,6 +57,12 @@
     </Compile>
     <Compile Update="FrmHome.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\UCactivitySwap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UChistorySwap.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UCproduct.cs">
       <SubType>UserControl</SubType>
