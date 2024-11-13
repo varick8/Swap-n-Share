@@ -68,14 +68,13 @@
             // 
             // UCcommunity
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             BackColor = System.Drawing.Color.Transparent;
             Controls.Add(labelStatus);
             Controls.Add(labelName);
             Controls.Add(pictureBox1);
             Name = "UCcommunity";
-            Size = new System.Drawing.Size(300, 100);
+            Size = new System.Drawing.Size(296, 100);
             Load += UCcommunity_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
