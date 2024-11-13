@@ -138,7 +138,6 @@
             guna2Button8.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
             guna2Button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             guna2Button8.ForeColor = System.Drawing.Color.White;
-            guna2Button8.Image = (System.Drawing.Image)resources.GetObject("guna2Button8.Image");
             guna2Button8.ImageOffset = new System.Drawing.Point(50, 0);
             guna2Button8.Location = new System.Drawing.Point(919, 155);
             guna2Button8.Name = "guna2Button8";
