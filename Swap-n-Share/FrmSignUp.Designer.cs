@@ -53,7 +53,6 @@
             txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             ShowPassCB = new System.Windows.Forms.CheckBox();
             txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -62,14 +61,15 @@
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             label1 = new System.Windows.Forms.Label();
             panel1 = new System.Windows.Forms.Panel();
+            label11 = new System.Windows.Forms.Label();
+            label10 = new System.Windows.Forms.Label();
+            label9 = new System.Windows.Forms.Label();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             label4 = new System.Windows.Forms.Label();
             label2 = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
             tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             label7 = new System.Windows.Forms.Label();
-            UsernameTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            PasswordTxt = new Guna.UI2.WinForms.Guna2HtmlLabel();
             tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             label5 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
@@ -220,24 +220,12 @@
             txtEmail.Name = "txtEmail";
             txtEmail.PasswordChar = '\0';
             txtEmail.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            txtEmail.PlaceholderText = "Enter your email";
+            txtEmail.PlaceholderText = "Enter your phone number";
             txtEmail.SelectedText = "";
             txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges8;
             txtEmail.Size = new System.Drawing.Size(464, 58);
             txtEmail.TabIndex = 26;
             txtEmail.TextOffset = new System.Drawing.Point(20, 0);
-            // 
-            // guna2HtmlLabel1
-            // 
-            guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            guna2HtmlLabel1.Font = new System.Drawing.Font("Malgun Gothic", 10.2F);
-            guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            guna2HtmlLabel1.Location = new System.Drawing.Point(141, 311);
-            guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new System.Drawing.Size(44, 25);
-            guna2HtmlLabel1.TabIndex = 25;
-            guna2HtmlLabel1.Text = "Email";
             // 
             // panel2
             // 
@@ -357,16 +345,16 @@
             // 
             panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             panel1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            panel1.Controls.Add(label11);
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(label9);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(tableLayoutPanel2);
             panel1.Controls.Add(txtPassword);
-            panel1.Controls.Add(UsernameTxt);
             panel1.Controls.Add(txtEmail);
-            panel1.Controls.Add(PasswordTxt);
-            panel1.Controls.Add(guna2HtmlLabel1);
             panel1.Controls.Add(ShowPassCB);
             panel1.Controls.Add(txtUsername);
             panel1.Controls.Add(SignupButton);
@@ -374,6 +362,39 @@
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(752, 1069);
             panel1.TabIndex = 28;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label11.ForeColor = System.Drawing.Color.White;
+            label11.Location = new System.Drawing.Point(141, 552);
+            label11.Name = "label11";
+            label11.Size = new System.Drawing.Size(82, 23);
+            label11.TabIndex = 33;
+            label11.Text = "Password";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label10.ForeColor = System.Drawing.Color.White;
+            label10.Location = new System.Drawing.Point(141, 429);
+            label10.Name = "label10";
+            label10.Size = new System.Drawing.Size(87, 23);
+            label10.TabIndex = 32;
+            label10.Text = "Username";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label9.ForeColor = System.Drawing.Color.White;
+            label9.Location = new System.Drawing.Point(141, 313);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(128, 23);
+            label9.TabIndex = 31;
+            label9.Text = "Phone Number";
             // 
             // pictureBox1
             // 
@@ -391,7 +412,7 @@
             label4.BackColor = System.Drawing.Color.Transparent;
             label4.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label4.ForeColor = System.Drawing.Color.Red;
-            label4.Location = new System.Drawing.Point(222, 552);
+            label4.Location = new System.Drawing.Point(218, 552);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(17, 23);
             label4.TabIndex = 30;
@@ -403,7 +424,7 @@
             label2.BackColor = System.Drawing.Color.Transparent;
             label2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.Red;
-            label2.Location = new System.Drawing.Point(226, 429);
+            label2.Location = new System.Drawing.Point(221, 429);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(17, 23);
             label2.TabIndex = 29;
@@ -415,7 +436,7 @@
             label3.BackColor = System.Drawing.Color.Transparent;
             label3.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.Red;
-            label3.Location = new System.Drawing.Point(191, 313);
+            label3.Location = new System.Drawing.Point(264, 313);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(17, 23);
             label3.TabIndex = 28;
@@ -448,30 +469,6 @@
             label7.TabIndex = 20;
             label7.Text = "Already Have an Account?";
             label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // UsernameTxt
-            // 
-            UsernameTxt.BackColor = System.Drawing.Color.Transparent;
-            UsernameTxt.Font = new System.Drawing.Font("Malgun Gothic", 10.2F);
-            UsernameTxt.ForeColor = System.Drawing.Color.White;
-            UsernameTxt.Location = new System.Drawing.Point(141, 427);
-            UsernameTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            UsernameTxt.Name = "UsernameTxt";
-            UsernameTxt.Size = new System.Drawing.Size(80, 25);
-            UsernameTxt.TabIndex = 16;
-            UsernameTxt.Text = "Username";
-            // 
-            // PasswordTxt
-            // 
-            PasswordTxt.BackColor = System.Drawing.Color.Transparent;
-            PasswordTxt.Font = new System.Drawing.Font("Malgun Gothic", 10.2F);
-            PasswordTxt.ForeColor = System.Drawing.Color.White;
-            PasswordTxt.Location = new System.Drawing.Point(141, 550);
-            PasswordTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            PasswordTxt.Name = "PasswordTxt";
-            PasswordTxt.Size = new System.Drawing.Size(75, 25);
-            PasswordTxt.TabIndex = 17;
-            PasswordTxt.Text = "Password";
             // 
             // tableLayoutPanel1
             // 
@@ -548,10 +545,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private System.Windows.Forms.CheckBox ShowPassCB;
-        private Guna.UI2.WinForms.Guna2HtmlLabel PasswordTxt;
-        private Guna.UI2.WinForms.Guna2HtmlLabel UsernameTxt;
         private Guna.UI2.WinForms.Guna2TextBox txtEmail;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
@@ -571,5 +565,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
     }
 }

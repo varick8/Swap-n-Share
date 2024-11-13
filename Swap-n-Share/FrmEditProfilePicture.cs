@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmEditBio : Form
+    public partial class FrmEditProfilePicture : Form
     {
-        public FrmEditBio()
+        public FrmEditProfilePicture()
         {
             InitializeComponent();
+        }
+
+        private void lblCurrentUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
