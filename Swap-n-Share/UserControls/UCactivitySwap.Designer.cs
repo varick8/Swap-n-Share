@@ -224,7 +224,7 @@
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(261, 45);
             label4.TabIndex = 7;
-            label4.Text = "phone Number:";
+            label4.Text = "Phone Number:";
             // 
             // labelNomor
             // 

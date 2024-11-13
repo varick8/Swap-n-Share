@@ -44,5 +44,11 @@ namespace Swap_n_Share.UserControls
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            AddRequestSwap addRequestSwapForm = new AddRequestSwap();
+            addRequestSwapForm.ShowDialog();
+        }
     }
 }
