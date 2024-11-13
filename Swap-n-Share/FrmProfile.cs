@@ -31,5 +31,11 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            AddProduct frm = new AddProduct();
+            frm.ShowDialog();
+        }
     }
 }

@@ -114,7 +114,7 @@
             // guna2TextBox1
             // 
             guna2TextBox1.BorderColor = System.Drawing.Color.White;
-            guna2TextBox1.BorderRadius = 20;
+            guna2TextBox1.BorderRadius = 10;
             guna2TextBox1.CustomizableEdges = customizableEdges5;
             guna2TextBox1.DefaultText = "";
             guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
@@ -138,7 +138,7 @@
             // guna2TextBox2
             // 
             guna2TextBox2.BorderColor = System.Drawing.Color.White;
-            guna2TextBox2.BorderRadius = 20;
+            guna2TextBox2.BorderRadius = 10;
             guna2TextBox2.CustomizableEdges = customizableEdges7;
             guna2TextBox2.DefaultText = "";
             guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
@@ -173,7 +173,7 @@
             // guna2TextBox3
             // 
             guna2TextBox3.BorderColor = System.Drawing.Color.White;
-            guna2TextBox3.BorderRadius = 20;
+            guna2TextBox3.BorderRadius = 10;
             guna2TextBox3.CustomizableEdges = customizableEdges9;
             guna2TextBox3.DefaultText = "";
             guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
