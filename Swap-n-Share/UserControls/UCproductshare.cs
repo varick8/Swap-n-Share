@@ -28,7 +28,6 @@ namespace Swap_n_Share.UserControls
             get { return labelLoc.Text; }
             set { labelLoc.Text = value; }  // Fixed line
         }
-
         public string txtDesc
         {
             get { return labelDeskripsi.Text; }

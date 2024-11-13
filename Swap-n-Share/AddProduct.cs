@@ -21,5 +21,10 @@ namespace Swap_n_Share
         {
             this.Close();
         }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

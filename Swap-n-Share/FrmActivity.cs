@@ -87,5 +87,17 @@ namespace Swap_n_Share
             this.Hide();
             sd.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button7_Click_1(object sender, EventArgs e)
+        {
+            FrmActivitySwap sd = new FrmActivitySwap();
+            this.Hide();
+            sd.Show();
+        }
     }
 }

@@ -38,6 +38,7 @@
             panel3 = new System.Windows.Forms.Panel();
             label3 = new System.Windows.Forms.Label();
             labelOwner = new System.Windows.Forms.Label();
+            labelStatus = new System.Windows.Forms.Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PicBox).BeginInit();
             panel2.SuspendLayout();
@@ -133,15 +134,28 @@
             labelOwner.TabIndex = 3;
             labelOwner.Text = "Nama Owner";
             // 
-            // UCactivity
+            // labelStatus
+            // 
+            labelStatus.AutoSize = true;
+            labelStatus.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            labelStatus.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            labelStatus.ForeColor = System.Drawing.Color.White;
+            labelStatus.Location = new System.Drawing.Point(738, 24);
+            labelStatus.Name = "labelStatus";
+            labelStatus.Size = new System.Drawing.Size(113, 45);
+            labelStatus.TabIndex = 5;
+            labelStatus.Text = "Status";
+            // 
+            // UChistory
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            Controls.Add(labelStatus);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
             MaximumSize = new System.Drawing.Size(1131, 135);
-            Name = "UCactivity";
+            Name = "UChistory";
             Size = new System.Drawing.Size(1131, 135);
             Load += UCactivity_Load;
             panel1.ResumeLayout(false);
@@ -151,6 +165,7 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -163,5 +178,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label labelOwner;
+        private System.Windows.Forms.Label labelStatus;
     }
 }
