@@ -70,12 +70,6 @@
             label8 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            uCcommunity7 = new UserControls.UCcommunity();
-            uCcommunity1 = new UserControls.UCcommunity();
-            uCcommunity2 = new UserControls.UCcommunity();
-            uCcommunity8 = new UserControls.UCcommunity();
-            uCcommunity9 = new UserControls.UCcommunity();
-            uCcommunity10 = new UserControls.UCcommunity();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             label5 = new System.Windows.Forms.Label();
@@ -93,11 +87,9 @@
             panel1.SuspendLayout();
             PanelSlide.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
-            flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -377,88 +369,10 @@
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Controls.Add(uCcommunity7);
-            flowLayoutPanel1.Controls.Add(uCcommunity1);
-            flowLayoutPanel1.Controls.Add(uCcommunity2);
-            flowLayoutPanel1.Controls.Add(uCcommunity8);
-            flowLayoutPanel1.Controls.Add(uCcommunity9);
-            flowLayoutPanel1.Controls.Add(uCcommunity10);
             flowLayoutPanel1.Location = new System.Drawing.Point(5, 266);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new System.Drawing.Size(296, 441);
             flowLayoutPanel1.TabIndex = 45;
-            // 
-            // uCcommunity7
-            // 
-            uCcommunity7.BackColor = System.Drawing.Color.Transparent;
-            uCcommunity7.Location = new System.Drawing.Point(2, 2);
-            uCcommunity7.Margin = new System.Windows.Forms.Padding(2);
-            uCcommunity7.Name = "uCcommunity7";
-            uCcommunity7.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity7.ProfilePic");
-            uCcommunity7.Size = new System.Drawing.Size(224, 68);
-            uCcommunity7.TabIndex = 39;
-            uCcommunity7.txtName = "Music Tools";
-            uCcommunity7.txtStatus = "Free Join";
-            // 
-            // uCcommunity1
-            // 
-            uCcommunity1.BackColor = System.Drawing.Color.Transparent;
-            uCcommunity1.Location = new System.Drawing.Point(2, 74);
-            uCcommunity1.Margin = new System.Windows.Forms.Padding(2);
-            uCcommunity1.Name = "uCcommunity1";
-            uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
-            uCcommunity1.Size = new System.Drawing.Size(224, 69);
-            uCcommunity1.TabIndex = 40;
-            uCcommunity1.txtName = "Electronics";
-            uCcommunity1.txtStatus = "Free Join";
-            // 
-            // uCcommunity2
-            // 
-            uCcommunity2.BackColor = System.Drawing.Color.Transparent;
-            uCcommunity2.Location = new System.Drawing.Point(2, 147);
-            uCcommunity2.Margin = new System.Windows.Forms.Padding(2);
-            uCcommunity2.Name = "uCcommunity2";
-            uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
-            uCcommunity2.Size = new System.Drawing.Size(224, 70);
-            uCcommunity2.TabIndex = 41;
-            uCcommunity2.txtName = "Service Tools";
-            uCcommunity2.txtStatus = "Free Join";
-            // 
-            // uCcommunity8
-            // 
-            uCcommunity8.BackColor = System.Drawing.Color.Transparent;
-            uCcommunity8.Location = new System.Drawing.Point(2, 221);
-            uCcommunity8.Margin = new System.Windows.Forms.Padding(2);
-            uCcommunity8.Name = "uCcommunity8";
-            uCcommunity8.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity8.ProfilePic");
-            uCcommunity8.Size = new System.Drawing.Size(224, 70);
-            uCcommunity8.TabIndex = 42;
-            uCcommunity8.txtName = "Custom";
-            uCcommunity8.txtStatus = "Free Join";
-            // 
-            // uCcommunity9
-            // 
-            uCcommunity9.BackColor = System.Drawing.Color.Transparent;
-            uCcommunity9.Location = new System.Drawing.Point(2, 295);
-            uCcommunity9.Margin = new System.Windows.Forms.Padding(2);
-            uCcommunity9.Name = "uCcommunity9";
-            uCcommunity9.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity9.ProfilePic");
-            uCcommunity9.Size = new System.Drawing.Size(224, 71);
-            uCcommunity9.TabIndex = 43;
-            uCcommunity9.txtName = "Exercise Tools";
-            uCcommunity9.txtStatus = "Free Join";
-            // 
-            // uCcommunity10
-            // 
-            uCcommunity10.BackColor = System.Drawing.Color.Transparent;
-            uCcommunity10.Location = new System.Drawing.Point(2, 370);
-            uCcommunity10.Margin = new System.Windows.Forms.Padding(2);
-            uCcommunity10.Name = "uCcommunity10";
-            uCcommunity10.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity10.ProfilePic");
-            uCcommunity10.Size = new System.Drawing.Size(224, 75);
-            uCcommunity10.TabIndex = 44;
-            uCcommunity10.txtName = "Photography";
-            uCcommunity10.txtStatus = "Free Join";
             // 
             // guna2TextBox1
             // 
@@ -522,7 +436,7 @@
             label5.MaximumSize = new System.Drawing.Size(60, 18);
             label5.MinimumSize = new System.Drawing.Size(57, 18);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(59, 18);
+            label5.Size = new System.Drawing.Size(57, 18);
             label5.TabIndex = 31;
             label5.Text = "Recent";
             // 
@@ -692,12 +606,10 @@
             PanelSlide.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
-            flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel5.ResumeLayout(false);
-            flowLayoutPanel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 

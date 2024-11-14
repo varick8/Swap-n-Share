@@ -39,12 +39,13 @@
             // 
             // guna2PictureBox1
             // 
+            guna2PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             guna2PictureBox1.AutoRoundedCorners = true;
             guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             guna2PictureBox1.BorderRadius = 16;
             guna2PictureBox1.CustomizableEdges = customizableEdges1;
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new System.Drawing.Point(805, 16);
+            guna2PictureBox1.Location = new System.Drawing.Point(945, 16);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2PictureBox1.Size = new System.Drawing.Size(35, 35);
@@ -53,6 +54,8 @@
             // 
             // guna2TextBox1
             // 
+            guna2TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            guna2TextBox1.AutoSize = true;
             guna2TextBox1.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2TextBox1.BorderColor = System.Drawing.Color.FromArgb(170, 170, 251);
             guna2TextBox1.BorderRadius = 10;
@@ -67,8 +70,8 @@
             guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new System.Drawing.Point(145, 16);
-            guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            guna2TextBox1.Location = new System.Drawing.Point(285, 16);
+            guna2TextBox1.Margin = new System.Windows.Forms.Padding(6);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "";
@@ -82,14 +85,15 @@
             // BubleChat2
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            AutoSize = true;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             Controls.Add(guna2TextBox1);
             Controls.Add(guna2PictureBox1);
-            MaximumSize = new System.Drawing.Size(1006, 66);
             Name = "BubleChat2";
             Size = new System.Drawing.Size(1006, 66);
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

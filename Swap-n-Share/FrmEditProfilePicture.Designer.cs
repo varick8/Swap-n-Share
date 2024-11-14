@@ -473,7 +473,7 @@
             guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges32;
             guna2Button5.Size = new System.Drawing.Size(138, 44);
             guna2Button5.TabIndex = 35;
-            guna2Button5.Text = "Cancel";
+            guna2Button5.Text = "Clear";
             // 
             // btnSave
             // 
