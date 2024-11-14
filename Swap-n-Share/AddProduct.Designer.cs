@@ -333,7 +333,7 @@
             guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             guna2ComboBox1.ForeColor = System.Drawing.Color.White;
             guna2ComboBox1.ItemHeight = 30;
-            guna2ComboBox1.Items.AddRange(new object[] { "Music Tools", "Service Tools", "Exercise Tool", "Electronics", "Custom", "Photography" });
+            guna2ComboBox1.Items.AddRange(new object[] { "Music", "Service", "Exercise ", "Electronics", "Custom", "Photography", "Others" });
             guna2ComboBox1.Location = new System.Drawing.Point(47, 536);
             guna2ComboBox1.Name = "guna2ComboBox1";
             guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
