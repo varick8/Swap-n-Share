@@ -77,6 +77,7 @@
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2TextBox1.Size = new System.Drawing.Size(636, 35);
             guna2TextBox1.TabIndex = 3;
+            guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
             // 
             // BubleChat2
             // 
