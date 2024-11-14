@@ -64,6 +64,9 @@
     <Compile Update="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserControls\BubleChat2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UCactivitySwap.cs">
       <SubType>UserControl</SubType>
     </Compile>

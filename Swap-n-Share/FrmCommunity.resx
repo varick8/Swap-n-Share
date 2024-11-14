@@ -372,6 +372,20 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="guna2Button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAe9JREFUaEPt
+        mTsvBFEYhodGISQKt0qhoUGEhkSi8AdUFP6ASiMqjUSicS0kOkSj1Cm0hEIo9g8IIUEpLo31fDInkRWz
+        O7cz35HzJE8jO+d738w6u3M28Hg8nqBcLh/iPW5ie/hntyD4GFayjR3hS9yAwIPf0X/zhhvoxh0iaLOk
+        jsCdQoR8lMRV0F+IcGeStEakkM5NgVB7kjAm+goRZlGSJURPIUJMS6KUFF+I4cOSJCOKK8TQaltwEoop
+        xMBnmZ4Ddgsx6Fym5kj+hVh8AO/QFtkWYrF6XMAPtI3coS1MV4gFuvAUiyZ5IS7qwUt8QU3I40NnGDMe
+        XNiA3TiCkziLS7iDR3iBN/iONsjmLRcFi7dgL46jfBuYw2XcxWO8wgfMijVsDMfbh+F12IZ9OIEzOI+r
+        eIAnWEL57PrEKFbCZe3DcN1FWFTvW4sXuvvPzotk+71GbduvPErH2365wP0PRAMXu/8V5Scs1o+3aIv8
+        DgBZOM5JShLkDuT/XMKAJ5mWA3YKCAxpkokZY6+AgWFDMjkj7BcwMHRKEqREChR7pMrwtAd0Os6ECbEv
+        iWKip4CBMHEPsXWeyhOqlq33FddRXwGBYNW2XlOgNbxEJwT8a+t1o4CBoKOSugJ5ktP5FoqC0ObnaXfu
+        gMfj+c8EwReuST6bWyvmKAAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>115</value>
   </metadata>
