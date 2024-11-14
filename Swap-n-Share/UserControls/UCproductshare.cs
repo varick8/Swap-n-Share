@@ -33,6 +33,11 @@ namespace Swap_n_Share.UserControls
             get { return labelDeskripsi.Text; }
             set { labelDeskripsi.Text = value; }
         }
+        public string txtCategory
+        {
+            get { return labelCategory.Text; }
+            set { labelCategory.Text = value; }
+        }
 
         public Image ProfilePic
         {

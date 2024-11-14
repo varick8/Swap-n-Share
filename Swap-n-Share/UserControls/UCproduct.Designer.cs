@@ -41,6 +41,7 @@
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             picbox = new Guna.UI2.WinForms.Guna2PictureBox();
             labelDeskripsi = new System.Windows.Forms.Label();
+            labelCategory = new System.Windows.Forms.Label();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picbox).BeginInit();
             SuspendLayout();
@@ -122,10 +123,22 @@
             labelDeskripsi.TabIndex = 5;
             labelDeskripsi.Text = "Tahun 2023";
             // 
+            // labelCategory
+            // 
+            labelCategory.AutoSize = true;
+            labelCategory.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            labelCategory.ForeColor = System.Drawing.Color.White;
+            labelCategory.Location = new System.Drawing.Point(305, 141);
+            labelCategory.Name = "labelCategory";
+            labelCategory.Size = new System.Drawing.Size(125, 30);
+            labelCategory.TabIndex = 6;
+            labelCategory.Text = "Category";
+            // 
             // UCproduct
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
+            Controls.Add(labelCategory);
             Controls.Add(labelDeskripsi);
             Controls.Add(guna2Button1);
             Controls.Add(labelLoc);
@@ -148,5 +161,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2PictureBox picbox;
         private System.Windows.Forms.Label labelDeskripsi;
+        private System.Windows.Forms.Label labelCategory;
     }
 }

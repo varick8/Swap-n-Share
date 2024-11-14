@@ -385,6 +385,7 @@
             uCproductshare1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare1.ProfilePic");
             uCproductshare1.Size = new System.Drawing.Size(564, 292);
             uCproductshare1.TabIndex = 4;
+            uCproductshare1.txtCategory = "Custom";
             uCproductshare1.txtDesc = "Tahun 2023";
             uCproductshare1.txtName = "Baju Jasmine";
             uCproductshare1.txtStatus = "Yogyakarta";
@@ -398,6 +399,7 @@
             uCproductshare2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare2.ProfilePic");
             uCproductshare2.Size = new System.Drawing.Size(564, 292);
             uCproductshare2.TabIndex = 5;
+            uCproductshare2.txtCategory = "Custom";
             uCproductshare2.txtDesc = "Tahun 2023";
             uCproductshare2.txtName = "Baju Jasmine";
             uCproductshare2.txtStatus = "Yogyakarta";
@@ -411,6 +413,7 @@
             uCproductshare3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare3.ProfilePic");
             uCproductshare3.Size = new System.Drawing.Size(564, 292);
             uCproductshare3.TabIndex = 6;
+            uCproductshare3.txtCategory = "Custom";
             uCproductshare3.txtDesc = "Tahun 2023";
             uCproductshare3.txtName = "Baju Jasmine";
             uCproductshare3.txtStatus = "Yogyakarta";
@@ -424,6 +427,7 @@
             uCproductshare4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproductshare4.ProfilePic");
             uCproductshare4.Size = new System.Drawing.Size(564, 292);
             uCproductshare4.TabIndex = 7;
+            uCproductshare4.txtCategory = "Custom";
             uCproductshare4.txtDesc = "Tahun 2023";
             uCproductshare4.txtName = "Baju Jasmine";
             uCproductshare4.txtStatus = "Yogyakarta";

@@ -388,6 +388,7 @@
             uCproduct1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct1.ProfilePic");
             uCproduct1.Size = new System.Drawing.Size(545, 274);
             uCproduct1.TabIndex = 8;
+            uCproduct1.txtCategory = "Custom";
             uCproduct1.txtDesc = "Hijau tosca";
             uCproduct1.txtName = "Baju Jasmine";
             uCproduct1.txtStatus = "Kota Baru";
@@ -403,6 +404,7 @@
             uCproduct6.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct6.ProfilePic");
             uCproduct6.Size = new System.Drawing.Size(564, 274);
             uCproduct6.TabIndex = 7;
+            uCproduct6.txtCategory = "Service";
             uCproduct6.txtDesc = "Jarang Dipakai";
             uCproduct6.txtName = "Vacum Cleaner";
             uCproduct6.txtStatus = "Pogung Kidul";
@@ -417,6 +419,7 @@
             uCproduct4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct4.ProfilePic");
             uCproduct4.Size = new System.Drawing.Size(545, 274);
             uCproduct4.TabIndex = 9;
+            uCproduct4.txtCategory = "Music";
             uCproduct4.txtDesc = "Warna Merah";
             uCproduct4.txtName = "Gitar Listrik";
             uCproduct4.txtStatus = "Sinduadi, Sleman";
@@ -431,6 +434,7 @@
             uCproduct5.ProfilePic = (System.Drawing.Image)resources.GetObject("uCproduct5.ProfilePic");
             uCproduct5.Size = new System.Drawing.Size(545, 274);
             uCproduct5.TabIndex = 10;
+            uCproduct5.txtCategory = "Service";
             uCproduct5.txtDesc = "Potong Rumput";
             uCproduct5.txtName = "Pemotong";
             uCproduct5.txtStatus = "Demangan";
