@@ -202,12 +202,12 @@
             guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             guna2DateTimePicker1.Location = new System.Drawing.Point(429, 427);
             guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            guna2DateTimePicker1.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2DateTimePicker1.Size = new System.Drawing.Size(449, 52);
             guna2DateTimePicker1.TabIndex = 16;
-            guna2DateTimePicker1.Value = new System.DateTime(2024, 11, 13, 21, 55, 41, 135);
+            guna2DateTimePicker1.Value = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             // 
             // guna2DateTimePicker2
             // 
@@ -222,12 +222,12 @@
             guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             guna2DateTimePicker2.Location = new System.Drawing.Point(429, 309);
             guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            guna2DateTimePicker2.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             guna2DateTimePicker2.Name = "guna2DateTimePicker2";
             guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2DateTimePicker2.Size = new System.Drawing.Size(449, 52);
             guna2DateTimePicker2.TabIndex = 17;
-            guna2DateTimePicker2.Value = new System.DateTime(2024, 11, 13, 21, 55, 41, 135);
+            guna2DateTimePicker2.Value = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             // 
             // guna2PictureBox1
             // 
