@@ -109,5 +109,10 @@ namespace Swap_n_Share
             this.Hide();
             sd.Show();
         }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
