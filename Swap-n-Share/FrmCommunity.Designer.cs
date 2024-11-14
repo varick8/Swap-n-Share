@@ -50,6 +50,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -77,12 +81,24 @@
             label5 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
             timer1 = new System.Windows.Forms.Timer(components);
+            label2 = new System.Windows.Forms.Label();
+            panel4 = new System.Windows.Forms.Panel();
+            panel5 = new System.Windows.Forms.Panel();
+            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            bubleChat11 = new UserControls.BubleChat1();
+            bubleChat12 = new UserControls.BubleChat1();
+            bubleChat21 = new UserControls.BubleChat2();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             PanelSlide.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
+            panel4.SuspendLayout();
+            panel5.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -531,6 +547,133 @@
             timer1.Interval = 2;
             timer1.Tick += timer1_Tick;
             // 
+            // label2
+            // 
+            label2.Anchor = System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.BackColor = System.Drawing.Color.Transparent;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label2.ForeColor = System.Drawing.Color.White;
+            label2.Location = new System.Drawing.Point(24, 18);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.MaximumSize = new System.Drawing.Size(280, 30);
+            label2.MinimumSize = new System.Drawing.Size(280, 30);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(280, 30);
+            label2.TabIndex = 36;
+            label2.Text = "Community Name";
+            label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            panel4.Controls.Add(label2);
+            panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            panel4.Location = new System.Drawing.Point(377, 69);
+            panel4.Name = "panel4";
+            panel4.Size = new System.Drawing.Size(1009, 66);
+            panel4.TabIndex = 5;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            panel5.Controls.Add(guna2Button6);
+            panel5.Controls.Add(guna2TextBox2);
+            panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            panel5.Location = new System.Drawing.Point(377, 722);
+            panel5.Name = "panel5";
+            panel5.Size = new System.Drawing.Size(1009, 66);
+            panel5.TabIndex = 6;
+            // 
+            // guna2Button6
+            // 
+            guna2Button6.BorderColor = System.Drawing.Color.Transparent;
+            guna2Button6.CustomizableEdges = customizableEdges21;
+            guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button6.FillColor = System.Drawing.Color.Transparent;
+            guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            guna2Button6.ForeColor = System.Drawing.Color.White;
+            guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
+            guna2Button6.ImageSize = new System.Drawing.Size(30, 30);
+            guna2Button6.Location = new System.Drawing.Point(679, 10);
+            guna2Button6.Name = "guna2Button6";
+            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2Button6.Size = new System.Drawing.Size(44, 44);
+            guna2Button6.TabIndex = 7;
+            // 
+            // guna2TextBox2
+            // 
+            guna2TextBox2.AcceptsReturn = true;
+            guna2TextBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            guna2TextBox2.BackColor = System.Drawing.Color.Transparent;
+            guna2TextBox2.BorderColor = System.Drawing.Color.White;
+            guna2TextBox2.BorderRadius = 10;
+            guna2TextBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            guna2TextBox2.CustomizableEdges = customizableEdges23;
+            guna2TextBox2.DefaultText = "";
+            guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            guna2TextBox2.ForeColor = System.Drawing.Color.Transparent;
+            guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            guna2TextBox2.IconRightCursor = System.Windows.Forms.Cursors.No;
+            guna2TextBox2.IconRightOffset = new System.Drawing.Point(20, 0);
+            guna2TextBox2.Location = new System.Drawing.Point(34, 10);
+            guna2TextBox2.Margin = new System.Windows.Forms.Padding(0);
+            guna2TextBox2.Name = "guna2TextBox2";
+            guna2TextBox2.PasswordChar = '\0';
+            guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            guna2TextBox2.PlaceholderText = "";
+            guna2TextBox2.SelectedText = "";
+            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2TextBox2.Size = new System.Drawing.Size(631, 44);
+            guna2TextBox2.TabIndex = 46;
+            // 
+            // flowLayoutPanel2
+            // 
+            flowLayoutPanel2.Controls.Add(bubleChat11);
+            flowLayoutPanel2.Controls.Add(bubleChat12);
+            flowLayoutPanel2.Controls.Add(bubleChat21);
+            flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            flowLayoutPanel2.Location = new System.Drawing.Point(377, 135);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new System.Drawing.Size(1009, 587);
+            flowLayoutPanel2.TabIndex = 7;
+            // 
+            // bubleChat11
+            // 
+            bubleChat11.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            bubleChat11.Location = new System.Drawing.Point(3, 3);
+            bubleChat11.MaximumSize = new System.Drawing.Size(1006, 66);
+            bubleChat11.Name = "bubleChat11";
+            bubleChat11.Size = new System.Drawing.Size(1006, 66);
+            bubleChat11.TabIndex = 0;
+            // 
+            // bubleChat12
+            // 
+            bubleChat12.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            bubleChat12.Location = new System.Drawing.Point(3, 75);
+            bubleChat12.MaximumSize = new System.Drawing.Size(1006, 66);
+            bubleChat12.Name = "bubleChat12";
+            bubleChat12.Size = new System.Drawing.Size(1006, 66);
+            bubleChat12.TabIndex = 1;
+            // 
+            // bubleChat21
+            // 
+            bubleChat21.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            bubleChat21.Location = new System.Drawing.Point(3, 147);
+            bubleChat21.MaximumSize = new System.Drawing.Size(1006, 66);
+            bubleChat21.Name = "bubleChat21";
+            bubleChat21.Size = new System.Drawing.Size(1006, 66);
+            bubleChat21.TabIndex = 2;
+            // 
             // FrmCommunity
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -539,6 +682,9 @@
             AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             ClientSize = new System.Drawing.Size(1386, 788);
+            Controls.Add(flowLayoutPanel2);
+            Controls.Add(panel5);
+            Controls.Add(panel4);
             Controls.Add(PanelSlide);
             Controls.Add(panel1);
             Controls.Add(panel2);
@@ -547,7 +693,7 @@
             MaximumSize = new System.Drawing.Size(1920, 1080);
             Name = "FrmCommunity";
             StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            Text = "FrmHome";
+            Text = "flo";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
             Load += FrmCommunity_Load;
             panel2.ResumeLayout(false);
@@ -559,6 +705,10 @@
             tableLayoutPanel1.PerformLayout();
             flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel5.ResumeLayout(false);
+            flowLayoutPanel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -596,5 +746,14 @@
         private UserControls.UCcommunity uCcommunity8;
         private UserControls.UCcommunity uCcommunity9;
         private UserControls.UCcommunity uCcommunity10;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private UserControls.BubleChat1 bubleChat11;
+        private UserControls.BubleChat1 bubleChat12;
+        private UserControls.BubleChat2 bubleChat21;
     }
 }
