@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Swap_n_Share.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,13 @@ namespace Swap_n_Share.UserControls
         {
             InitializeComponent();
         }
+     
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+  
     }
 }
