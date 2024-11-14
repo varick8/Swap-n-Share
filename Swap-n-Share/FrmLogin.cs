@@ -25,7 +25,7 @@ namespace Swap_n_Share
 
         private void LoginButton_Clicks(object sender, EventArgs e)
         {
-            string s_id;
+           /* string s_id;
             // Using parameterized query to prevent SQL injection
             string qry = "SELECT user_id FROM public.\"User\" WHERE username = '" + UsernameTB.Text + "' AND password = '" + PasswordTB.Text + "';";
 
@@ -33,19 +33,19 @@ namespace Swap_n_Share
             dl.GetSingleColumnValueByIndexParameterized(qry, out s_id, 0);
 
             if (s_id != null)
-            {
+            {*/
                 // Show a success message
                 MessageBox.Show("Login successful! Welcome to the system.", "Success",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 FrmHome sd = new FrmHome();
                 sd.Show();
-            }
-            else
+            /*}*/
+            /*else
             {
                 MessageBox.Show("UserName Or Password Doesn't Match. Please Try Again!", "Error",
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            }*/
         }
 
         private void SignUpLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

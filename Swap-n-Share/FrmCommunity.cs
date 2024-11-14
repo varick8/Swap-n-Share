@@ -109,5 +109,10 @@ namespace Swap_n_Share
             this.Hide();
             sd.Show();
         }
+
+        private void bubleChat12_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

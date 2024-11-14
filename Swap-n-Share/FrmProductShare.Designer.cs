@@ -51,6 +51,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -64,8 +68,10 @@
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new System.Windows.Forms.Panel();
-            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             label2 = new System.Windows.Forms.Label();
             uCproductshare1 = new UserControls.UCproductshare();
             uCproductshare2 = new UserControls.UCproductshare();
@@ -303,8 +309,11 @@
             // 
             // panel3
             // 
-            panel3.Controls.Add(guna2Button6);
+            panel3.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            panel3.Controls.Add(guna2Button7);
+            panel3.Controls.Add(guna2ComboBox1);
             panel3.Controls.Add(guna2TextBox1);
+            panel3.Controls.Add(guna2Button6);
             panel3.Controls.Add(label2);
             panel3.Dock = System.Windows.Forms.DockStyle.Top;
             panel3.Location = new System.Drawing.Point(76, 69);
@@ -312,53 +321,96 @@
             panel3.Size = new System.Drawing.Size(1310, 60);
             panel3.TabIndex = 3;
             // 
-            // guna2Button6
+            // guna2Button7
             // 
-            guna2Button6.BorderRadius = 5;
-            guna2Button6.CustomizableEdges = customizableEdges19;
-            guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button6.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button6.ForeColor = System.Drawing.Color.White;
-            guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
-            guna2Button6.Location = new System.Drawing.Point(978, 5);
-            guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Button6.Size = new System.Drawing.Size(156, 43);
-            guna2Button6.TabIndex = 8;
-            guna2Button6.Text = "Swap Products";
-            guna2Button6.Click += guna2Button6_Click;
+            guna2Button7.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            guna2Button7.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2Button7.BorderRadius = 5;
+            guna2Button7.CustomizableEdges = customizableEdges19;
+            guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button7.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            guna2Button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button7.ForeColor = System.Drawing.Color.White;
+            guna2Button7.Image = (System.Drawing.Image)resources.GetObject("guna2Button7.Image");
+            guna2Button7.Location = new System.Drawing.Point(909, 9);
+            guna2Button7.Name = "guna2Button7";
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button7.Size = new System.Drawing.Size(156, 43);
+            guna2Button7.TabIndex = 22;
+            guna2Button7.Text = "Clear Filter";
+            // 
+            // guna2ComboBox1
+            // 
+            guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            guna2ComboBox1.BorderColor = System.Drawing.Color.White;
+            guna2ComboBox1.BorderRadius = 5;
+            guna2ComboBox1.CustomizableEdges = customizableEdges21;
+            guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            guna2ComboBox1.ForeColor = System.Drawing.Color.White;
+            guna2ComboBox1.ItemHeight = 30;
+            guna2ComboBox1.Items.AddRange(new object[] { "Music", "Service", "Exercise ", "Electronics", "Custom", "Photography", "Others" });
+            guna2ComboBox1.Location = new System.Drawing.Point(558, 11);
+            guna2ComboBox1.Name = "guna2ComboBox1";
+            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2ComboBox1.Size = new System.Drawing.Size(225, 36);
+            guna2ComboBox1.TabIndex = 21;
             // 
             // guna2TextBox1
             // 
+            guna2TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
             guna2TextBox1.BorderColor = System.Drawing.Color.White;
             guna2TextBox1.BorderRadius = 5;
-            guna2TextBox1.CustomizableEdges = customizableEdges21;
+            guna2TextBox1.CustomizableEdges = customizableEdges23;
             guna2TextBox1.DefaultText = "";
             guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
             guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
             guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
             guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox1.ForeColor = System.Drawing.Color.White;
             guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox1.IconRight = (System.Drawing.Image)resources.GetObject("guna2TextBox1.IconRight");
             guna2TextBox1.IconRightSize = new System.Drawing.Size(15, 15);
-            guna2TextBox1.Location = new System.Drawing.Point(808, 8);
+            guna2TextBox1.Location = new System.Drawing.Point(476, 11);
             guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.White;
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2TextBox1.Size = new System.Drawing.Size(161, 38);
-            guna2TextBox1.TabIndex = 7;
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2TextBox1.Size = new System.Drawing.Size(161, 36);
+            guna2TextBox1.TabIndex = 20;
+            // 
+            // guna2Button6
+            // 
+            guna2Button6.BorderRadius = 5;
+            guna2Button6.CustomizableEdges = customizableEdges25;
+            guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button6.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            guna2Button6.ForeColor = System.Drawing.Color.White;
+            guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
+            guna2Button6.Location = new System.Drawing.Point(978, 9);
+            guna2Button6.Name = "guna2Button6";
+            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2Button6.Size = new System.Drawing.Size(156, 43);
+            guna2Button6.TabIndex = 8;
+            guna2Button6.Text = "Swap Products";
+            guna2Button6.Click += guna2Button6_Click;
             // 
             // label2
             // 
@@ -492,12 +544,14 @@
         private System.Windows.Forms.Label label2;
         private UserControls.UCproduct uCproduct2;
         private UserControls.UCproduct uCproduct3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private UserControls.UCproductshare uCproductshare1;
         private UserControls.UCproductshare uCproductshare2;
         private UserControls.UCproductshare uCproductshare3;
         private UserControls.UCproductshare uCproductshare4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }

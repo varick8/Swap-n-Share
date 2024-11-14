@@ -664,6 +664,7 @@
             bubleChat12.Name = "bubleChat12";
             bubleChat12.Size = new System.Drawing.Size(1006, 66);
             bubleChat12.TabIndex = 1;
+            bubleChat12.Load += bubleChat12_Load;
             // 
             // bubleChat21
             // 
