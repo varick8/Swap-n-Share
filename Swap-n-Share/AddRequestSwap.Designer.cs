@@ -267,12 +267,12 @@
             guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             guna2DateTimePicker2.Location = new System.Drawing.Point(81, 601);
             guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            guna2DateTimePicker2.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             guna2DateTimePicker2.Name = "guna2DateTimePicker2";
             guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2DateTimePicker2.Size = new System.Drawing.Size(449, 70);
             guna2DateTimePicker2.TabIndex = 20;
-            guna2DateTimePicker2.Value = new System.DateTime(2024, 11, 13, 21, 55, 41, 135);
+            guna2DateTimePicker2.Value = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             // 
             // label2
             // 

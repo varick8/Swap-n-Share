@@ -81,6 +81,8 @@
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            bubleChat11 = new UserControls.BubleChat1();
+            bubleChat21 = new UserControls.BubleChat2();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             PanelSlide.SuspendLayout();
@@ -509,7 +511,7 @@
             guna2Button6.ForeColor = System.Drawing.Color.White;
             guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
             guna2Button6.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button6.Location = new System.Drawing.Point(679, 10);
+            guna2Button6.Location = new System.Drawing.Point(793, 7);
             guna2Button6.Name = "guna2Button6";
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Button6.Size = new System.Drawing.Size(44, 44);
@@ -544,19 +546,36 @@
             guna2TextBox2.PlaceholderText = "";
             guna2TextBox2.SelectedText = "";
             guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2TextBox2.Size = new System.Drawing.Size(631, 44);
+            guna2TextBox2.Size = new System.Drawing.Size(746, 44);
             guna2TextBox2.TabIndex = 46;
             // 
             // flowLayoutPanel2
             // 
-            flowLayoutPanel2.AutoScroll = true;
-            flowLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel2.Controls.Add(bubleChat11);
+            flowLayoutPanel2.Controls.Add(bubleChat21);
             flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             flowLayoutPanel2.Location = new System.Drawing.Point(377, 135);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new System.Drawing.Size(1009, 587);
             flowLayoutPanel2.TabIndex = 7;
-            flowLayoutPanel2.Paint += flowLayoutPanel2_Paint;
+            // 
+            // bubleChat11
+            // 
+            bubleChat11.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            bubleChat11.Location = new System.Drawing.Point(3, 3);
+            bubleChat11.MaximumSize = new System.Drawing.Size(1006, 66);
+            bubleChat11.Name = "bubleChat11";
+            bubleChat11.Size = new System.Drawing.Size(1006, 66);
+            bubleChat11.TabIndex = 0;
+            // 
+            // bubleChat21
+            // 
+            bubleChat21.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            bubleChat21.Location = new System.Drawing.Point(3, 75);
+            bubleChat21.MaximumSize = new System.Drawing.Size(1006, 66);
+            bubleChat21.Name = "bubleChat21";
+            bubleChat21.Size = new System.Drawing.Size(1006, 66);
+            bubleChat21.TabIndex = 1;
             // 
             // FrmCommunity
             // 
@@ -635,7 +654,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private UserControls.BubleChat1 bubleChat11;
-        private UserControls.BubleChat1 bubleChat12;
         private UserControls.BubleChat2 bubleChat21;
     }
 }
