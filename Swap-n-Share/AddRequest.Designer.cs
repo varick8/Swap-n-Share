@@ -53,6 +53,7 @@
             guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -72,7 +73,7 @@
             label2.AutoSize = true;
             label2.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.White;
-            label2.Location = new System.Drawing.Point(429, 375);
+            label2.Location = new System.Drawing.Point(429, 392);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(136, 37);
             label2.TabIndex = 5;
@@ -94,7 +95,7 @@
             guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox3.ForeColor = System.Drawing.Color.White;
             guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new System.Drawing.Point(429, 184);
+            guna2TextBox3.Location = new System.Drawing.Point(429, 201);
             guna2TextBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             guna2TextBox3.Name = "guna2TextBox3";
             guna2TextBox3.PasswordChar = '\0';
@@ -109,7 +110,7 @@
             label3.AutoSize = true;
             label3.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(429, 113);
+            label3.Location = new System.Drawing.Point(429, 149);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(134, 37);
             label3.TabIndex = 7;
@@ -120,7 +121,7 @@
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label5.ForeColor = System.Drawing.Color.White;
-            label5.Location = new System.Drawing.Point(429, 257);
+            label5.Location = new System.Drawing.Point(429, 274);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(126, 37);
             label5.TabIndex = 14;
@@ -140,7 +141,7 @@
             guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new System.Drawing.Point(481, 317);
+            guna2TextBox4.Location = new System.Drawing.Point(481, 334);
             guna2TextBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             guna2TextBox4.Name = "guna2TextBox4";
             guna2TextBox4.PasswordChar = '\0';
@@ -200,7 +201,7 @@
             guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2DateTimePicker1.ForeColor = System.Drawing.Color.FromArgb(93, 93, 166);
             guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new System.Drawing.Point(429, 427);
+            guna2DateTimePicker1.Location = new System.Drawing.Point(429, 444);
             guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             guna2DateTimePicker1.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             guna2DateTimePicker1.Name = "guna2DateTimePicker1";
@@ -220,7 +221,7 @@
             guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2DateTimePicker2.ForeColor = System.Drawing.Color.FromArgb(93, 93, 166);
             guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            guna2DateTimePicker2.Location = new System.Drawing.Point(429, 309);
+            guna2DateTimePicker2.Location = new System.Drawing.Point(429, 326);
             guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             guna2DateTimePicker2.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             guna2DateTimePicker2.Name = "guna2DateTimePicker2";
@@ -233,12 +234,23 @@
             // 
             guna2PictureBox1.CustomizableEdges = customizableEdges13;
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new System.Drawing.Point(41, 121);
+            guna2PictureBox1.Location = new System.Drawing.Point(41, 148);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2PictureBox1.Size = new System.Drawing.Size(355, 355);
             guna2PictureBox1.TabIndex = 18;
             guna2PictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Malgun Gothic Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label1.ForeColor = System.Drawing.Color.White;
+            label1.Location = new System.Drawing.Point(32, 90);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(210, 45);
+            label1.TabIndex = 19;
+            label1.Text = "Nama Barang";
             // 
             // AddRequest
             // 
@@ -247,6 +259,7 @@
             BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
             ClientSize = new System.Drawing.Size(961, 705);
             ControlBox = false;
+            Controls.Add(label1);
             Controls.Add(guna2PictureBox1);
             Controls.Add(guna2DateTimePicker2);
             Controls.Add(guna2DateTimePicker1);
@@ -279,5 +292,6 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

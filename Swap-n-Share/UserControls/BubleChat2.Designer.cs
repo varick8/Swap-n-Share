@@ -45,7 +45,7 @@
             guna2PictureBox1.BorderRadius = 16;
             guna2PictureBox1.CustomizableEdges = customizableEdges1;
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new System.Drawing.Point(945, 16);
+            guna2PictureBox1.Location = new System.Drawing.Point(773, 17);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2PictureBox1.Size = new System.Drawing.Size(35, 35);
@@ -70,15 +70,15 @@
             guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(31, 31, 31);
             guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new System.Drawing.Point(285, 16);
-            guna2TextBox1.Margin = new System.Windows.Forms.Padding(6);
+            guna2TextBox1.Location = new System.Drawing.Point(128, 11);
+            guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.ReadOnly = true;
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2TextBox1.Size = new System.Drawing.Size(636, 35);
+            guna2TextBox1.Size = new System.Drawing.Size(636, 43);
             guna2TextBox1.TabIndex = 3;
             guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
             // 

@@ -81,5 +81,10 @@ namespace Swap_n_Share
                 txtPassword.PasswordChar = '●';  // Hide the password
             }
         }
+
+        private void guna2ControlBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

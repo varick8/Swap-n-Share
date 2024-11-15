@@ -67,7 +67,7 @@ namespace Swap_n_Share
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void HomeBtn_Click(object sender, EventArgs e)

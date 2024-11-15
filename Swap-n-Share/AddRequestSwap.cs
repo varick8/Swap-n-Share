@@ -31,5 +31,10 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void labelTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

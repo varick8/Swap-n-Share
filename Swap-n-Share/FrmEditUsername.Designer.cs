@@ -185,7 +185,7 @@
             lblUserUsername.Location = new System.Drawing.Point(135, 158);
             lblUserUsername.Margin = new System.Windows.Forms.Padding(3);
             lblUserUsername.Name = "lblUserUsername";
-            lblUserUsername.Size = new System.Drawing.Size(121, 31);
+            lblUserUsername.Size = new System.Drawing.Size(194, 50);
             lblUserUsername.TabIndex = 28;
             lblUserUsername.Text = "username";
             lblUserUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,7 +200,7 @@
             lblCurrentUsername.Location = new System.Drawing.Point(135, 93);
             lblCurrentUsername.Margin = new System.Windows.Forms.Padding(3);
             lblCurrentUsername.Name = "lblCurrentUsername";
-            lblCurrentUsername.Size = new System.Drawing.Size(259, 38);
+            lblCurrentUsername.Size = new System.Drawing.Size(406, 60);
             lblCurrentUsername.TabIndex = 27;
             lblCurrentUsername.Text = "Current Username";
             lblCurrentUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -215,7 +215,7 @@
             lblNewUsername.Location = new System.Drawing.Point(135, 257);
             lblNewUsername.Margin = new System.Windows.Forms.Padding(3);
             lblNewUsername.Name = "lblNewUsername";
-            lblNewUsername.Size = new System.Drawing.Size(218, 38);
+            lblNewUsername.Size = new System.Drawing.Size(343, 60);
             lblNewUsername.TabIndex = 25;
             lblNewUsername.Text = "New Username";
             lblNewUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -228,7 +228,7 @@
             lblChangeUsername.ForeColor = System.Drawing.Color.White;
             lblChangeUsername.Location = new System.Drawing.Point(216, 133);
             lblChangeUsername.Name = "lblChangeUsername";
-            lblChangeUsername.Size = new System.Drawing.Size(407, 60);
+            lblChangeUsername.Size = new System.Drawing.Size(637, 92);
             lblChangeUsername.TabIndex = 23;
             lblChangeUsername.Text = "Change Username";
             lblChangeUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -282,6 +282,7 @@
             guna2ControlBox6.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2ControlBox6.Size = new System.Drawing.Size(37, 36);
             guna2ControlBox6.TabIndex = 11;
+            guna2ControlBox6.Click += guna2ControlBox6_Click;
             // 
             // guna2ControlBox2
             // 

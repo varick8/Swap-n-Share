@@ -227,6 +227,12 @@
         21naAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Swap n Share is a platform dedicated to supporting a circular economy by enabling you to swap 
+and share items with others. By reusing and repurposing, we together can reduce waste and 
+contribute to a sustainable future.
+</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAYAAADo08FDAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -12349,7 +12355,8 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Swap n Share is a platform dedicated to supporting a circular economy by enabling you to swap 
 and share items with others. By reusing and repurposing, we together can reduce waste and 
-contribute to a sustainable future.</value>
+contribute to a sustainable future.
+</value>
   </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>115</value>

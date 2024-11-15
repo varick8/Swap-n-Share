@@ -47,7 +47,7 @@ namespace Swap_n_Share
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void HomeBtn_Click(object sender, EventArgs e)
@@ -83,12 +83,9 @@ namespace Swap_n_Share
             sd.Show();
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
@@ -128,6 +125,11 @@ namespace Swap_n_Share
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private void linkReadMore_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

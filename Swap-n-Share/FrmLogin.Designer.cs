@@ -123,7 +123,7 @@
             LoginTitleTxt1.Location = new System.Drawing.Point(0, 0);
             LoginTitleTxt1.Margin = new System.Windows.Forms.Padding(0);
             LoginTitleTxt1.Name = "LoginTitleTxt1";
-            LoginTitleTxt1.Size = new System.Drawing.Size(383, 78);
+            LoginTitleTxt1.Size = new System.Drawing.Size(520, 78);
             LoginTitleTxt1.TabIndex = 12;
             LoginTitleTxt1.Text = "No cash needed,";
             // 
@@ -135,7 +135,7 @@
             LoginTitleTxt2.Location = new System.Drawing.Point(3, 78);
             LoginTitleTxt2.Name = "LoginTitleTxt2";
             LoginTitleTxt2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            LoginTitleTxt2.Size = new System.Drawing.Size(351, 121);
+            LoginTitleTxt2.Size = new System.Drawing.Size(475, 121);
             LoginTitleTxt2.TabIndex = 13;
             LoginTitleTxt2.Text = "just fair exchange!";
             LoginTitleTxt2.Click += LoginTitleTxt2_Click;
@@ -148,7 +148,7 @@
             ShowPassCB.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             ShowPassCB.Location = new System.Drawing.Point(95, 452);
             ShowPassCB.Name = "ShowPassCB";
-            ShowPassCB.Size = new System.Drawing.Size(126, 21);
+            ShowPassCB.Size = new System.Drawing.Size(202, 34);
             ShowPassCB.TabIndex = 9;
             ShowPassCB.Text = "Show Password";
             ShowPassCB.UseVisualStyleBackColor = true;
@@ -248,9 +248,9 @@
             SignUpLinkLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             SignUpLinkLabel.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             SignUpLinkLabel.LinkColor = System.Drawing.Color.FromArgb(255, 146, 13);
-            SignUpLinkLabel.Location = new System.Drawing.Point(284, 24);
+            SignUpLinkLabel.Location = new System.Drawing.Point(284, 18);
             SignUpLinkLabel.Name = "SignUpLinkLabel";
-            SignUpLinkLabel.Size = new System.Drawing.Size(64, 20);
+            SignUpLinkLabel.Size = new System.Drawing.Size(106, 32);
             SignUpLinkLabel.TabIndex = 15;
             SignUpLinkLabel.TabStop = true;
             SignUpLinkLabel.Text = "Sign Up";
@@ -297,9 +297,9 @@
             label7.BackColor = System.Drawing.Color.Transparent;
             label7.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label7.ForeColor = System.Drawing.Color.White;
-            label7.Location = new System.Drawing.Point(80, 23);
+            label7.Location = new System.Drawing.Point(77, 0);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(198, 23);
+            label7.Size = new System.Drawing.Size(201, 69);
             label7.TabIndex = 20;
             label7.Text = "Don't Have an Account?";
             label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -311,7 +311,7 @@
             label4.ForeColor = System.Drawing.Color.Red;
             label4.Location = new System.Drawing.Point(173, 348);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(17, 23);
+            label4.Size = new System.Drawing.Size(29, 38);
             label4.TabIndex = 19;
             label4.Text = "*";
             // 
@@ -322,7 +322,7 @@
             label3.ForeColor = System.Drawing.Color.Red;
             label3.Location = new System.Drawing.Point(175, 248);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(17, 23);
+            label3.Size = new System.Drawing.Size(29, 38);
             label3.TabIndex = 18;
             label3.Text = "*";
             label3.Click += label3_Click;
@@ -334,7 +334,7 @@
             label2.ForeColor = System.Drawing.Color.White;
             label2.Location = new System.Drawing.Point(95, 349);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(82, 23);
+            label2.Size = new System.Drawing.Size(137, 38);
             label2.TabIndex = 17;
             label2.Text = "Password";
             // 
@@ -345,7 +345,7 @@
             label1.ForeColor = System.Drawing.Color.White;
             label1.Location = new System.Drawing.Point(95, 248);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(87, 23);
+            label1.Size = new System.Drawing.Size(145, 38);
             label1.TabIndex = 16;
             label1.Text = "Username";
             // 
@@ -356,7 +356,7 @@
             UsernameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             UsernameTxt.Location = new System.Drawing.Point(91, 261);
             UsernameTxt.Name = "UsernameTxt";
-            UsernameTxt.Size = new System.Drawing.Size(88, 22);
+            UsernameTxt.Size = new System.Drawing.Size(136, 33);
             UsernameTxt.TabIndex = 3;
             UsernameTxt.Text = "Username";
             // 
@@ -367,7 +367,7 @@
             PasswordTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             PasswordTxt.Location = new System.Drawing.Point(91, 362);
             PasswordTxt.Name = "PasswordTxt";
-            PasswordTxt.Size = new System.Drawing.Size(85, 22);
+            PasswordTxt.Size = new System.Drawing.Size(131, 33);
             PasswordTxt.TabIndex = 4;
             PasswordTxt.Text = "Password";
             // 
@@ -435,6 +435,7 @@
             guna2ControlBox6.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2ControlBox6.Size = new System.Drawing.Size(37, 36);
             guna2ControlBox6.TabIndex = 29;
+            guna2ControlBox6.Click += guna2ControlBox6_Click;
             // 
             // guna2ControlBox2
             // 
