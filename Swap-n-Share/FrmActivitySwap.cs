@@ -45,7 +45,7 @@ namespace Swap_n_Share
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void HomeBtn_Click(object sender, EventArgs e)
@@ -94,6 +94,13 @@ namespace Swap_n_Share
         }
 
         private void guna2Button7_Click_1(object sender, EventArgs e)
+        {
+            FrmActivity sd = new FrmActivity();
+            this.Hide();
+            sd.Show();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
         {
             FrmActivity sd = new FrmActivity();
             this.Hide();

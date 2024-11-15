@@ -19,7 +19,14 @@ namespace Swap_n_Share
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
+            FrmAccountSetting sd = new FrmAccountSetting();
+            this.Hide();
+            sd.Show();
+        }
 
+        private void guna2ControlBox10_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -157,6 +157,7 @@
             guna2ControlBox10.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2ControlBox10.Size = new System.Drawing.Size(37, 36);
             guna2ControlBox10.TabIndex = 17;
+            guna2ControlBox10.Click += guna2ControlBox10_Click;
             // 
             // guna2ControlBox7
             // 
@@ -473,7 +474,7 @@
             lblChangeUsername.ForeColor = System.Drawing.Color.White;
             lblChangeUsername.Location = new System.Drawing.Point(216, 133);
             lblChangeUsername.Name = "lblChangeUsername";
-            lblChangeUsername.Size = new System.Drawing.Size(396, 60);
+            lblChangeUsername.Size = new System.Drawing.Size(620, 92);
             lblChangeUsername.TabIndex = 33;
             lblChangeUsername.Text = "Change Password";
             lblChangeUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -604,7 +605,7 @@
             lblCurrentUsername.Location = new System.Drawing.Point(135, 93);
             lblCurrentUsername.Margin = new System.Windows.Forms.Padding(3);
             lblCurrentUsername.Name = "lblCurrentUsername";
-            lblCurrentUsername.Size = new System.Drawing.Size(332, 38);
+            lblCurrentUsername.Size = new System.Drawing.Size(519, 60);
             lblCurrentUsername.TabIndex = 27;
             lblCurrentUsername.Text = "Enter Current Password";
             lblCurrentUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -619,7 +620,7 @@
             lblNewUsername.Location = new System.Drawing.Point(135, 257);
             lblNewUsername.Margin = new System.Windows.Forms.Padding(3);
             lblNewUsername.Name = "lblNewUsername";
-            lblNewUsername.Size = new System.Drawing.Size(291, 38);
+            lblNewUsername.Size = new System.Drawing.Size(456, 60);
             lblNewUsername.TabIndex = 25;
             lblNewUsername.Text = "Enter New Password";
             lblNewUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

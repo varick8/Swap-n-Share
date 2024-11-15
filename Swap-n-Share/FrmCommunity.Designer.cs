@@ -70,6 +70,12 @@
             label8 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            uCcommunity1 = new UserControls.UCcommunity();
+            uCcommunity2 = new UserControls.UCcommunity();
+            uCcommunity3 = new UserControls.UCcommunity();
+            uCcommunity4 = new UserControls.UCcommunity();
+            uCcommunity5 = new UserControls.UCcommunity();
+            uCcommunity6 = new UserControls.UCcommunity();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             label5 = new System.Windows.Forms.Label();
@@ -87,9 +93,11 @@
             panel1.SuspendLayout();
             PanelSlide.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -369,10 +377,82 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.Controls.Add(uCcommunity1);
+            flowLayoutPanel1.Controls.Add(uCcommunity2);
+            flowLayoutPanel1.Controls.Add(uCcommunity3);
+            flowLayoutPanel1.Controls.Add(uCcommunity4);
+            flowLayoutPanel1.Controls.Add(uCcommunity5);
+            flowLayoutPanel1.Controls.Add(uCcommunity6);
             flowLayoutPanel1.Location = new System.Drawing.Point(5, 266);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new System.Drawing.Size(296, 441);
             flowLayoutPanel1.TabIndex = 45;
+            // 
+            // uCcommunity1
+            // 
+            uCcommunity1.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity1.Location = new System.Drawing.Point(3, 3);
+            uCcommunity1.Name = "uCcommunity1";
+            uCcommunity1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity1.ProfilePic");
+            uCcommunity1.Size = new System.Drawing.Size(293, 66);
+            uCcommunity1.TabIndex = 0;
+            uCcommunity1.txtName = "Music Tools";
+            uCcommunity1.txtStatus = "Free Join";
+            // 
+            // uCcommunity2
+            // 
+            uCcommunity2.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity2.Location = new System.Drawing.Point(3, 75);
+            uCcommunity2.Name = "uCcommunity2";
+            uCcommunity2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity2.ProfilePic");
+            uCcommunity2.Size = new System.Drawing.Size(293, 69);
+            uCcommunity2.TabIndex = 1;
+            uCcommunity2.txtName = "Electronics";
+            uCcommunity2.txtStatus = "Free Join";
+            // 
+            // uCcommunity3
+            // 
+            uCcommunity3.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity3.Location = new System.Drawing.Point(3, 150);
+            uCcommunity3.Name = "uCcommunity3";
+            uCcommunity3.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity3.ProfilePic");
+            uCcommunity3.Size = new System.Drawing.Size(293, 69);
+            uCcommunity3.TabIndex = 2;
+            uCcommunity3.txtName = "Service Tools";
+            uCcommunity3.txtStatus = "Free Join";
+            // 
+            // uCcommunity4
+            // 
+            uCcommunity4.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity4.Location = new System.Drawing.Point(3, 225);
+            uCcommunity4.Name = "uCcommunity4";
+            uCcommunity4.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity4.ProfilePic");
+            uCcommunity4.Size = new System.Drawing.Size(293, 69);
+            uCcommunity4.TabIndex = 3;
+            uCcommunity4.txtName = "Custom";
+            uCcommunity4.txtStatus = "Free Join";
+            // 
+            // uCcommunity5
+            // 
+            uCcommunity5.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity5.Location = new System.Drawing.Point(3, 300);
+            uCcommunity5.Name = "uCcommunity5";
+            uCcommunity5.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity5.ProfilePic");
+            uCcommunity5.Size = new System.Drawing.Size(293, 69);
+            uCcommunity5.TabIndex = 4;
+            uCcommunity5.txtName = "Photography";
+            uCcommunity5.txtStatus = "Free Join";
+            // 
+            // uCcommunity6
+            // 
+            uCcommunity6.BackColor = System.Drawing.Color.Transparent;
+            uCcommunity6.Location = new System.Drawing.Point(3, 375);
+            uCcommunity6.Name = "uCcommunity6";
+            uCcommunity6.ProfilePic = (System.Drawing.Image)resources.GetObject("uCcommunity6.ProfilePic");
+            uCcommunity6.Size = new System.Drawing.Size(293, 69);
+            uCcommunity6.TabIndex = 5;
+            uCcommunity6.txtName = "Exercise Tools";
+            uCcommunity6.txtStatus = "Free Join";
             // 
             // guna2TextBox1
             // 
@@ -436,7 +516,7 @@
             label5.MaximumSize = new System.Drawing.Size(60, 18);
             label5.MinimumSize = new System.Drawing.Size(57, 18);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(57, 18);
+            label5.Size = new System.Drawing.Size(59, 18);
             label5.TabIndex = 31;
             label5.Text = "Recent";
             // 
@@ -570,11 +650,12 @@
             // 
             // bubleChat21
             // 
+            bubleChat21.AutoSize = true;
             bubleChat21.BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
             bubleChat21.Location = new System.Drawing.Point(3, 75);
             bubleChat21.MaximumSize = new System.Drawing.Size(1006, 66);
             bubleChat21.Name = "bubleChat21";
-            bubleChat21.Size = new System.Drawing.Size(1006, 66);
+            bubleChat21.Size = new System.Drawing.Size(1006, 54);
             bubleChat21.TabIndex = 1;
             // 
             // FrmCommunity
@@ -606,10 +687,13 @@
             PanelSlide.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
+            flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel5.ResumeLayout(false);
+            flowLayoutPanel2.ResumeLayout(false);
+            flowLayoutPanel2.PerformLayout();
             ResumeLayout(false);
         }
 

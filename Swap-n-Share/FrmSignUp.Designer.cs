@@ -87,9 +87,10 @@
             SignUpLinkLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             SignUpLinkLabel.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             SignUpLinkLabel.LinkColor = System.Drawing.Color.FromArgb(255, 146, 13);
-            SignUpLinkLabel.Location = new System.Drawing.Point(284, 24);
+            SignUpLinkLabel.Location = new System.Drawing.Point(461, 39);
+            SignUpLinkLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             SignUpLinkLabel.Name = "SignUpLinkLabel";
-            SignUpLinkLabel.Size = new System.Drawing.Size(106, 20);
+            SignUpLinkLabel.Size = new System.Drawing.Size(171, 32);
             SignUpLinkLabel.TabIndex = 24;
             SignUpLinkLabel.TabStop = true;
             SignUpLinkLabel.Text = "Back to Login";
@@ -109,11 +110,11 @@
             SignupButton.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             SignupButton.ForeColor = System.Drawing.Color.White;
             SignupButton.HoverState.FillColor = System.Drawing.Color.FromArgb(50, 50, 92);
-            SignupButton.Location = new System.Drawing.Point(141, 722);
-            SignupButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            SignupButton.Location = new System.Drawing.Point(229, 1155);
+            SignupButton.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             SignupButton.Name = "SignupButton";
             SignupButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            SignupButton.Size = new System.Drawing.Size(464, 50);
+            SignupButton.Size = new System.Drawing.Size(754, 80);
             SignupButton.TabIndex = 23;
             SignupButton.Text = "Sign Up";
             SignupButton.Click += SignupButton_Click;
@@ -137,7 +138,7 @@
             txtPassword.Font = new System.Drawing.Font("Malgun Gothic", 10.2F);
             txtPassword.ForeColor = System.Drawing.Color.White;
             txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(170, 170, 251);
-            txtPassword.Location = new System.Drawing.Point(141, 589);
+            txtPassword.Location = new System.Drawing.Point(229, 942);
             txtPassword.Margin = new System.Windows.Forms.Padding(0);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '●';
@@ -145,7 +146,7 @@
             txtPassword.PlaceholderText = "Enter your password";
             txtPassword.SelectedText = "";
             txtPassword.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtPassword.Size = new System.Drawing.Size(464, 58);
+            txtPassword.Size = new System.Drawing.Size(754, 93);
             txtPassword.TabIndex = 20;
             txtPassword.TextOffset = new System.Drawing.Point(20, 0);
             // 
@@ -168,7 +169,7 @@
             txtUsername.Font = new System.Drawing.Font("Malgun Gothic", 10.2F);
             txtUsername.ForeColor = System.Drawing.Color.White;
             txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(170, 170, 251);
-            txtUsername.Location = new System.Drawing.Point(141, 466);
+            txtUsername.Location = new System.Drawing.Point(229, 746);
             txtUsername.Margin = new System.Windows.Forms.Padding(0);
             txtUsername.Name = "txtUsername";
             txtUsername.PasswordChar = '\0';
@@ -176,7 +177,7 @@
             txtUsername.PlaceholderText = "Enter your username";
             txtUsername.SelectedText = "";
             txtUsername.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            txtUsername.Size = new System.Drawing.Size(464, 58);
+            txtUsername.Size = new System.Drawing.Size(754, 93);
             txtUsername.TabIndex = 19;
             txtUsername.TextOffset = new System.Drawing.Point(20, 0);
             // 
@@ -187,10 +188,10 @@
             ShowPassCB.Cursor = System.Windows.Forms.Cursors.Hand;
             ShowPassCB.Font = new System.Drawing.Font("Malgun Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             ShowPassCB.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            ShowPassCB.Location = new System.Drawing.Point(141, 666);
-            ShowPassCB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            ShowPassCB.Location = new System.Drawing.Point(229, 1066);
+            ShowPassCB.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             ShowPassCB.Name = "ShowPassCB";
-            ShowPassCB.Size = new System.Drawing.Size(126, 21);
+            ShowPassCB.Size = new System.Drawing.Size(202, 34);
             ShowPassCB.TabIndex = 18;
             ShowPassCB.Text = "Show Password";
             ShowPassCB.UseVisualStyleBackColor = false;
@@ -215,7 +216,7 @@
             txtEmail.Font = new System.Drawing.Font("Malgun Gothic", 10.2F);
             txtEmail.ForeColor = System.Drawing.Color.White;
             txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(170, 170, 251);
-            txtEmail.Location = new System.Drawing.Point(141, 350);
+            txtEmail.Location = new System.Drawing.Point(229, 560);
             txtEmail.Margin = new System.Windows.Forms.Padding(0);
             txtEmail.Name = "txtEmail";
             txtEmail.PasswordChar = '\0';
@@ -223,7 +224,7 @@
             txtEmail.PlaceholderText = "Enter your phone number";
             txtEmail.SelectedText = "";
             txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtEmail.Size = new System.Drawing.Size(464, 58);
+            txtEmail.Size = new System.Drawing.Size(754, 93);
             txtEmail.TabIndex = 26;
             txtEmail.TextOffset = new System.Drawing.Point(20, 0);
             // 
@@ -237,9 +238,8 @@
             panel2.Controls.Add(label1);
             panel2.Dock = System.Windows.Forms.DockStyle.Top;
             panel2.Location = new System.Drawing.Point(0, 0);
-            panel2.Margin = new System.Windows.Forms.Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(1442, 69);
+            panel2.Size = new System.Drawing.Size(2343, 110);
             panel2.TabIndex = 27;
             // 
             // guna2ControlBox4
@@ -251,12 +251,11 @@
             guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox4.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox4.IconColor = System.Drawing.Color.White;
-            guna2ControlBox4.Location = new System.Drawing.Point(1353, 14);
-            guna2ControlBox4.Margin = new System.Windows.Forms.Padding(2);
+            guna2ControlBox4.Location = new System.Drawing.Point(2199, 22);
             guna2ControlBox4.Name = "guna2ControlBox4";
             guna2ControlBox4.PressedColor = System.Drawing.Color.Transparent;
             guna2ControlBox4.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2ControlBox4.Size = new System.Drawing.Size(37, 36);
+            guna2ControlBox4.Size = new System.Drawing.Size(60, 58);
             guna2ControlBox4.TabIndex = 30;
             // 
             // guna2ControlBox3
@@ -268,12 +267,11 @@
             guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            guna2ControlBox3.Location = new System.Drawing.Point(3023, 14);
-            guna2ControlBox3.Margin = new System.Windows.Forms.Padding(2);
+            guna2ControlBox3.Location = new System.Drawing.Point(4912, 22);
             guna2ControlBox3.Name = "guna2ControlBox3";
             guna2ControlBox3.PressedColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2ControlBox3.Size = new System.Drawing.Size(37, 36);
+            guna2ControlBox3.Size = new System.Drawing.Size(60, 58);
             guna2ControlBox3.TabIndex = 6;
             // 
             // guna2ControlBox6
@@ -284,13 +282,13 @@
             guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox6.ForeColor = System.Drawing.Color.White;
             guna2ControlBox6.IconColor = System.Drawing.Color.White;
-            guna2ControlBox6.Location = new System.Drawing.Point(1394, 14);
-            guna2ControlBox6.Margin = new System.Windows.Forms.Padding(2);
+            guna2ControlBox6.Location = new System.Drawing.Point(2265, 22);
             guna2ControlBox6.Name = "guna2ControlBox6";
             guna2ControlBox6.PressedColor = System.Drawing.Color.Transparent;
             guna2ControlBox6.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2ControlBox6.Size = new System.Drawing.Size(37, 36);
+            guna2ControlBox6.Size = new System.Drawing.Size(60, 58);
             guna2ControlBox6.TabIndex = 28;
+            guna2ControlBox6.Click += guna2ControlBox6_Click;
             // 
             // guna2ControlBox2
             // 
@@ -301,12 +299,11 @@
             guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            guna2ControlBox2.Location = new System.Drawing.Point(3063, 14);
-            guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
+            guna2ControlBox2.Location = new System.Drawing.Point(4977, 22);
             guna2ControlBox2.Name = "guna2ControlBox2";
             guna2ControlBox2.PressedColor = System.Drawing.Color.Transparent;
             guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2ControlBox2.Size = new System.Drawing.Size(37, 36);
+            guna2ControlBox2.Size = new System.Drawing.Size(60, 58);
             guna2ControlBox2.TabIndex = 5;
             // 
             // guna2ControlBox1
@@ -317,12 +314,11 @@
             guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox1.ForeColor = System.Drawing.Color.White;
             guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            guna2ControlBox1.Location = new System.Drawing.Point(3104, 14);
-            guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
+            guna2ControlBox1.Location = new System.Drawing.Point(5044, 22);
             guna2ControlBox1.Name = "guna2ControlBox1";
             guna2ControlBox1.PressedColor = System.Drawing.Color.Transparent;
             guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2ControlBox1.Size = new System.Drawing.Size(37, 36);
+            guna2ControlBox1.Size = new System.Drawing.Size(60, 58);
             guna2ControlBox1.TabIndex = 4;
             // 
             // label1
@@ -331,12 +327,11 @@
             label1.BackColor = System.Drawing.Color.Transparent;
             label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label1.ForeColor = System.Drawing.Color.White;
-            label1.Location = new System.Drawing.Point(25, 26);
-            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label1.MaximumSize = new System.Drawing.Size(143, 24);
-            label1.MinimumSize = new System.Drawing.Size(143, 24);
+            label1.Location = new System.Drawing.Point(41, 42);
+            label1.MaximumSize = new System.Drawing.Size(232, 38);
+            label1.MinimumSize = new System.Drawing.Size(232, 38);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(143, 24);
+            label1.Size = new System.Drawing.Size(232, 38);
             label1.TabIndex = 4;
             label1.Text = "Swap n Share";
             label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -359,8 +354,9 @@
             panel1.Controls.Add(txtUsername);
             panel1.Controls.Add(SignupButton);
             panel1.Location = new System.Drawing.Point(0, 0);
+            panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(752, 1069);
+            panel1.Size = new System.Drawing.Size(1222, 1710);
             panel1.TabIndex = 28;
             // 
             // label11
@@ -368,9 +364,10 @@
             label11.AutoSize = true;
             label11.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label11.ForeColor = System.Drawing.Color.White;
-            label11.Location = new System.Drawing.Point(141, 552);
+            label11.Location = new System.Drawing.Point(229, 883);
+            label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label11.Name = "label11";
-            label11.Size = new System.Drawing.Size(82, 23);
+            label11.Size = new System.Drawing.Size(137, 38);
             label11.TabIndex = 33;
             label11.Text = "Password";
             // 
@@ -379,9 +376,10 @@
             label10.AutoSize = true;
             label10.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label10.ForeColor = System.Drawing.Color.White;
-            label10.Location = new System.Drawing.Point(141, 429);
+            label10.Location = new System.Drawing.Point(229, 686);
+            label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label10.Name = "label10";
-            label10.Size = new System.Drawing.Size(87, 23);
+            label10.Size = new System.Drawing.Size(145, 38);
             label10.TabIndex = 32;
             label10.Text = "Username";
             // 
@@ -390,18 +388,20 @@
             label9.AutoSize = true;
             label9.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label9.ForeColor = System.Drawing.Color.White;
-            label9.Location = new System.Drawing.Point(141, 313);
+            label9.Location = new System.Drawing.Point(229, 501);
+            label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(128, 23);
+            label9.Size = new System.Drawing.Size(211, 38);
             label9.TabIndex = 31;
             label9.Text = "Phone Number";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new System.Drawing.Point(270, 145);
+            pictureBox1.Location = new System.Drawing.Point(439, 232);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(207, 139);
+            pictureBox1.Size = new System.Drawing.Size(336, 222);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 29;
             pictureBox1.TabStop = false;
@@ -412,9 +412,10 @@
             label4.BackColor = System.Drawing.Color.Transparent;
             label4.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label4.ForeColor = System.Drawing.Color.Red;
-            label4.Location = new System.Drawing.Point(218, 552);
+            label4.Location = new System.Drawing.Point(354, 883);
+            label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(17, 23);
+            label4.Size = new System.Drawing.Size(29, 38);
             label4.TabIndex = 30;
             label4.Text = "*";
             // 
@@ -424,9 +425,10 @@
             label2.BackColor = System.Drawing.Color.Transparent;
             label2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.Red;
-            label2.Location = new System.Drawing.Point(221, 429);
+            label2.Location = new System.Drawing.Point(359, 686);
+            label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(17, 23);
+            label2.Size = new System.Drawing.Size(29, 38);
             label2.TabIndex = 29;
             label2.Text = "*";
             // 
@@ -436,9 +438,10 @@
             label3.BackColor = System.Drawing.Color.Transparent;
             label3.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.Red;
-            label3.Location = new System.Drawing.Point(264, 313);
+            label3.Location = new System.Drawing.Point(429, 501);
+            label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(17, 23);
+            label3.Size = new System.Drawing.Size(29, 38);
             label3.TabIndex = 28;
             label3.Text = "*";
             // 
@@ -449,11 +452,12 @@
             tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.4396553F));
             tableLayoutPanel2.Controls.Add(label7, 0, 0);
             tableLayoutPanel2.Controls.Add(SignUpLinkLabel, 1, 0);
-            tableLayoutPanel2.Location = new System.Drawing.Point(141, 795);
+            tableLayoutPanel2.Location = new System.Drawing.Point(229, 1272);
+            tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new System.Drawing.Size(464, 69);
+            tableLayoutPanel2.Size = new System.Drawing.Size(754, 110);
             tableLayoutPanel2.TabIndex = 27;
             // 
             // label7
@@ -463,9 +467,10 @@
             label7.BackColor = System.Drawing.Color.Transparent;
             label7.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label7.ForeColor = System.Drawing.Color.White;
-            label7.Location = new System.Drawing.Point(65, 23);
+            label7.Location = new System.Drawing.Point(97, 36);
+            label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(213, 23);
+            label7.Size = new System.Drawing.Size(354, 38);
             label7.TabIndex = 20;
             label7.Text = "Already Have an Account?";
             label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -478,12 +483,13 @@
             tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(label5, 0, 0);
             tableLayoutPanel1.Controls.Add(label6, 0, 1);
-            tableLayoutPanel1.Location = new System.Drawing.Point(818, 309);
+            tableLayoutPanel1.Location = new System.Drawing.Point(1329, 494);
+            tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.38095F));
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.6190472F));
-            tableLayoutPanel1.Size = new System.Drawing.Size(613, 336);
+            tableLayoutPanel1.Size = new System.Drawing.Size(996, 538);
             tableLayoutPanel1.TabIndex = 29;
             // 
             // label5
@@ -493,9 +499,9 @@
             label5.Font = new System.Drawing.Font("Malgun Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label5.ForeColor = System.Drawing.Color.White;
             label5.Location = new System.Drawing.Point(0, 0);
-            label5.Margin = new System.Windows.Forms.Padding(0, 0, 0, 40);
+            label5.Margin = new System.Windows.Forms.Padding(0, 0, 0, 64);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(488, 220);
+            label5.Size = new System.Drawing.Size(778, 352);
             label5.TabIndex = 12;
             label5.Text = "Join Our\r\nGreen Community\r\n";
             label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -506,24 +512,25 @@
             label6.AutoSize = true;
             label6.Font = new System.Drawing.Font("Malgun Gothic", 37.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label6.ForeColor = System.Drawing.Color.White;
-            label6.Location = new System.Drawing.Point(3, 260);
+            label6.Location = new System.Drawing.Point(5, 416);
+            label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(564, 76);
+            label6.Size = new System.Drawing.Size(906, 122);
             label6.TabIndex = 13;
             label6.Text = "Be Part of Earth's Heros";
             label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FrmSignUp
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(31, 31, 31);
-            ClientSize = new System.Drawing.Size(1442, 897);
+            ClientSize = new System.Drawing.Size(2343, 1435);
             Controls.Add(panel2);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             Name = "FrmSignUp";
             Text = "Swap & Share";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -126,5 +126,10 @@ namespace Swap_n_Share
             this.Hide();
             sd.Show();
         }
+
+        private void guna2ControlBox4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -38,5 +38,15 @@ namespace Swap_n_Share
             this.Hide();
             sd.Show();
         }
+
+        private void guna2ControlBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox10_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -163,7 +163,7 @@
             tbDescription.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
             tbDescription.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             tbDescription.Location = new System.Drawing.Point(135, 253);
-            tbDescription.Margin = new System.Windows.Forms.Padding(6);
+            tbDescription.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             tbDescription.Multiline = true;
             tbDescription.Name = "tbDescription";
             tbDescription.PasswordChar = '\0';
@@ -182,7 +182,7 @@
             lblUserUsername.Location = new System.Drawing.Point(153, 113);
             lblUserUsername.Margin = new System.Windows.Forms.Padding(3);
             lblUserUsername.Name = "lblUserUsername";
-            lblUserUsername.Size = new System.Drawing.Size(182, 23);
+            lblUserUsername.Size = new System.Drawing.Size(294, 38);
             lblUserUsername.TabIndex = 28;
             lblUserUsername.Text = "Wong Tulus nan Ikhlas";
             lblUserUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -196,7 +196,7 @@
             lblCurrentUsername.Location = new System.Drawing.Point(135, 54);
             lblCurrentUsername.Margin = new System.Windows.Forms.Padding(3);
             lblCurrentUsername.Name = "lblCurrentUsername";
-            lblCurrentUsername.Size = new System.Drawing.Size(333, 38);
+            lblCurrentUsername.Size = new System.Drawing.Size(517, 60);
             lblCurrentUsername.TabIndex = 27;
             lblCurrentUsername.Text = "Current Bio Description";
             lblCurrentUsername.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -210,7 +210,7 @@
             lblNewBio.Location = new System.Drawing.Point(135, 192);
             lblNewBio.Margin = new System.Windows.Forms.Padding(3);
             lblNewBio.Name = "lblNewBio";
-            lblNewBio.Size = new System.Drawing.Size(292, 38);
+            lblNewBio.Size = new System.Drawing.Size(454, 60);
             lblNewBio.TabIndex = 25;
             lblNewBio.Text = "New Bio Description";
             lblNewBio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -223,7 +223,7 @@
             lblChangeBio.ForeColor = System.Drawing.Color.White;
             lblChangeBio.Location = new System.Drawing.Point(216, 133);
             lblChangeBio.Name = "lblChangeBio";
-            lblChangeBio.Size = new System.Drawing.Size(471, 54);
+            lblChangeBio.Size = new System.Drawing.Size(760, 86);
             lblChangeBio.TabIndex = 26;
             lblChangeBio.Text = "Change Bio Description";
             lblChangeBio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -277,6 +277,7 @@
             guna2ControlBox6.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2ControlBox6.Size = new System.Drawing.Size(37, 36);
             guna2ControlBox6.TabIndex = 13;
+            guna2ControlBox6.Click += guna2ControlBox6_Click;
             // 
             // guna2ControlBox2
             // 

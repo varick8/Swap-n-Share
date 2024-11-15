@@ -75,5 +75,17 @@ namespace Swap_n_Share
         {
 
         }
+
+        private void guna2ControlBox8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            FrmSetting sd = new FrmSetting();
+            this.Hide();
+            sd.Show();
+        }
     }
 }

@@ -25,21 +25,21 @@ namespace Swap_n_Share
 
         private void LoginButton_Clicks(object sender, EventArgs e)
         {
-           /* string s_id;
-            // Using parameterized query to prevent SQL injection
-            string qry = "SELECT user_id FROM public.\"User\" WHERE username = '" + UsernameTB.Text + "' AND password = '" + PasswordTB.Text + "';";
+            /* string s_id;
+             // Using parameterized query to prevent SQL injection
+             string qry = "SELECT user_id FROM public.\"User\" WHERE username = '" + UsernameTB.Text + "' AND password = '" + PasswordTB.Text + "';";
 
-            // Updating the method call to use parameterized query
-            dl.GetSingleColumnValueByIndexParameterized(qry, out s_id, 0);
+             // Updating the method call to use parameterized query
+             dl.GetSingleColumnValueByIndexParameterized(qry, out s_id, 0);
 
-            if (s_id != null)
-            {*/
-                // Show a success message
-                MessageBox.Show("Login successful! Welcome to the system.", "Success",
-                                MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Hide();
-                FrmHome sd = new FrmHome();
-                sd.Show();
+             if (s_id != null)
+             {*/
+            // Show a success message
+            MessageBox.Show("Login successful! Welcome to the system.", "Success",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+            FrmHome sd = new FrmHome();
+            sd.Show();
             /*}*/
             /*else
             {
@@ -80,6 +80,11 @@ namespace Swap_n_Share
         private void LoginTitleTxt2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2ControlBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
