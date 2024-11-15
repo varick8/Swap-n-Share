@@ -66,6 +66,12 @@
     <Compile Update="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmProfileSwap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmProfileShare.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UserControls\BubleChat2.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -81,5 +87,13 @@
     <Compile Update="UserControls\UCproduct.cs">
       <SubType>UserControl</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="FrmProfileSwap.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FrmProfileShare.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

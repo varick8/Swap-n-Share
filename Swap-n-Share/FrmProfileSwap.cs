@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmProfile : Form
+    public partial class FrmProfileSwap : Form
     {
-        public FrmProfile()
+        public FrmProfileSwap()
         {
             InitializeComponent();
         }
@@ -71,6 +71,13 @@ namespace Swap_n_Share
         {
             AddProduct addProductForm = new AddProduct();
             addProductForm.ShowDialog();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            FrmProfileSwap sd = new FrmProfileSwap();
+            this.Hide();
+            sd.Show();
         }
     }
 }
