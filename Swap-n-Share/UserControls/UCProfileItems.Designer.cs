@@ -29,14 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCProfileItems));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label12 = new System.Windows.Forms.Label();
             label13 = new System.Windows.Forms.Label();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             label1 = new System.Windows.Forms.Label();
             panel2 = new System.Windows.Forms.Panel();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -100,31 +97,10 @@
             panel2.Size = new System.Drawing.Size(520, 143);
             panel2.TabIndex = 26;
             // 
-            // guna2Button2
-            // 
-            guna2Button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            guna2Button2.BorderRadius = 10;
-            guna2Button2.CustomizableEdges = customizableEdges1;
-            guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = System.Drawing.Color.White;
-            guna2Button2.Location = new System.Drawing.Point(876, 103);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button2.Size = new System.Drawing.Size(244, 45);
-            guna2Button2.TabIndex = 21;
-            guna2Button2.Text = "Swap";
-            // 
             // UCProfileItems
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            Controls.Add(guna2Button2);
             Controls.Add(panel2);
             Name = "UCProfileItems";
             Size = new System.Drawing.Size(1296, 185);
@@ -140,6 +116,5 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }

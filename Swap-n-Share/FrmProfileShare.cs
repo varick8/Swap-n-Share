@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Swap_n_Share
 {
-    public partial class FrmEditUsername : Form
+    public partial class FrmProfileShare : Form
     {
-        public FrmEditUsername()
+        public FrmProfileShare()
         {
             InitializeComponent();
+        }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditProfile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditProfile_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void HomeBtn_Click(object sender, EventArgs e)
@@ -24,7 +39,7 @@ namespace Swap_n_Share
             sd.Show();
         }
 
-        private void guna2Button6_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             FrmProduct sd = new FrmProduct();
             this.Hide();
@@ -38,16 +53,9 @@ namespace Swap_n_Share
             sd.Show();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Button7_Click(object sender, EventArgs e)
         {
             FrmActivity sd = new FrmActivity();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            FrmProfileSwap sd = new FrmProfileSwap();
             this.Hide();
             sd.Show();
         }
@@ -59,16 +67,17 @@ namespace Swap_n_Share
             sd.Show();
         }
 
-        private void guna2Button7_Click(object sender, EventArgs e)
+        private void guna2Button8_Click(object sender, EventArgs e)
         {
-            FrmEditProfile sd = new FrmEditProfile();
-            this.Hide();
-            sd.Show();
+            AddProduct addProductForm = new AddProduct();
+            addProductForm.ShowDialog();
         }
 
-        private void guna2ControlBox6_Click(object sender, EventArgs e)
+        private void guna2Button4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            FrmProfileSwap sd = new FrmProfileSwap();
+            this.Hide();
+            sd.Show();
         }
     }
 }

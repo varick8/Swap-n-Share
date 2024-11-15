@@ -28,5 +28,12 @@ namespace Swap_n_Share
         {
             Application.Exit();
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            FrmProfileSwap sd = new FrmProfileSwap();
+            this.Hide();
+            sd.Show();
+        }
     }
 }

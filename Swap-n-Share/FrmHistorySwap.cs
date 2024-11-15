@@ -83,7 +83,7 @@ namespace Swap_n_Share
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            FrmProfile sd = new FrmProfile();
+            FrmProfileSwap sd = new FrmProfileSwap();
             this.Hide();
             sd.Show();
         }
