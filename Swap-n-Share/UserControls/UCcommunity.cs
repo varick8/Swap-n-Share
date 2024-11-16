@@ -16,6 +16,7 @@ namespace Swap_n_Share.UserControls
         {
             InitializeComponent();
         }
+
         public Image ProfilePic
         {
             get { return pictureBox1.Image; }
@@ -35,11 +36,6 @@ namespace Swap_n_Share.UserControls
         }
 
         private void UCcommunity_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

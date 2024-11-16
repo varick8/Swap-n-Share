@@ -1,4 +1,5 @@
-﻿using Swap_n_Share.Class;
+﻿using Npgsql;
+using Swap_n_Share.Class;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,6 +20,7 @@ namespace Swap_n_Share
     public partial class FrmSignUp : Form
     {
         Datalayer dl;
+
         public FrmSignUp()
         {
             dl = new Datalayer();
@@ -35,27 +37,35 @@ namespace Swap_n_Share
         private void SignupButton_Click(object sender, EventArgs e)
         {
 
-            if (string.IsNullOrWhiteSpace(txtEmail.Text) || string.IsNullOrWhiteSpace(txtUsername.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
+            if (string.IsNullOrWhiteSpace(txtPhone.Text) || string.IsNullOrWhiteSpace(txtUsername.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
             {
                 MessageBox.Show("Please fill in all required fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            string query = "INSERT INTO public.\"User\" (username, email, password) VALUES ('"
-                + txtUsername.Text + "', '"
-                + txtEmail.Text.ToLower() + "', '"
-                + txtPassword.Text + "');";
-            string result = dl.InsertUpdateDeleteCreate(query);
+            // Define the SQL query with parameters for PostgreSQL
+            string query = "INSERT INTO \"User\" (phone, username, password) VALUES (@phone, @username, @password)";
+
+            // Create parameters with Npgsql for PostgreSQL
+            var parameters = new NpgsqlParameter[]
+            {
+        new NpgsqlParameter("@phone", txtPhone.Text),
+        new NpgsqlParameter("@username", txtUsername.Text),
+        new NpgsqlParameter("@password", txtPassword.Text),
+            };
+
+            // Call the Datalayer method to execute the command with the parameters
+            string result = dl.InsertUpdateDeleteCreate(query, parameters);
 
             if (result.Contains("Username_Key") || result.Contains("username_key"))
             {
                 MessageBox.Show("The username is already in use. Please choose another.", "Sign-Up Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtUsername.Clear(); // Clear the username textbox
             }
-            else if (result.Contains("Email_Key") || result.Contains("email_key"))
+            else if (result.Contains("Phone_Key") || result.Contains("phone_key"))
             {
-                MessageBox.Show("The email is already in use. Please choose another.", "Sign-Up Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtEmail.Clear(); // Clear the email textbox
+                MessageBox.Show("The phone is already in use. Please choose another.", "Sign-Up Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPhone.Clear(); // Clear the email textbox
             }
             else if (result.Contains("Failed") || result.Contains("failed"))
             {
@@ -82,7 +92,7 @@ namespace Swap_n_Share
             }
         }
 
-        private void guna2ControlBox6_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

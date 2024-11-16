@@ -17,82 +17,70 @@ namespace Swap_n_Share
             InitializeComponent();
         }
 
-        private void guna2ControlBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
             FrmSetting sd = new FrmSetting();
             this.Hide();
             sd.Show();
         }
 
-        private void btnAppearance_Click(object sender, EventArgs e)
+        private void btnEditBio_Click(object sender, EventArgs e)
         {
             FrmEditBio sd = new FrmEditBio();
             this.Hide();
             sd.Show();
         }
 
-        private void btnEditProfile_Click(object sender, EventArgs e)
+        private void btnEditUsername_Click(object sender, EventArgs e)
         {
             FrmEditUsername sd = new FrmEditUsername();
             this.Hide();
             sd.Show();
         }
 
-        private void btnAccountSetting_Click(object sender, EventArgs e)
+        private void btnEditPict_Click(object sender, EventArgs e)
         {
             FrmEditProfilePicture sd = new FrmEditProfilePicture();
             this.Hide();
             sd.Show();
         }
 
-        private void HomeBtn_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
             FrmHome sd = new FrmHome();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button6_Click(object sender, EventArgs e)
+        private void btnProduct_Click(object sender, EventArgs e)
         {
-            FrmProduct sd = new FrmProduct();
+            FrmProductSwap sd = new FrmProductSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void btnCommunnity_Click(object sender, EventArgs e)
         {
             FrmCommunity sd = new FrmCommunity();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void btnActivity_Click(object sender, EventArgs e)
         {
-            FrmActivity sd = new FrmActivity();
+            FrmActivitySwap sd = new FrmActivitySwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
+        private void btnProfile_Click(object sender, EventArgs e)
         {
-            FrmProfile sd = new FrmProfile();
+            FrmProfileSwap sd = new FrmProfileSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-            FrmSetting sd = new FrmSetting();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2ControlBox6_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

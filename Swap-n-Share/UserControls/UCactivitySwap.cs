@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Npgsql;
+using Swap_n_Share.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,60 +14,145 @@ namespace Swap_n_Share.UserControls
 {
     public partial class UCactivitySwap : UserControl
     {
-        public UCactivitySwap()
+        public event EventHandler onSelect = null;
+        Datalayer dl;
+        private FrmActivitySwap parentForm;
+
+        public UCactivitySwap(FrmActivitySwap parent)
         {
             InitializeComponent();
-        }
-        public Image ProfilePic
-        {
-            get { return PicBox.Image; }
-            set { PicBox.Image = value; }
-        }
-        public Image ProfileBaru
-        {
-            get { return guna2PictureBox1.Image; }
-            set { guna2PictureBox1.Image = value; }
+            dl = new Datalayer();
+            parentForm = parent;
         }
 
-        public string txtName
+        public string id { get; set; }
+
+        public string itemid { get; set; }
+
+        public string myitemid { get; set; }
+
+        public string tukar
         {
-            get { return labelNama.Text; }
-            set { labelNama.Text = value; }
-        }
-        public string txtHandphone
-        {
-            get { return labelNomor.Text; }
-            set { labelNomor.Text = value; }
+            get { return lblTukar.Text; }
+            set { lblTukar.Text = value; }
         }
 
-        public string txtTanggal
+        public string tawar
         {
-            get { return labelTanggal.Text; }
-            set { labelTanggal.Text = value; }  // Fixed line
+            get { return lblTawar.Text; }
+            set { lblTawar.Text = value; }
         }
-        public string txtKomen
-        {
-            get { return labelKomen.Text; }
-            set { labelKomen.Text = value; }  // Fixed line
-        }
-        public string txtUser
-        {
-            get { return labelUser.Text; }
-            set { labelUser.Text = value; }  // Fixed line
-        }
-        public string txtBarangBAru
-        {
-            get { return labelBarangBaru.Text; }
-            set { labelBarangBaru.Text = value; }  // Fixed line
-        }
-        public string txtDes
-        {
-            get { return labelDes.Text; }
-            set { labelDes.Text = value; }  // Fixed line
-        }
-        private void labelKomen_Click(object sender, EventArgs e)
-        {
 
+        public string tanggal
+        {
+            get { return lblTanggal.Text; }
+            set { lblTanggal.Text = value; }
         }
-    }
+
+        public string req
+        {
+            get { return lblReq.Text; }
+            set { lblReq.Text = value; }
+        }
+
+        public string komen
+        {
+            get { return lblKomen.Text; }
+            set { lblKomen.Text = value; }
+        }
+
+        public Image picTukar
+        {
+            get { return picDitukar.Image; }
+            set { picDitukar.Image = value; }
+        }
+
+        public string telpon
+        {
+            get { return lblTelpon.Text; }
+            set { lblTelpon.Text = value; }
+        }
+
+        public Image picTawar
+        {
+            get { return picDitawarkan.Image; }
+            set { picDitawarkan.Image = value; }
+        }
+
+        public string desc
+        {
+            get { return lblDesc.Text; }
+            set { lblDesc.Text = value; }
+        }
+
+        private void btnReject_Click(object sender, EventArgs e)
+        {
+            // Define the SQL query for inserting into SwapItem
+            string insertQuery = "UPDATE \"SwapItem\" SET status = False WHERE swapitem_id = @swapid";
+
+            // Define the SQL query to update availability for both my_item_id and item_id in the Item table
+            string updateQuery = "UPDATE \"Item\" SET availability = TRUE WHERE item_id = @myitemid OR item_id = @itemid";
+
+            // Create parameters with Npgsql for PostgreSQL
+            var parameters = new NpgsqlParameter[]
+            {
+        new NpgsqlParameter("@swapid", NpgsqlTypes.NpgsqlDbType.Uuid) { Value = Guid.Parse(id) }, // Set the selected item ID for my_item_id
+        new NpgsqlParameter("@myitemid", NpgsqlTypes.NpgsqlDbType.Uuid) { Value = Guid.Parse(myitemid) }, // Set the selected item ID for my_item_id
+        new NpgsqlParameter("@itemid", NpgsqlTypes.NpgsqlDbType.Uuid) { Value = Guid.Parse(itemid) }
+            };
+
+            // Execute the insert query
+            string insertResult = dl.InsertUpdateDeleteCreate(insertQuery, parameters);
+
+            if (insertResult.Contains("Failed") || insertResult.Contains("failed"))
+            {
+                MessageBox.Show("Reject failed: " + insertResult, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                // Execute the update query to set availability to false
+                string updateResult = dl.InsertUpdateDeleteCreate(updateQuery, parameters);
+
+                if (updateResult.Contains("Failed") || updateResult.Contains("failed"))
+                {
+                    MessageBox.Show("Reject Fail!: " + updateResult, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("Request Successfully Rejected", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    FrmActivitySwap sd = new FrmActivitySwap();
+                    sd.Show();
+                    parentForm.Hide();
+                }
+            }
+        }
+
+        private void btnAccept_Click(object sender, EventArgs e)
+        {
+            // Define the SQL query for inserting into SwapItem
+            string insertQuery = "UPDATE \"SwapItem\" SET status = True WHERE swapitem_id = @swapid";
+
+            // Create parameters with Npgsql for PostgreSQL
+            var parameters = new NpgsqlParameter[]
+            {
+        new NpgsqlParameter("@swapid", NpgsqlTypes.NpgsqlDbType.Uuid) { Value = Guid.Parse(id) }, // Set the selected item ID for my_item_id
+    
+            };
+
+            // Execute the insert query
+            string insertResult = dl.InsertUpdateDeleteCreate(insertQuery, parameters);
+
+            if (insertResult.Contains("Failed") || insertResult.Contains("failed"))
+            {
+                MessageBox.Show("Accept Fail: " + insertResult, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("Request Successfully Accepted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                FrmActivitySwap sd = new FrmActivitySwap();
+                sd.Show();
+                parentForm.Hide();
+            }
+        }
+    } 
 }

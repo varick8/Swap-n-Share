@@ -22,7 +22,7 @@ namespace Swap_n_Share
 
         }
 
-        private void btnLogOut_Click_1(object sender, EventArgs e)
+        private void btnLogOut_Click(object sender, EventArgs e)
         {
             this.Hide();
 
@@ -31,39 +31,6 @@ namespace Swap_n_Share
 
             MessageBox.Show("You have been logged out.", "Logout Successful",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void lblSetting_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            FrmCommunity sd = new FrmCommunity();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void HomeBtn_Click(object sender, EventArgs e)
-        {
-            FrmHome sd = new FrmHome();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            FrmProduct sd = new FrmProduct();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            FrmProfile sd = new FrmProfile();
-            this.Hide();
-            sd.Show();
         }
 
         private void btnEditProfile_Click(object sender, EventArgs e)
@@ -80,54 +47,42 @@ namespace Swap_n_Share
             sd.Show();
         }
 
-        private void HomeBtn_Click_1(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
             FrmHome sd = new FrmHome();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button6_Click(object sender, EventArgs e)
+        private void btnProduct_Click(object sender, EventArgs e)
         {
-            FrmProduct sd = new FrmProduct();
+            FrmProductSwap sd = new FrmProductSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button2_Click_1(object sender, EventArgs e)
+        private void btnCommunity_Click(object sender, EventArgs e)
         {
             FrmCommunity sd = new FrmCommunity();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button1_Click_1(object sender, EventArgs e)
+        private void btnActivity_Click(object sender, EventArgs e)
         {
-            FrmActivity sd = new FrmActivity();
+            FrmActivitySwap sd = new FrmActivitySwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button4_Click_1(object sender, EventArgs e)
+        private void btnProfile_Click(object sender, EventArgs e)
         {
             FrmProfileSwap sd = new FrmProfileSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
-        {
-            FrmHome sd = new FrmHome();
-            this.Hide();
-            sd.Show();
-        }
-
-        private void guna2ControlBox4_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

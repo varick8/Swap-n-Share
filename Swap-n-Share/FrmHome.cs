@@ -18,76 +18,46 @@ namespace Swap_n_Share
         public FrmHome()
         {
             InitializeComponent();
-
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void btnCommunity_Click(object sender, EventArgs e)
         {
             FrmCommunity sd = new FrmCommunity();
             this.Hide();
             sd.Show();
         }
 
-
-
-        private void guna2ControlBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void HomeBtn_Click(object sender, EventArgs e)
+        private void btnProduct_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            FrmProduct sd = new FrmProduct();
+            FrmProductSwap sd = new FrmProductSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void btnSetting_Click(object sender, EventArgs e)
         {
             FrmSetting sd = new FrmSetting();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
+        private void btnProfile_Click(object sender, EventArgs e)
         {
             FrmProfileSwap sd = new FrmProfileSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button5_Click(object sender, EventArgs e)
+        private void btnActivity_Click(object sender, EventArgs e)
         {
-            FrmActivity sd = new FrmActivity();
+            FrmActivitySwap sd = new FrmActivitySwap();
             this.Hide();
             sd.Show();
-        }
-
-
-
-        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
         }
 
         private async void FrmHome_Load(object sender, EventArgs e)
@@ -126,35 +96,26 @@ namespace Swap_n_Share
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }
-
-        private void linkReadMore_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 
 public class NewsApiResponse
 {
-    public string Status { get; set; }
-    public int TotalResults { get; set; }
     public List<Article> Articles { get; set; }
 }
 
 public class Article
 {
     public Source Source { get; set; }
-    public string Author { get; set; }
+
     public string Title { get; set; }
+
     public string Description { get; set; }
+
     public string Url { get; set; }
-    public string UrlToImage { get; set; }
-    public DateTime PublishedAt { get; set; }
-    public string Content { get; set; }
 }
 
 public class Source
 {
-    public string Id { get; set; }
     public string Name { get; set; }
 }

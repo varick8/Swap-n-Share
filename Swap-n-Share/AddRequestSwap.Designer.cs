@@ -42,144 +42,108 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            txtPict = new Guna.UI2.WinForms.Guna2PictureBox();
             labelTitle = new System.Windows.Forms.Label();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnSend = new Guna.UI2.WinForms.Guna2Button();
             label1 = new System.Windows.Forms.Label();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            label3 = new System.Windows.Forms.Label();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            btnCancel = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             label5 = new System.Windows.Forms.Label();
-            guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            cbMyItem = new Guna.UI2.WinForms.Guna2ComboBox();
+            txtComment = new Guna.UI2.WinForms.Guna2TextBox();
+            txtDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             label2 = new System.Windows.Forms.Label();
             panel2 = new System.Windows.Forms.Panel();
-            label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
+            lblItem = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)txtPict).BeginInit();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // guna2PictureBox1
+            // txtPict
             // 
-            guna2PictureBox1.CustomizableEdges = customizableEdges1;
-            guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new System.Drawing.Point(644, 121);
-            guna2PictureBox1.MaximumSize = new System.Drawing.Size(390, 390);
-            guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2PictureBox1.Size = new System.Drawing.Size(390, 390);
-            guna2PictureBox1.TabIndex = 0;
-            guna2PictureBox1.TabStop = false;
-            guna2PictureBox1.Click += guna2PictureBox1_Click;
+            txtPict.CustomizableEdges = customizableEdges1;
+            txtPict.ImageRotate = 0F;
+            txtPict.Location = new System.Drawing.Point(347, 57);
+            txtPict.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            txtPict.MaximumSize = new System.Drawing.Size(210, 183);
+            txtPict.Name = "txtPict";
+            txtPict.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            txtPict.Size = new System.Drawing.Size(210, 183);
+            txtPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            txtPict.TabIndex = 0;
+            txtPict.TabStop = false;
             // 
             // labelTitle
             // 
             labelTitle.AutoSize = true;
             labelTitle.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             labelTitle.ForeColor = System.Drawing.Color.White;
-            labelTitle.Location = new System.Drawing.Point(79, 41);
+            labelTitle.Location = new System.Drawing.Point(43, 19);
+            labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             labelTitle.Name = "labelTitle";
-            labelTitle.Size = new System.Drawing.Size(302, 45);
+            labelTitle.Size = new System.Drawing.Size(151, 21);
             labelTitle.TabIndex = 1;
             labelTitle.Text = "Ask Your Request!";
-            labelTitle.Click += labelTitle_Click;
             // 
-            // guna2Button1
+            // btnSend
             // 
-            guna2Button1.BorderColor = System.Drawing.Color.White;
-            guna2Button1.BorderRadius = 10;
-            guna2Button1.CustomizableEdges = customizableEdges3;
-            guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
-            guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2Button1.ForeColor = System.Drawing.Color.White;
-            guna2Button1.Location = new System.Drawing.Point(644, 644);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button1.Size = new System.Drawing.Size(390, 64);
-            guna2Button1.TabIndex = 2;
-            guna2Button1.Text = "Send";
+            btnSend.BorderColor = System.Drawing.Color.White;
+            btnSend.BorderRadius = 10;
+            btnSend.CustomizableEdges = customizableEdges3;
+            btnSend.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnSend.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnSend.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnSend.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnSend.FillColor = System.Drawing.Color.FromArgb(31, 31, 31);
+            btnSend.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnSend.ForeColor = System.Drawing.Color.White;
+            btnSend.Location = new System.Drawing.Point(347, 302);
+            btnSend.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            btnSend.Name = "btnSend";
+            btnSend.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnSend.Size = new System.Drawing.Size(210, 30);
+            btnSend.TabIndex = 2;
+            btnSend.Text = "Send";
+            btnSend.Click += btnSend_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label1.ForeColor = System.Drawing.Color.White;
-            label1.Location = new System.Drawing.Point(81, 169);
+            label1.Location = new System.Drawing.Point(44, 79);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(172, 37);
+            label1.Size = new System.Drawing.Size(89, 19);
             label1.TabIndex = 3;
             label1.Text = "Your Product";
             // 
-            // guna2TextBox3
+            // btnCancel
             // 
-            guna2TextBox3.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2TextBox3.BorderColor = System.Drawing.Color.White;
-            guna2TextBox3.BorderRadius = 10;
-            guna2TextBox3.CustomizableEdges = customizableEdges5;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2TextBox3.ForeColor = System.Drawing.Color.White;
-            guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new System.Drawing.Point(81, 354);
-            guna2TextBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PasswordChar = '\0';
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2TextBox3.Size = new System.Drawing.Size(449, 70);
-            guna2TextBox3.TabIndex = 8;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(81, 301);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(340, 37);
-            label3.TabIndex = 7;
-            label3.Text = "Description (color, size, etc)";
-            // 
-            // guna2Button3
-            // 
-            guna2Button3.BorderColor = System.Drawing.Color.White;
-            guna2Button3.BorderRadius = 10;
-            guna2Button3.CustomizableEdges = customizableEdges7;
-            guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = System.Drawing.Color.Red;
-            guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2Button3.ForeColor = System.Drawing.Color.White;
-            guna2Button3.Location = new System.Drawing.Point(644, 563);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Button3.Size = new System.Drawing.Size(390, 64);
-            guna2Button3.TabIndex = 13;
-            guna2Button3.Text = "Cancel";
-            guna2Button3.Click += guna2Button3_Click;
+            btnCancel.BorderColor = System.Drawing.Color.White;
+            btnCancel.BorderRadius = 10;
+            btnCancel.CustomizableEdges = customizableEdges5;
+            btnCancel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnCancel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnCancel.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnCancel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnCancel.FillColor = System.Drawing.Color.Red;
+            btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnCancel.ForeColor = System.Drawing.Color.White;
+            btnCancel.Location = new System.Drawing.Point(347, 264);
+            btnCancel.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            btnCancel.Name = "btnCancel";
+            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnCancel.Size = new System.Drawing.Size(210, 30);
+            btnCancel.TabIndex = 13;
+            btnCancel.Text = "Cancel";
+            btnCancel.Click += btnCancel_Click;
             // 
             // guna2TextBox4
             // 
             guna2TextBox4.BorderColor = System.Drawing.Color.White;
             guna2TextBox4.BorderRadius = 10;
-            guna2TextBox4.CustomizableEdges = customizableEdges9;
+            guna2TextBox4.CustomizableEdges = customizableEdges7;
             guna2TextBox4.DefaultText = "";
             guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
             guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
@@ -189,13 +153,12 @@
             guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
             guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new System.Drawing.Point(370, 387);
-            guna2TextBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            guna2TextBox4.Location = new System.Drawing.Point(199, 181);
             guna2TextBox4.Name = "guna2TextBox4";
             guna2TextBox4.PasswordChar = '\0';
             guna2TextBox4.PlaceholderText = "";
             guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2TextBox4.Size = new System.Drawing.Size(0, 0);
             guna2TextBox4.TabIndex = 15;
             // 
@@ -204,135 +167,140 @@
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label5.ForeColor = System.Drawing.Color.White;
-            label5.Location = new System.Drawing.Point(81, 428);
+            label5.Location = new System.Drawing.Point(44, 142);
+            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(134, 37);
+            label5.Size = new System.Drawing.Size(69, 19);
             label5.TabIndex = 14;
             label5.Text = "Comment";
             // 
-            // guna2ComboBox2
+            // cbMyItem
             // 
-            guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            guna2ComboBox2.BorderColor = System.Drawing.Color.White;
-            guna2ComboBox2.BorderRadius = 10;
-            guna2ComboBox2.CustomizableEdges = customizableEdges11;
-            guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            guna2ComboBox2.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            guna2ComboBox2.ForeColor = System.Drawing.Color.White;
-            guna2ComboBox2.ItemHeight = 30;
-            guna2ComboBox2.Location = new System.Drawing.Point(81, 221);
-            guna2ComboBox2.Name = "guna2ComboBox2";
-            guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2ComboBox2.Size = new System.Drawing.Size(449, 36);
-            guna2ComboBox2.TabIndex = 18;
+            cbMyItem.BackColor = System.Drawing.Color.Transparent;
+            cbMyItem.BorderColor = System.Drawing.Color.White;
+            cbMyItem.BorderRadius = 10;
+            cbMyItem.CustomizableEdges = customizableEdges9;
+            cbMyItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            cbMyItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cbMyItem.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            cbMyItem.FocusedColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            cbMyItem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            cbMyItem.Font = new System.Drawing.Font("Segoe UI", 10F);
+            cbMyItem.ForeColor = System.Drawing.Color.White;
+            cbMyItem.ItemHeight = 30;
+            cbMyItem.Location = new System.Drawing.Point(44, 104);
+            cbMyItem.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            cbMyItem.Name = "cbMyItem";
+            cbMyItem.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            cbMyItem.Size = new System.Drawing.Size(244, 36);
+            cbMyItem.TabIndex = 18;
             // 
-            // guna2TextBox1
+            // txtComment
             // 
-            guna2TextBox1.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2TextBox1.BorderColor = System.Drawing.Color.White;
-            guna2TextBox1.BorderRadius = 10;
-            guna2TextBox1.CustomizableEdges = customizableEdges13;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2TextBox1.ForeColor = System.Drawing.Color.White;
-            guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new System.Drawing.Point(81, 472);
-            guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2TextBox1.Size = new System.Drawing.Size(449, 70);
-            guna2TextBox1.TabIndex = 19;
+            txtComment.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            txtComment.BorderColor = System.Drawing.Color.White;
+            txtComment.BorderRadius = 10;
+            txtComment.CustomizableEdges = customizableEdges11;
+            txtComment.DefaultText = "";
+            txtComment.DisabledState.BorderColor = System.Drawing.Color.FromArgb(208, 208, 208);
+            txtComment.DisabledState.FillColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            txtComment.DisabledState.ForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtComment.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(138, 138, 138);
+            txtComment.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            txtComment.FocusedState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtComment.Font = new System.Drawing.Font("Segoe UI", 9F);
+            txtComment.ForeColor = System.Drawing.Color.White;
+            txtComment.HoverState.BorderColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            txtComment.Location = new System.Drawing.Point(44, 162);
+            txtComment.Name = "txtComment";
+            txtComment.PasswordChar = '\0';
+            txtComment.PlaceholderText = "";
+            txtComment.SelectedText = "";
+            txtComment.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtComment.Size = new System.Drawing.Size(242, 33);
+            txtComment.TabIndex = 19;
             // 
-            // guna2DateTimePicker2
+            // txtDate
             // 
-            guna2DateTimePicker2.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2DateTimePicker2.BorderColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2DateTimePicker2.BorderRadius = 10;
-            guna2DateTimePicker2.Checked = true;
-            guna2DateTimePicker2.CustomizableEdges = customizableEdges15;
-            guna2DateTimePicker2.FillColor = System.Drawing.Color.White;
-            guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2DateTimePicker2.ForeColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            guna2DateTimePicker2.Location = new System.Drawing.Point(81, 628);
-            guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker2.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
-            guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2DateTimePicker2.Size = new System.Drawing.Size(449, 70);
-            guna2DateTimePicker2.TabIndex = 20;
-            guna2DateTimePicker2.Value = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
+            txtDate.BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            txtDate.BorderColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            txtDate.BorderRadius = 10;
+            txtDate.Checked = true;
+            txtDate.CustomizableEdges = customizableEdges13;
+            txtDate.FillColor = System.Drawing.Color.White;
+            txtDate.Font = new System.Drawing.Font("Segoe UI", 9F);
+            txtDate.ForeColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            txtDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            txtDate.Location = new System.Drawing.Point(44, 235);
+            txtDate.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            txtDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            txtDate.MinDate = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
+            txtDate.Name = "txtDate";
+            txtDate.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            txtDate.Size = new System.Drawing.Size(242, 33);
+            txtDate.TabIndex = 20;
+            txtDate.Value = new System.DateTime(2024, 11, 15, 0, 0, 0, 0);
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new System.Drawing.Font("Malgun Gothic Semilight", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             label2.ForeColor = System.Drawing.Color.White;
-            label2.Location = new System.Drawing.Point(81, 576);
+            label2.Location = new System.Drawing.Point(44, 211);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(158, 37);
+            label2.Size = new System.Drawing.Size(81, 19);
             label2.TabIndex = 21;
             label2.Text = "Pickup Date";
             // 
             // panel2
             // 
-            panel2.Controls.Add(label4);
+            panel2.Controls.Add(lblItem);
             panel2.Controls.Add(labelTitle);
-            panel2.Controls.Add(guna2PictureBox1);
-            panel2.Controls.Add(guna2DateTimePicker2);
+            panel2.Controls.Add(txtPict);
+            panel2.Controls.Add(txtDate);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(label1);
-            panel2.Controls.Add(guna2TextBox3);
-            panel2.Controls.Add(guna2Button3);
-            panel2.Controls.Add(label3);
-            panel2.Controls.Add(guna2Button1);
-            panel2.Controls.Add(guna2ComboBox2);
+            panel2.Controls.Add(btnCancel);
+            panel2.Controls.Add(btnSend);
+            panel2.Controls.Add(cbMyItem);
             panel2.Controls.Add(label2);
-            panel2.Controls.Add(guna2TextBox1);
+            panel2.Controls.Add(txtComment);
             panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             panel2.Location = new System.Drawing.Point(0, 0);
+            panel2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(1146, 759);
+            panel2.Size = new System.Drawing.Size(617, 356);
             panel2.TabIndex = 23;
             // 
-            // label4
+            // lblItem
             // 
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Malgun Gothic Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            label4.ForeColor = System.Drawing.Color.White;
-            label4.Location = new System.Drawing.Point(81, 86);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(210, 45);
-            label4.TabIndex = 22;
-            label4.Text = "Nama Barang";
+            lblItem.AutoSize = true;
+            lblItem.Font = new System.Drawing.Font("Malgun Gothic Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblItem.ForeColor = System.Drawing.Color.White;
+            lblItem.Location = new System.Drawing.Point(44, 40);
+            lblItem.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            lblItem.Name = "lblItem";
+            lblItem.Size = new System.Drawing.Size(106, 21);
+            lblItem.TabIndex = 22;
+            lblItem.Text = "Nama Barang";
             // 
             // AddRequestSwap
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            ClientSize = new System.Drawing.Size(1146, 759);
+            ClientSize = new System.Drawing.Size(617, 356);
             ControlBox = false;
             Controls.Add(panel2);
             Controls.Add(guna2TextBox4);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             Name = "AddRequestSwap";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "AddProduct";
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
+            Load += AddRequestSwap_Load;
+            ((System.ComponentModel.ISupportInitialize)txtPict).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
@@ -340,20 +308,18 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox txtPict;
         private System.Windows.Forms.Label labelTitle;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnSend;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnCancel;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
+        private Guna.UI2.WinForms.Guna2ComboBox cbMyItem;
+        private Guna.UI2.WinForms.Guna2TextBox txtComment;
+        private Guna.UI2.WinForms.Guna2DateTimePicker txtDate;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblItem;
     }
 }
