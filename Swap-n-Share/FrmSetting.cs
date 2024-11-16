@@ -32,7 +32,7 @@ namespace Swap_n_Share
             MessageBox.Show("You have been logged out.", "Logout Successful",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
+        
         private void btnEditProfile_Click(object sender, EventArgs e)
         {
             FrmEditProfile sd = new FrmEditProfile();
