@@ -35,61 +35,61 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCproductshare));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            labelName = new System.Windows.Forms.Label();
-            labelLoc = new System.Windows.Forms.Label();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            lblName = new System.Windows.Forms.Label();
+            lblLoc = new System.Windows.Forms.Label();
+            btnShare = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            picbox = new Guna.UI2.WinForms.Guna2PictureBox();
+            txtPic = new Guna.UI2.WinForms.Guna2PictureBox();
             labelDeskripsi = new System.Windows.Forms.Label();
-            labelCategory = new System.Windows.Forms.Label();
+            lblCat = new System.Windows.Forms.Label();
             guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)picbox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)txtPic).BeginInit();
             SuspendLayout();
             // 
-            // labelName
+            // lblName
             // 
-            labelName.AutoSize = true;
-            labelName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            labelName.ForeColor = System.Drawing.Color.White;
-            labelName.Location = new System.Drawing.Point(305, 43);
-            labelName.Name = "labelName";
-            labelName.Size = new System.Drawing.Size(220, 38);
-            labelName.TabIndex = 1;
-            labelName.Text = "Baju Jasmine";
+            lblName.AutoSize = true;
+            lblName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            lblName.ForeColor = System.Drawing.Color.White;
+            lblName.Location = new System.Drawing.Point(305, 43);
+            lblName.Name = "lblName";
+            lblName.Size = new System.Drawing.Size(112, 19);
+            lblName.TabIndex = 1;
+            lblName.Text = "Baju Jasmine";
             // 
-            // labelLoc
+            // lblLoc
             // 
-            labelLoc.AutoSize = true;
-            labelLoc.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            labelLoc.ForeColor = System.Drawing.Color.White;
-            labelLoc.Location = new System.Drawing.Point(305, 81);
-            labelLoc.Name = "labelLoc";
-            labelLoc.Size = new System.Drawing.Size(117, 30);
-            labelLoc.TabIndex = 2;
-            labelLoc.Text = "Location";
+            lblLoc.AutoSize = true;
+            lblLoc.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblLoc.ForeColor = System.Drawing.Color.White;
+            lblLoc.Location = new System.Drawing.Point(305, 81);
+            lblLoc.Name = "lblLoc";
+            lblLoc.Size = new System.Drawing.Size(61, 17);
+            lblLoc.TabIndex = 2;
+            lblLoc.Text = "Location";
             // 
-            // guna2Button1
+            // btnShare
             // 
-            guna2Button1.BorderRadius = 10;
-            guna2Button1.CustomizableEdges = customizableEdges1;
-            guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = System.Drawing.Color.White;
-            guna2Button1.Location = new System.Drawing.Point(347, 217);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new System.Drawing.Size(195, 54);
-            guna2Button1.TabIndex = 3;
-            guna2Button1.Text = "Share";
-            guna2Button1.Click += guna2Button1_Click;
+            btnShare.BorderRadius = 10;
+            btnShare.CustomizableEdges = customizableEdges1;
+            btnShare.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnShare.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnShare.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnShare.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnShare.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            btnShare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnShare.ForeColor = System.Drawing.Color.White;
+            btnShare.Location = new System.Drawing.Point(347, 217);
+            btnShare.Name = "btnShare";
+            btnShare.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnShare.Size = new System.Drawing.Size(195, 54);
+            btnShare.TabIndex = 3;
+            btnShare.Text = "Share";
+            btnShare.Click += btnShare_Click;
             // 
             // guna2Panel1
             // 
-            guna2Panel1.Controls.Add(picbox);
+            guna2Panel1.Controls.Add(txtPic);
             guna2Panel1.CustomizableEdges = customizableEdges5;
             guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             guna2Panel1.Location = new System.Drawing.Point(0, 0);
@@ -99,18 +99,18 @@
             guna2Panel1.Size = new System.Drawing.Size(287, 290);
             guna2Panel1.TabIndex = 4;
             // 
-            // picbox
+            // txtPic
             // 
-            picbox.CustomizableEdges = customizableEdges3;
-            picbox.Image = (System.Drawing.Image)resources.GetObject("picbox.Image");
-            picbox.ImageRotate = 0F;
-            picbox.Location = new System.Drawing.Point(21, 25);
-            picbox.Name = "picbox";
-            picbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            picbox.Size = new System.Drawing.Size(233, 246);
-            picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            picbox.TabIndex = 0;
-            picbox.TabStop = false;
+            txtPic.CustomizableEdges = customizableEdges3;
+            txtPic.Image = (System.Drawing.Image)resources.GetObject("txtPic.Image");
+            txtPic.ImageRotate = 0F;
+            txtPic.Location = new System.Drawing.Point(21, 25);
+            txtPic.Name = "txtPic";
+            txtPic.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            txtPic.Size = new System.Drawing.Size(233, 246);
+            txtPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            txtPic.TabIndex = 0;
+            txtPic.TabStop = false;
             // 
             // labelDeskripsi
             // 
@@ -119,48 +119,47 @@
             labelDeskripsi.ForeColor = System.Drawing.Color.White;
             labelDeskripsi.Location = new System.Drawing.Point(305, 111);
             labelDeskripsi.Name = "labelDeskripsi";
-            labelDeskripsi.Size = new System.Drawing.Size(144, 30);
+            labelDeskripsi.Size = new System.Drawing.Size(73, 17);
             labelDeskripsi.TabIndex = 5;
             labelDeskripsi.Text = "Tahun 2023";
             // 
-            // labelCategory
+            // lblCat
             // 
-            labelCategory.AutoSize = true;
-            labelCategory.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            labelCategory.ForeColor = System.Drawing.Color.White;
-            labelCategory.Location = new System.Drawing.Point(305, 141);
-            labelCategory.Name = "labelCategory";
-            labelCategory.Size = new System.Drawing.Size(125, 30);
-            labelCategory.TabIndex = 6;
-            labelCategory.Text = "Category";
+            lblCat.AutoSize = true;
+            lblCat.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            lblCat.ForeColor = System.Drawing.Color.White;
+            lblCat.Location = new System.Drawing.Point(305, 141);
+            lblCat.Name = "lblCat";
+            lblCat.Size = new System.Drawing.Size(64, 17);
+            lblCat.TabIndex = 6;
+            lblCat.Text = "Category";
             // 
             // UCproductshare
             // 
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            Controls.Add(labelCategory);
+            Controls.Add(lblCat);
             Controls.Add(labelDeskripsi);
-            Controls.Add(guna2Button1);
-            Controls.Add(labelLoc);
-            Controls.Add(labelName);
+            Controls.Add(btnShare);
+            Controls.Add(lblLoc);
+            Controls.Add(lblName);
             Controls.Add(guna2Panel1);
             MaximumSize = new System.Drawing.Size(564, 292);
             Name = "UCproductshare";
             Size = new System.Drawing.Size(564, 292);
-            Load += UCcommunity_Load;
             guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)picbox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)txtPic).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private System.Windows.Forms.Label labelName;
-        private System.Windows.Forms.Label labelLoc;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblLoc;
+        private Guna.UI2.WinForms.Guna2Button btnShare;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2PictureBox picbox;
+        private Guna.UI2.WinForms.Guna2PictureBox txtPic;
         private System.Windows.Forms.Label labelDeskripsi;
-        private System.Windows.Forms.Label labelCategory;
+        private System.Windows.Forms.Label lblCat;
     }
 }

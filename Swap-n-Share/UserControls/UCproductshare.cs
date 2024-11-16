@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Npgsql;
+using Swap_n_Share.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,47 +14,61 @@ namespace Swap_n_Share.UserControls
 {
     public partial class UCproductshare : UserControl
     {
+        public event EventHandler onSelect = null;
+        Datalayer dl;
+
         public UCproductshare()
         {
             InitializeComponent();
+            dl = new Datalayer();
         }
 
-        public string txtName
+        public string id { get; set; }
+
+        public string eName
         {
-            get { return labelName.Text; }
-            set { labelName.Text = value; }
+            get { return lblName.Text; }
+            set { lblName.Text = value; }
         }
 
-        public string txtStatus
+        public string eCategory
         {
-            get { return labelLoc.Text; }
-            set { labelLoc.Text = value; }  // Fixed line
+            get { return lblCat.Text; }
+            set { lblCat.Text = value; }
         }
-        public string txtDesc
+
+        public string eLocation
+        {
+            get { return lblLoc.Text; }
+            set { lblLoc.Text = value; }
+        }
+
+        public Image eImage
+        {
+            get { return txtPic.Image; }
+            set { txtPic.Image = value; }
+        }
+
+        public string eDesc
         {
             get { return labelDeskripsi.Text; }
             set { labelDeskripsi.Text = value; }
         }
-        public string txtCategory
+
+        private void btn_click(object sender, EventArgs e)
         {
-            get { return labelCategory.Text; }
-            set { labelCategory.Text = value; }
+            onSelect?.Invoke(this, e);
         }
 
-        public Image ProfilePic
+        private void btnShare_Click(object sender, EventArgs e)
         {
-            get { return picbox.Image; }
-            set { picbox.Image = value; }
-        }
-        private void UCcommunity_Load(object sender, EventArgs e)
-        {
+            // Open the frmSwap form if items exist
+            AddRequestShare frm = new AddRequestShare();
+            frm.id = id;
+            frm.ShowDialog();
 
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            AddRequest addRequestForm = new AddRequest();
-            addRequestForm.ShowDialog();
+            // Trigger any additional button click behavior
+            btn_click(sender, e);
         }
     }
 }

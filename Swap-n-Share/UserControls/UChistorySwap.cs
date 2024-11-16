@@ -12,49 +12,69 @@ namespace Swap_n_Share.UserControls
 {
     public partial class UChistorySwap : UserControl
     {
+        public event EventHandler onSelect = null;
+
         public UChistorySwap()
         {
             InitializeComponent();
         }
-        public Image ProfilePic
+
+        public string tukar
         {
-            get { return PicBox.Image; }
-            set { PicBox.Image = value; }
-        }
-        public Image MyProfilePic
-        {
-            get { return guna2PictureBox1.Image; }
-            set { guna2PictureBox1.Image = value; }
-        }
-        public string txtName
-        {
-            get { return labelNama.Text; }
-            set { labelNama.Text = value; }
+            get { return lblTukar.Text; }
+            set { lblTukar.Text = value; }
         }
 
-        public string txtTanggal
+        public string tawar
         {
-            get { return labelTanggal.Text; }
-            set { labelTanggal.Text = value; }  // Fixed line
+            get { return lblTawar.Text; }
+            set { lblTawar.Text = value; }
         }
-        public string txtOwner
+
+        public string tanggal
         {
-            get { return labelOwner.Text; }
-            set { labelOwner.Text = value; }  // Fixed line
+            get { return lblTanggal.Text; }
+            set { lblTanggal.Text = value; }
         }
-        public string txtBarangKita
+
+        public string owner
         {
-            get { return labelBarangKita.Text; }
-            set { labelBarangKita.Text = value; }  // Fixed line
+            get { return lblOwner.Text; }
+            set { lblOwner.Text = value; }
         }
-        public string txtSatus
+
+        public string status
         {
-            get { return labelStatus.Text; }
-            set { labelStatus.Text = value; }  // Fixed line
+            get { return lblStatus.Text; }
+            set { lblStatus.Text = value; }
         }
+
+        public Image picDitukar
+        {
+            get { return picTukar.Image; }
+            set { picTukar.Image = value; }
+        }
+
+        public Image picDitawar
+        {
+            get { return picTawar.Image; }
+            set { picTawar.Image = value; }
+        }
+
         private void UCactivity_Load(object sender, EventArgs e)
         {
-
+            if (lblStatus.Text == "False")
+            {
+                lblStatus.Text = "Rejected";
+            }
+            else if (lblStatus.Text == "True")
+            {
+                lblStatus.Text = "Accepted";
+            }
+            else
+            {
+                lblStatus.Text = "Pending";
+            }
         }
     }
 }

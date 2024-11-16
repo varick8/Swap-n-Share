@@ -51,7 +51,6 @@
             guna2PictureBox1.Size = new System.Drawing.Size(35, 35);
             guna2PictureBox1.TabIndex = 1;
             guna2PictureBox1.TabStop = false;
-            guna2PictureBox1.Click += guna2PictureBox1_Click;
             // 
             // guna2TextBox11
             // 

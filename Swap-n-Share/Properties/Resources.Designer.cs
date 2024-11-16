@@ -69,7 +69,14 @@ namespace Swap_n_Share.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+        internal static System.Drawing.Bitmap user
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("Test Account", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>

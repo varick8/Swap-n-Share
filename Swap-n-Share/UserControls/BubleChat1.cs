@@ -17,16 +17,6 @@ namespace Swap_n_Share.UserControls
         {
             InitializeComponent();
         }
-
-        private void guna2TextBox11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
         
     }
 }

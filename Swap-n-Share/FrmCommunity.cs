@@ -14,6 +14,7 @@ namespace Swap_n_Share
     {
         int panelWidth;
         bool Hidden;
+
         public FrmCommunity()
         {
             InitializeComponent();
@@ -21,24 +22,19 @@ namespace Swap_n_Share
             Hidden = false;
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
+        private void btnCommunity_Click(object sender, EventArgs e)
         {
-
+            timer.Start();
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            timer1.Start();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer_Tick(object sender, EventArgs e)
         {
             if (Hidden)
             {
                 PanelSlide.Width = PanelSlide.Width + 10;
                 if (PanelSlide.Width >= panelWidth)
                 {
-                    timer1.Stop();
+                    timer.Stop();
                     Hidden = false;
                     this.Refresh();
                 }
@@ -48,29 +44,19 @@ namespace Swap_n_Share
                 PanelSlide.Width = PanelSlide.Width - 10;
                 if (PanelSlide.Width <= 0)
                 {
-                    timer1.Stop();
+                    timer.Stop();
                     Hidden = true;
                     this.Refresh();
                 }
             }
         }
 
-        private void guna2ControlBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void HomeBtn_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
             FrmHome sd = new FrmHome();
             this.Hide();
@@ -82,39 +68,32 @@ namespace Swap_n_Share
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void btnProduct_Click(object sender, EventArgs e)
         {
-            FrmProduct sd = new FrmProduct();
+            FrmProductSwap sd = new FrmProductSwap();
             this.Hide();
             sd.Show();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            FrmActivity sd = new FrmActivity();
+            FrmActivitySwap sd = new FrmActivitySwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
+        private void btnProfile_Click(object sender, EventArgs e)
         {
             FrmProfileSwap sd = new FrmProfileSwap();
             this.Hide();
             sd.Show();
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void btnSetting_Click(object sender, EventArgs e)
         {
             FrmSetting sd = new FrmSetting();
             this.Hide();
             sd.Show();
-        }
-
-
-        private void bubleChat12_Load(object sender, EventArgs e)
-
-        {
-
         }
     }
 }

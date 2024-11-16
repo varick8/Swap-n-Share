@@ -28,59 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmActivitySwap));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmActivitySwap));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel2 = new System.Windows.Forms.Panel();
             guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            btnExit = new Guna.UI2.WinForms.Guna2ControlBox();
             label1 = new System.Windows.Forms.Label();
             panel1 = new System.Windows.Forms.Panel();
             guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            HomeBtn = new Guna.UI2.WinForms.Guna2Button();
+            btnProfile = new Guna.UI2.WinForms.Guna2Button();
+            btnSetting = new Guna.UI2.WinForms.Guna2Button();
+            btnCommunity = new Guna.UI2.WinForms.Guna2Button();
+            btnProduct = new Guna.UI2.WinForms.Guna2Button();
+            btnHome = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new System.Windows.Forms.Panel();
-            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            btnActivityShare = new Guna.UI2.WinForms.Guna2Button();
+            btnHistory = new Guna.UI2.WinForms.Guna2Button();
             label2 = new System.Windows.Forms.Label();
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            uCactivitySwap2 = new UserControls.UCactivitySwap();
-            uCactivitySwap1 = new UserControls.UCactivitySwap();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
-            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
             // 
             panel2.Controls.Add(guna2ControlBox3);
-            panel2.Controls.Add(guna2ControlBox2);
-            panel2.Controls.Add(guna2ControlBox1);
+            panel2.Controls.Add(btnExit);
             panel2.Controls.Add(label1);
             panel2.Dock = System.Windows.Forms.DockStyle.Top;
             panel2.Location = new System.Drawing.Point(0, 0);
@@ -94,53 +87,34 @@
             guna2ControlBox3.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
             guna2ControlBox3.BorderColor = System.Drawing.Color.White;
             guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            guna2ControlBox3.CustomizableEdges = customizableEdges1;
+            guna2ControlBox3.CustomizableEdges = customizableEdges21;
             guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.ForeColor = System.Drawing.Color.Transparent;
             guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            guna2ControlBox3.Location = new System.Drawing.Point(1247, 14);
+            guna2ControlBox3.Location = new System.Drawing.Point(1287, 14);
             guna2ControlBox3.Margin = new System.Windows.Forms.Padding(2);
             guna2ControlBox3.Name = "guna2ControlBox3";
             guna2ControlBox3.PressedColor = System.Drawing.Color.Transparent;
-            guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2ControlBox3.Size = new System.Drawing.Size(37, 36);
             guna2ControlBox3.TabIndex = 6;
-            guna2ControlBox3.Click += guna2ControlBox3_Click;
             // 
-            // guna2ControlBox2
+            // btnExit
             // 
-            guna2ControlBox2.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2ControlBox2.BorderColor = System.Drawing.Color.White;
-            guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            guna2ControlBox2.CustomizableEdges = customizableEdges3;
-            guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
-            guna2ControlBox2.ForeColor = System.Drawing.Color.Transparent;
-            guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            guna2ControlBox2.Location = new System.Drawing.Point(1287, 14);
-            guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
-            guna2ControlBox2.Name = "guna2ControlBox2";
-            guna2ControlBox2.PressedColor = System.Drawing.Color.Transparent;
-            guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2ControlBox2.Size = new System.Drawing.Size(37, 36);
-            guna2ControlBox2.TabIndex = 5;
-            guna2ControlBox2.Click += guna2ControlBox2_Click;
-            // 
-            // guna2ControlBox1
-            // 
-            guna2ControlBox1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            guna2ControlBox1.BorderColor = System.Drawing.Color.White;
-            guna2ControlBox1.CustomizableEdges = customizableEdges5;
-            guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            guna2ControlBox1.ForeColor = System.Drawing.Color.White;
-            guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            guna2ControlBox1.Location = new System.Drawing.Point(1328, 14);
-            guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
-            guna2ControlBox1.Name = "guna2ControlBox1";
-            guna2ControlBox1.PressedColor = System.Drawing.Color.Transparent;
-            guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2ControlBox1.Size = new System.Drawing.Size(37, 36);
-            guna2ControlBox1.TabIndex = 4;
-            guna2ControlBox1.Click += guna2ControlBox1_Click;
+            btnExit.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            btnExit.BorderColor = System.Drawing.Color.White;
+            btnExit.CustomizableEdges = customizableEdges23;
+            btnExit.FillColor = System.Drawing.Color.Transparent;
+            btnExit.ForeColor = System.Drawing.Color.White;
+            btnExit.IconColor = System.Drawing.Color.White;
+            btnExit.Location = new System.Drawing.Point(1328, 14);
+            btnExit.Margin = new System.Windows.Forms.Padding(2);
+            btnExit.Name = "btnExit";
+            btnExit.PressedColor = System.Drawing.Color.Transparent;
+            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnExit.Size = new System.Drawing.Size(37, 36);
+            btnExit.TabIndex = 4;
+            btnExit.Click += btnExit_Click;
             // 
             // label1
             // 
@@ -162,11 +136,11 @@
             // 
             panel1.AutoScroll = true;
             panel1.Controls.Add(guna2Button5);
-            panel1.Controls.Add(guna2Button4);
-            panel1.Controls.Add(guna2Button3);
-            panel1.Controls.Add(guna2Button2);
-            panel1.Controls.Add(guna2Button1);
-            panel1.Controls.Add(HomeBtn);
+            panel1.Controls.Add(btnProfile);
+            panel1.Controls.Add(btnSetting);
+            panel1.Controls.Add(btnCommunity);
+            panel1.Controls.Add(btnProduct);
+            panel1.Controls.Add(btnHome);
             panel1.Dock = System.Windows.Forms.DockStyle.Left;
             panel1.Location = new System.Drawing.Point(0, 69);
             panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -176,7 +150,7 @@
             // 
             // guna2Button5
             // 
-            guna2Button5.CustomizableEdges = customizableEdges7;
+            guna2Button5.CustomizableEdges = customizableEdges25;
             guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -190,120 +164,119 @@
             guna2Button5.Location = new System.Drawing.Point(0, 282);
             guna2Button5.Margin = new System.Windows.Forms.Padding(2);
             guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2Button5.Size = new System.Drawing.Size(76, 94);
             guna2Button5.TabIndex = 6;
-            guna2Button5.Click += guna2Button5_Click;
             // 
-            // guna2Button4
+            // btnProfile
             // 
-            guna2Button4.CustomizableEdges = customizableEdges9;
-            guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2Button4.ForeColor = System.Drawing.Color.Transparent;
-            guna2Button4.Image = (System.Drawing.Image)resources.GetObject("guna2Button4.Image");
-            guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button4.Location = new System.Drawing.Point(0, 531);
-            guna2Button4.Margin = new System.Windows.Forms.Padding(2);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button4.Size = new System.Drawing.Size(76, 94);
-            guna2Button4.TabIndex = 5;
-            guna2Button4.Click += guna2Button4_Click;
+            btnProfile.CustomizableEdges = customizableEdges27;
+            btnProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnProfile.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnProfile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnProfile.Dock = System.Windows.Forms.DockStyle.Bottom;
+            btnProfile.FillColor = System.Drawing.Color.Transparent;
+            btnProfile.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnProfile.ForeColor = System.Drawing.Color.Transparent;
+            btnProfile.Image = (System.Drawing.Image)resources.GetObject("btnProfile.Image");
+            btnProfile.ImageSize = new System.Drawing.Size(30, 30);
+            btnProfile.Location = new System.Drawing.Point(0, 531);
+            btnProfile.Margin = new System.Windows.Forms.Padding(2);
+            btnProfile.Name = "btnProfile";
+            btnProfile.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            btnProfile.Size = new System.Drawing.Size(76, 94);
+            btnProfile.TabIndex = 5;
+            btnProfile.Click += btnProfile_Click;
             // 
-            // guna2Button3
+            // btnSetting
             // 
-            guna2Button3.CustomizableEdges = customizableEdges11;
-            guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2Button3.ForeColor = System.Drawing.Color.Transparent;
-            guna2Button3.Image = (System.Drawing.Image)resources.GetObject("guna2Button3.Image");
-            guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button3.Location = new System.Drawing.Point(0, 625);
-            guna2Button3.Margin = new System.Windows.Forms.Padding(2);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2Button3.Size = new System.Drawing.Size(76, 94);
-            guna2Button3.TabIndex = 4;
-            guna2Button3.Click += guna2Button3_Click;
+            btnSetting.CustomizableEdges = customizableEdges29;
+            btnSetting.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnSetting.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnSetting.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnSetting.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnSetting.Dock = System.Windows.Forms.DockStyle.Bottom;
+            btnSetting.FillColor = System.Drawing.Color.Transparent;
+            btnSetting.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnSetting.ForeColor = System.Drawing.Color.Transparent;
+            btnSetting.Image = (System.Drawing.Image)resources.GetObject("btnSetting.Image");
+            btnSetting.ImageSize = new System.Drawing.Size(30, 30);
+            btnSetting.Location = new System.Drawing.Point(0, 625);
+            btnSetting.Margin = new System.Windows.Forms.Padding(2);
+            btnSetting.Name = "btnSetting";
+            btnSetting.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            btnSetting.Size = new System.Drawing.Size(76, 94);
+            btnSetting.TabIndex = 4;
+            btnSetting.Click += btnSetting_Click;
             // 
-            // guna2Button2
+            // btnCommunity
             // 
-            guna2Button2.CustomizableEdges = customizableEdges13;
-            guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button2.Dock = System.Windows.Forms.DockStyle.Top;
-            guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2Button2.ForeColor = System.Drawing.Color.Transparent;
-            guna2Button2.Image = (System.Drawing.Image)resources.GetObject("guna2Button2.Image");
-            guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button2.Location = new System.Drawing.Point(0, 188);
-            guna2Button2.Margin = new System.Windows.Forms.Padding(2);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Button2.Size = new System.Drawing.Size(76, 94);
-            guna2Button2.TabIndex = 2;
-            guna2Button2.Click += guna2Button2_Click;
+            btnCommunity.CustomizableEdges = customizableEdges31;
+            btnCommunity.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnCommunity.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnCommunity.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnCommunity.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnCommunity.Dock = System.Windows.Forms.DockStyle.Top;
+            btnCommunity.FillColor = System.Drawing.Color.Transparent;
+            btnCommunity.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnCommunity.ForeColor = System.Drawing.Color.Transparent;
+            btnCommunity.Image = (System.Drawing.Image)resources.GetObject("btnCommunity.Image");
+            btnCommunity.ImageSize = new System.Drawing.Size(30, 30);
+            btnCommunity.Location = new System.Drawing.Point(0, 188);
+            btnCommunity.Margin = new System.Windows.Forms.Padding(2);
+            btnCommunity.Name = "btnCommunity";
+            btnCommunity.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            btnCommunity.Size = new System.Drawing.Size(76, 94);
+            btnCommunity.TabIndex = 2;
+            btnCommunity.Click += btnCommunity_Click;
             // 
-            // guna2Button1
+            // btnProduct
             // 
-            guna2Button1.CustomizableEdges = customizableEdges15;
-            guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button1.Dock = System.Windows.Forms.DockStyle.Top;
-            guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2Button1.ForeColor = System.Drawing.Color.Transparent;
-            guna2Button1.Image = (System.Drawing.Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            guna2Button1.Location = new System.Drawing.Point(0, 94);
-            guna2Button1.Margin = new System.Windows.Forms.Padding(2);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2Button1.Size = new System.Drawing.Size(76, 94);
-            guna2Button1.TabIndex = 1;
-            guna2Button1.Click += guna2Button1_Click;
+            btnProduct.CustomizableEdges = customizableEdges33;
+            btnProduct.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnProduct.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnProduct.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            btnProduct.FillColor = System.Drawing.Color.Transparent;
+            btnProduct.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnProduct.ForeColor = System.Drawing.Color.Transparent;
+            btnProduct.Image = (System.Drawing.Image)resources.GetObject("btnProduct.Image");
+            btnProduct.ImageSize = new System.Drawing.Size(30, 30);
+            btnProduct.Location = new System.Drawing.Point(0, 94);
+            btnProduct.Margin = new System.Windows.Forms.Padding(2);
+            btnProduct.Name = "btnProduct";
+            btnProduct.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            btnProduct.Size = new System.Drawing.Size(76, 94);
+            btnProduct.TabIndex = 1;
+            btnProduct.Click += btnProduct_Click;
             // 
-            // HomeBtn
+            // btnHome
             // 
-            HomeBtn.CustomizableEdges = customizableEdges17;
-            HomeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            HomeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            HomeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            HomeBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            HomeBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            HomeBtn.FillColor = System.Drawing.Color.Transparent;
-            HomeBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            HomeBtn.ForeColor = System.Drawing.Color.Transparent;
-            HomeBtn.Image = (System.Drawing.Image)resources.GetObject("HomeBtn.Image");
-            HomeBtn.ImageSize = new System.Drawing.Size(30, 30);
-            HomeBtn.Location = new System.Drawing.Point(0, 0);
-            HomeBtn.Margin = new System.Windows.Forms.Padding(2);
-            HomeBtn.Name = "HomeBtn";
-            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            HomeBtn.Size = new System.Drawing.Size(76, 94);
-            HomeBtn.TabIndex = 0;
-            HomeBtn.Click += HomeBtn_Click;
+            btnHome.CustomizableEdges = customizableEdges35;
+            btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnHome.Dock = System.Windows.Forms.DockStyle.Top;
+            btnHome.FillColor = System.Drawing.Color.Transparent;
+            btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
+            btnHome.ForeColor = System.Drawing.Color.Transparent;
+            btnHome.Image = (System.Drawing.Image)resources.GetObject("btnHome.Image");
+            btnHome.ImageSize = new System.Drawing.Size(30, 30);
+            btnHome.Location = new System.Drawing.Point(0, 0);
+            btnHome.Margin = new System.Windows.Forms.Padding(2);
+            btnHome.Name = "btnHome";
+            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            btnHome.Size = new System.Drawing.Size(76, 94);
+            btnHome.TabIndex = 0;
+            btnHome.Click += btnHome_Click;
             // 
             // panel3
             // 
-            panel3.Controls.Add(guna2Button7);
-            panel3.Controls.Add(guna2Button6);
+            panel3.Controls.Add(btnActivityShare);
+            panel3.Controls.Add(btnHistory);
             panel3.Controls.Add(label2);
             panel3.Dock = System.Windows.Forms.DockStyle.Top;
             panel3.Location = new System.Drawing.Point(76, 69);
@@ -311,45 +284,45 @@
             panel3.Size = new System.Drawing.Size(1310, 61);
             panel3.TabIndex = 3;
             // 
-            // guna2Button7
+            // btnActivityShare
             // 
-            guna2Button7.BorderRadius = 5;
-            guna2Button7.CustomizableEdges = customizableEdges19;
-            guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button7.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button7.ForeColor = System.Drawing.Color.White;
-            guna2Button7.Image = (System.Drawing.Image)resources.GetObject("guna2Button7.Image");
-            guna2Button7.Location = new System.Drawing.Point(742, 5);
-            guna2Button7.Name = "guna2Button7";
-            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Button7.Size = new System.Drawing.Size(230, 43);
-            guna2Button7.TabIndex = 9;
-            guna2Button7.Text = "Activity Share";
-            guna2Button7.Click += guna2Button7_Click_1;
+            btnActivityShare.BorderRadius = 5;
+            btnActivityShare.CustomizableEdges = customizableEdges37;
+            btnActivityShare.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnActivityShare.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnActivityShare.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnActivityShare.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnActivityShare.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            btnActivityShare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnActivityShare.ForeColor = System.Drawing.Color.White;
+            btnActivityShare.Image = (System.Drawing.Image)resources.GetObject("btnActivityShare.Image");
+            btnActivityShare.Location = new System.Drawing.Point(742, 5);
+            btnActivityShare.Name = "btnActivityShare";
+            btnActivityShare.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            btnActivityShare.Size = new System.Drawing.Size(230, 43);
+            btnActivityShare.TabIndex = 9;
+            btnActivityShare.Text = "Activity Share";
+            btnActivityShare.Click += btnActivityShare_Click;
             // 
-            // guna2Button6
+            // btnHistory
             // 
-            guna2Button6.BorderRadius = 5;
-            guna2Button6.CustomizableEdges = customizableEdges21;
-            guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
-            guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
-            guna2Button6.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
-            guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            guna2Button6.ForeColor = System.Drawing.Color.White;
-            guna2Button6.Image = (System.Drawing.Image)resources.GetObject("guna2Button6.Image");
-            guna2Button6.Location = new System.Drawing.Point(978, 5);
-            guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2Button6.Size = new System.Drawing.Size(156, 43);
-            guna2Button6.TabIndex = 8;
-            guna2Button6.Text = "History";
-            guna2Button6.Click += guna2Button6_Click;
+            btnHistory.BorderRadius = 5;
+            btnHistory.CustomizableEdges = customizableEdges39;
+            btnHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            btnHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            btnHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            btnHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            btnHistory.FillColor = System.Drawing.Color.FromArgb(93, 93, 166);
+            btnHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnHistory.ForeColor = System.Drawing.Color.White;
+            btnHistory.Image = (System.Drawing.Image)resources.GetObject("btnHistory.Image");
+            btnHistory.Location = new System.Drawing.Point(978, 5);
+            btnHistory.Name = "btnHistory";
+            btnHistory.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            btnHistory.Size = new System.Drawing.Size(156, 43);
+            btnHistory.TabIndex = 8;
+            btnHistory.Text = "History";
+            btnHistory.Click += btnHistory_Click;
             // 
             // label2
             // 
@@ -366,53 +339,14 @@
             label2.TabIndex = 7;
             label2.Text = "Activity Swap";
             label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            label2.Click += label2_Click;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Controls.Add(uCactivitySwap2);
-            flowLayoutPanel1.Controls.Add(uCactivitySwap1);
             flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             flowLayoutPanel1.Location = new System.Drawing.Point(76, 130);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new System.Drawing.Size(1310, 658);
             flowLayoutPanel1.TabIndex = 4;
-            // 
-            // uCactivitySwap2
-            // 
-            uCactivitySwap2.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCactivitySwap2.Location = new System.Drawing.Point(3, 3);
-            uCactivitySwap2.MaximumSize = new System.Drawing.Size(1131, 250);
-            uCactivitySwap2.Name = "uCactivitySwap2";
-            uCactivitySwap2.ProfileBaru = (System.Drawing.Image)resources.GetObject("uCactivitySwap2.ProfileBaru");
-            uCactivitySwap2.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivitySwap2.ProfilePic");
-            uCactivitySwap2.Size = new System.Drawing.Size(1131, 250);
-            uCactivitySwap2.TabIndex = 1;
-            uCactivitySwap2.txtBarangBAru = "Gitar Listrik";
-            uCactivitySwap2.txtDes = "Jarang dipakai";
-            uCactivitySwap2.txtHandphone = "085664433221";
-            uCactivitySwap2.txtKomen = "Boleh dong dituker";
-            uCactivitySwap2.txtName = "Pemotong Rumput";
-            uCactivitySwap2.txtTanggal = "12/12/2024";
-            uCactivitySwap2.txtUser = "Rani Nirmala";
-            // 
-            // uCactivitySwap1
-            // 
-            uCactivitySwap1.BackColor = System.Drawing.Color.FromArgb(43, 43, 43);
-            uCactivitySwap1.Location = new System.Drawing.Point(3, 259);
-            uCactivitySwap1.MaximumSize = new System.Drawing.Size(1131, 250);
-            uCactivitySwap1.Name = "uCactivitySwap1";
-            uCactivitySwap1.ProfileBaru = (System.Drawing.Image)resources.GetObject("uCactivitySwap1.ProfileBaru");
-            uCactivitySwap1.ProfilePic = (System.Drawing.Image)resources.GetObject("uCactivitySwap1.ProfilePic");
-            uCactivitySwap1.Size = new System.Drawing.Size(1131, 250);
-            uCactivitySwap1.TabIndex = 0;
-            uCactivitySwap1.txtBarangBAru = "Gitar Listrik";
-            uCactivitySwap1.txtDes = "Jarang dipakai";
-            uCactivitySwap1.txtHandphone = "085664433221";
-            uCactivitySwap1.txtKomen = "Boleh dong dituker";
-            uCactivitySwap1.txtName = "Pemotong Rumput";
-            uCactivitySwap1.txtTanggal = "12/12/2024";
-            uCactivitySwap1.txtUser = "Rani Nirmala";
             // 
             // FrmActivitySwap
             // 
@@ -433,12 +367,12 @@
             StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             Text = "FrmHome";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            Load += FrmActivitySwap_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -446,26 +380,23 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button HomeBtn;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2Button btnProfile;
+        private Guna.UI2.WinForms.Guna2Button btnSetting;
+        private Guna.UI2.WinForms.Guna2Button btnCommunity;
+        private Guna.UI2.WinForms.Guna2Button btnProduct;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2ControlBox btnExit;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
-        private UserControls.UCproduct uCproduct2;
-        private UserControls.UCproduct uCproduct3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private UserControls.UCproductswap uCproduct2;
+        private UserControls.UCproductswap uCproduct3;
+        private Guna.UI2.WinForms.Guna2Button btnHistory;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private UserControls.UCactivitySwap uCactivitySwap2;
-        private UserControls.UCactivitySwap uCactivitySwap1;
+        private Guna.UI2.WinForms.Guna2Button btnActivityShare;
     }
 }

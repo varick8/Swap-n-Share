@@ -45,7 +45,7 @@
     <Compile Update="AddRequestSwap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AddRequest.cs">
+    <Compile Update="AddRequestShare.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmActivitySwap.cs">
@@ -54,13 +54,13 @@
     <Compile Update="FrmHistorySwap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmHistory.cs">
+    <Compile Update="FrmHistoryShare.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmActivity.cs">
+    <Compile Update="FrmActivityShare.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmProduct.cs">
+    <Compile Update="FrmProductSwap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmHome.cs">
@@ -81,10 +81,10 @@
     <Compile Update="UserControls\UChistorySwap.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UCproduct.cs">
+    <Compile Update="UserControls\UCproductswap.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UCproduct.cs">
+    <Compile Update="UserControls\UCproductswap.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
