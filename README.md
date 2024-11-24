@@ -1,5 +1,5 @@
 <p align="center">
- <img width="150px" src="Swap-n-Share/Resources/SnS_LogoWOB.png" />
+ <img width="200px" src="Swap-n-Share/Resources/SnS_LogoWOB.png" />
  <h2 align="center">Stay Tuned for The Subtle Reveal of Our New Logo</h2>
  <p align="center">Get dynamically generated "Swap and Share" stats on very demure and very mindful!</p>
 </p>
@@ -26,7 +26,7 @@
 "Swap n Share" merupakan aplikasi marketplace yang berfokus pada proses tukar-menukar dan pinjam-meminjam barang. Aplikasi ini menghubungkan user yang ingin menukar atau meminjam barang sehingga mengurangi pemborosan dengan memanfaatkan barang bekas yang sudah ada dan menciptakan suatu komunitas yang saling terkoneksi.
 
 # Bubbly Backdrop 🌱 #
-Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025.
+Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025. Dapat dilihat pada [Presentasi](https://github.com/varick8/Swap-n-Share/blob/main/Swap-n-Share/documentation/PPT%20JUNPRO.pdf) berikut.
 
 <p align="center">
  <img width="500px" src="Swap-n-Share/Resources/Untitled design (9).png" align="center" alt="Members" />
@@ -63,7 +63,7 @@ Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagra
    Fitur yang menyediakan layanan untuk menukar barang yang Anda miliki dengan barang lain yang Anda butuhkan, dengan syarat kesepakatan bersama dengan pemilik barang yang ingin ditukar.
 3. Share Product
 
-   Fitur yang menyediakan layanan untuk meminjam barang yang ANda butuhkan, dengan syarat kesepakatan bersama dengan pemilik barang yang ingin dipinjam.
+   Fitur yang menyediakan layanan untuk meminjam barang yang Anda butuhkan, dengan syarat kesepakatan bersama dengan pemilik barang yang ingin dipinjam.
 4. Community Groups
 
    Fitur yang menyediakan layanan grup chat sesuai dengan kategori barang yang disediakan, hal ini dibuat agar pengguna lebih mudah mendapatkan produk sesuai barang yang dibutuhkan untuk dipinjam ataupun di tukar
@@ -83,7 +83,7 @@ dotnet add package Guna.UI2.WinForms --version 2.0.4.6
    
 
 # How to Create Database 💼 #
-Untuk menjalankan aplikasi Swap n Share setelah di clone, kita perlu menghubungkan antara file yang diclone dengan database lokal (ex: postgreSQL) sehingga perlu membuat tabel database sesuai [panduan ="Swap-n-Share/documentation/Testing and DB query.pdf"]
+Untuk menjalankan aplikasi Swap n Share setelah di clone, kita perlu menghubungkan antara file yang diclone dengan database lokal (ex: postgreSQL) sehingga perlu membuat tabel database sesuai [panduan](https://github.com/varick8/Swap-n-Share/blob/main/Swap-n-Share/documentation/Testing%20and%20DB%20query.pdf)
 
 # Milestone 🚀 #
 
