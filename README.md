@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="Swap-n-Share/Resources/SnS_LogoWOB.png" />
+ <img width="150px" src="Swap-n-Share/Resources/SnS_LogoWOB.png" />
  <h2 align="center">Stay Tuned for The Subtle Reveal of Our New Logo</h2>
  <p align="center">Get dynamically generated "Swap and Share" stats on very demure and very mindful!</p>
 </p>
@@ -29,7 +29,7 @@
 Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025.
 
 <p align="center">
- <img width="1000px" src="Swap-n-Share/Resources/Untitled design (9).png" align="center" alt="Members" />
+ <img width="500px" src="Swap-n-Share/Resources/Untitled design (9).png" align="center" alt="Members" />
  <h1 align="center">Legit Problems 💬</h1>
 </p>
 
@@ -51,13 +51,13 @@ Aplikasi desktop yang kami rancang merupakan aplikasi marketplace yang berfokus 
 Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagram. Class diagram ini berfungsi sebagai alur komunikasi antar komponen dimana dalam satu class diagram memuat objek (data yang memiliki masing-masing perilaku) sehingga akan memudahkan perihal alokasi memori. Perlu diketahui bahwa memori tidak akan dialokasikan ketika objek belum atau tidak berada dalam class.
 
 <p align="center">
- <img width="500px" src="images/classdiagram.png" align="center" alt="Members" />
+ <img width="500px" src="Swap-n-Share/Resources/classdiagram.png" align="center" alt="Members" />
 </p>
 
 # Features 💼 #
 1. Circular Economy News
 
-   Pada HomePage akan tersedia berita yang diambil melalui API BBC yang dapat direct langsung ke ![website](https://www.bbc.com/news/articles/cy87590pgm1o) terkait.
+   Pada HomePage akan tersedia berita yang diambil melalui API BBC yang dapat direct langsung ke [website](https://www.bbc.com/news/articles/cy87590pgm1o) terkait.
 2. Swap Product
 
    Fitur yang menyediakan layanan untuk menukar barang yang Anda miliki dengan barang lain yang Anda butuhkan, dengan syarat kesepakatan bersama dengan pemilik barang yang ingin ditukar.
@@ -67,6 +67,23 @@ Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagra
 4. Community Groups
 
    Fitur yang menyediakan layanan grup chat sesuai dengan kategori barang yang disediakan, hal ini dibuat agar pengguna lebih mudah mendapatkan produk sesuai barang yang dibutuhkan untuk dipinjam ataupun di tukar
+
+# How to Clone 💼 #
+1. Install Visual Studio Code (17.11.6)
+2. Clone Repositori
+```
+$ git clone https://github.com/varick8/Swap-n-Share.git
+$ cd documentation
+```
+3. Install GunaUI
+```
+dotnet add package Guna.UI2.WinForms --version 2.0.4.6
+```
+4. Install NuGet Package
+   
+
+# How to Create Database 💼 #
+Untuk menjalankan aplikasi Swap n Share setelah di clone, kita perlu menghubungkan antara file yang diclone dengan database lokal (ex: postgreSQL) sehingga perlu membuat tabel database sesuai [panduan](Swap-n-Share/documentation/Testing and DB query.pdf)
 
 # Milestone 🚀 #
 
