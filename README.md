@@ -1,6 +1,6 @@
 <p align="center">
  <img width="200px" src="Swap-n-Share/Resources/SnS_LogoWOB.png" />
- <h2 align="center">Stay Tuned for The Subtle Reveal of Our New Logo</h2>
+ <h2 align="center">Stay Tuned for The Subtle Reveal of Our Application</h2>
  <p align="center">Get dynamically generated "Swap and Share" stats on very demure and very mindful!</p>
 </p>
 <p align="center">
