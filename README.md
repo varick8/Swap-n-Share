@@ -83,7 +83,8 @@ dotnet add package Guna.UI2.WinForms --version 2.0.4.6
    
 
 # How to Create Database 💼 #
-Untuk menjalankan aplikasi Swap n Share setelah di clone, kita perlu menghubungkan antara file yang diclone dengan database lokal (ex: postgreSQL) sehingga perlu membuat tabel database sesuai [panduan](https://github.com/varick8/Swap-n-Share/blob/main/Swap-n-Share/documentation/Testing%20and%20DB%20query.pdf)
+1. Pastikan telah memiliki atau [install PostgreSQL](https://www.postgresql.org/download/)
+2. Untuk menjalankan aplikasi Swap n Share setelah di clone, kita perlu menghubungkan antara file yang diclone dengan database lokal sehingga perlu membuat tabel database sesuai [panduan](https://github.com/varick8/Swap-n-Share/blob/main/Swap-n-Share/documentation/Testing%20and%20DB%20query.pdf)
 
 # Milestone 🚀 #
 
