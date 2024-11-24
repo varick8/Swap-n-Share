@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="https://cdn.pixabay.com/photo/2015/08/27/10/14/icon-909830_960_720.png" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="Swap-n-Share/Resources/SnS_LogoWOB.png" />
  <h2 align="center">Stay Tuned for The Subtle Reveal of Our New Logo</h2>
  <p align="center">Get dynamically generated "Swap and Share" stats on very demure and very mindful!</p>
 </p>
@@ -9,7 +9,7 @@
     </a>
 
 <p align="center">
- <img width="500px" src="images/members4.png" align="center" alt="Members" />
+ <img width="500px" src="Swap-n-Share/Resources/members4.png" align="center" alt="Members" />
  <h2 align="center">This is Our Teams</h2>
  <p align="center">We’re the tech wizards with hearts of gold;</p>
  <p align="center">we’ve got the code and the compassion to make anything happen. 🧙‍♂️💻</p>
@@ -29,7 +29,7 @@
 Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025.
 
 <p align="center">
- <img width="1000px" src="images/problems.png" align="center" alt="Members" />
+ <img width="1000px" src="Swap-n-Share/Resources/Untitled design (9).png" align="center" alt="Members" />
  <h1 align="center">Legit Problems 💬</h1>
 </p>
 
@@ -55,7 +55,18 @@ Untuk membangun pondasi aplikasi ini, kami memutuskan untuk membuat class diagra
 </p>
 
 # Features 💼 #
-Coming soon! So, Stay tuned !!!
+1. Circular Economy News
+
+   Pada HomePage akan tersedia berita yang diambil melalui API BBC yang dapat direct langsung ke ![website](https://www.bbc.com/news/articles/cy87590pgm1o) terkait.
+2. Swap Product
+
+   Fitur yang menyediakan layanan untuk menukar barang yang Anda miliki dengan barang lain yang Anda butuhkan, dengan syarat kesepakatan bersama dengan pemilik barang yang ingin ditukar.
+3. Share Product
+
+   Fitur yang menyediakan layanan untuk meminjam barang yang ANda butuhkan, dengan syarat kesepakatan bersama dengan pemilik barang yang ingin dipinjam.
+4. Community Groups
+
+   Fitur yang menyediakan layanan grup chat sesuai dengan kategori barang yang disediakan, hal ini dibuat agar pengguna lebih mudah mendapatkan produk sesuai barang yang dibutuhkan untuk dipinjam ataupun di tukar
 
 # Milestone 🚀 #
 
@@ -67,6 +78,13 @@ Coming soon! So, Stay tuned !!!
 | `class_diagram`| Menentukan tipe data setiap atribut| 26 Agustus 2024|
 | `UI_pada_welcoming_page`| Merancang tampilan dan tata letak halaman selamat datang agar ramah pengguna dan menarik| 29 Agustus 2024|
 | `class`| Membuat class dalam visual studio| 2 September 2024|
+| `database`| Membuat integrasi awal database| 3 September 2024|
+| `final_UI`| Membuat keseluruhan design UI aplikasi| 29 Oktober 2024|
+| `create_azure`| Membuat integrasi database pada Azure for Student| 2 November 2024|
+| `frontend`| Membuat tampilan aplikasi sesuai rancangan UI| 2 November 2024|
+| `backend`| Membuat integrasi database dan frontend| 16 November 2024|
+| `testing`| Melakukan testing pada semua fitur| 17 November 2024|
+| `final_documentatio`| Membuat dokumentasi sebagai laporan akhir project| 2 September 2024|
 
 <hr>
 <p align="center">
