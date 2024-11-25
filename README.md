@@ -102,7 +102,7 @@ dotnet add package Guna.UI2.WinForms --version 2.0.4.6
 | `frontend`| Membuat tampilan aplikasi sesuai rancangan UI| 2 November 2024|
 | `backend`| Membuat integrasi database dan frontend| 16 November 2024|
 | `testing`| Melakukan testing pada semua fitur| 17 November 2024|
-| `final_documentatio`| Membuat dokumentasi sebagai laporan akhir project| 2 September 2024|
+| `final_documentatio`| Membuat dokumentasi sebagai laporan akhir project| 24 November 2024|
 
 <hr>
 <p align="center">
