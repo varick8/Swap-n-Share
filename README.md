@@ -29,7 +29,7 @@
 Aplikasi ini dibuat untuk memenuhi tugas praktikum Junior Project Departemen Teknik Elektro dan Teknologi Informasi Universitas Gadjah Mada tahun ajaran 2024/2025. Dapat dilihat pada [Presentasi](https://github.com/varick8/Swap-n-Share/blob/main/Swap-n-Share/documentation/PPT%20JUNPRO.pdf) berikut.
 
 <p align="center">
- <img width="500px" src="Swap-n-Share/Resources/problems.png" align="center" alt="Members" />
+ <img width="1000px" src="Swap-n-Share/Resources/problems.png" align="center" alt="Members" />
  <h1 align="center">Legit Problems 💬</h1>
 </p>
 
